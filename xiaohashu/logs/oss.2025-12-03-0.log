@@ -1,0 +1,8 @@
+2025-12-03 23:55:01.485 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-03 23:55:01.485 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-03 23:55:01.485 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-03 23:55:01.490 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-03 23:55:01.491 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-03 23:55:01.493 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-03 23:55:01.502 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-03 23:55:01.518 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.

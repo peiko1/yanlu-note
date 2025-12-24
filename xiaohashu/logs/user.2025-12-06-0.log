@@ -1,0 +1,427 @@
+2025-12-06 13:56:34.039 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 13:56:34.039 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-06 13:56:34.039 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-06 13:56:34.043 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-06 13:56:34.045 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 13:56:34.049 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-06 13:56:34.058 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-06 13:56:34.070 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-06 13:56:44.311 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-06 13:56:44.316 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-06 13:56:44.316 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-06 13:56:44.318 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-06 13:57:00.130 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 13:57:00.133 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 13:57:00.133 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 13:57:00.139 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 13:57:00.496 [main] INFO  c.p.xiaohashu.user.biz.XiaohashuUserBizApplication - The following 1 profile is active: "dev"
+2025-12-06 13:57:00.864 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 13:57:00.866 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 13:57:00.880 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-06 13:57:00.996 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3031661c-5b79-36bf-8d26-293f426ee2f9
+2025-12-06 13:57:01.013 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.oss.api.FileFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 13:57:01.014 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 13:57:01.015 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 13:57:01.390 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2025-12-06 13:57:01.391 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 13:57:01.394 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 13:57:01.401 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 13:57:01.402 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 13:57:01.480 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 13:57:01.480 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 974 ms
+2025-12-06 13:57:01.556 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 13:57:01.777 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 13:57:01.965 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-oss' URL not provided. Will try picking an instance via load-balancing.
+2025-12-06 13:57:02.164 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-06 13:57:02.688 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2025-12-06 13:57:02.713 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-06 13:57:02.713 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-06 13:57:03.263 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-06 13:57:03.264 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-06 13:57:03.264 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-06 13:57:03.264 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-06 13:57:03.288 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user 10.12.41.102:8082 register finished
+2025-12-06 13:57:03.370 [main] INFO  c.p.xiaohashu.user.biz.XiaohashuUserBizApplication - Started XiaohashuUserBizApplication in 3.616 seconds (process running for 13.28)
+2025-12-06 13:57:03.371 [main] INFO  c.p.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-06 13:57:03.638 [main] DEBUG c.p.x.u.b.d.mapper.RoleDOMapper.selectEnabledList - ==>  Preparing: select id, role_key, role_name from t_role where status = 0 and is_deleted = 0
+2025-12-06 13:57:03.748 [main] DEBUG c.p.x.u.b.d.mapper.RoleDOMapper.selectEnabledList - ==> Parameters: 
+2025-12-06 13:57:03.769 [main] DEBUG c.p.x.u.b.d.mapper.RoleDOMapper.selectEnabledList - <==      Total: 1
+2025-12-06 13:57:03.785 [main] DEBUG c.p.x.u.b.d.m.R.selectByRoleIds - ==>  Preparing: select role_id, permission_id from t_role_permission_rel where role_id in ( ? )
+2025-12-06 13:57:03.787 [main] DEBUG c.p.x.u.b.d.m.R.selectByRoleIds - ==> Parameters: 1(Long)
+2025-12-06 13:57:03.791 [main] DEBUG c.p.x.u.b.d.m.R.selectByRoleIds - <==      Total: 2
+2025-12-06 13:57:03.791 [main] DEBUG c.p.x.u.b.d.m.P.selectAppEnabledList - ==>  Preparing: select id, name, permission_key from t_permission where status = 0 and type = 3 and is_deleted = 0
+2025-12-06 13:57:03.793 [main] DEBUG c.p.x.u.b.d.m.P.selectAppEnabledList - ==> Parameters: 
+2025-12-06 13:57:03.796 [main] DEBUG c.p.x.u.b.d.m.P.selectAppEnabledList - <==      Total: 2
+2025-12-06 13:57:03.808 [main] INFO  c.p.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 服务启动，成功同步角色权限数据到 Redis 中...
+2025-12-06 14:49:33.060 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-06 14:49:33.060 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-06 14:49:33.060 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 14:49:33.061 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-06 14:49:33.061 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 14:49:33.062 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-06 14:49:33.065 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-06 14:49:33.073 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-06 14:49:35.139 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:49:35.143 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:49:35.143 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 14:49:35.147 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 14:49:35.532 [main] INFO  c.p.xiaohashu.user.biz.XiaohashuUserBizApplication - The following 1 profile is active: "dev"
+2025-12-06 14:49:35.865 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 14:49:35.867 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 14:49:35.880 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-12-06 14:49:35.996 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3031661c-5b79-36bf-8d26-293f426ee2f9
+2025-12-06 14:49:36.018 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.oss.api.FileFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 14:49:36.020 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 14:49:36.020 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 14:49:36.288 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2025-12-06 14:49:36.289 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 14:49:36.291 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 14:49:36.297 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 14:49:36.297 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 14:49:36.353 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 14:49:36.353 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 809 ms
+2025-12-06 14:49:36.425 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 14:49:36.666 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 14:49:36.860 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-oss' URL not provided. Will try picking an instance via load-balancing.
+2025-12-06 14:49:37.046 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-06 14:49:37.574 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2025-12-06 14:49:37.601 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-06 14:49:37.601 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-06 14:49:38.069 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-06 14:49:38.070 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-06 14:49:38.070 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-06 14:49:38.070 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-06 14:49:38.095 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user 10.12.41.102:8082 register finished
+2025-12-06 14:49:38.177 [main] INFO  c.p.xiaohashu.user.biz.XiaohashuUserBizApplication - Started XiaohashuUserBizApplication in 3.447 seconds (process running for 3.807)
+2025-12-06 14:49:38.177 [main] INFO  c.p.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-06 14:49:38.433 [main] WARN  c.p.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2025-12-06 15:00:55.958 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-06 15:00:55.958 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-06 15:00:55.959 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-06 15:00:55.967 [http-nio-8082-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 15:00:56.032 [http-nio-8082-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":-1}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 15:00:56.055 [http-nio-8082-exec-1] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2025-12-06 15:00:56.199 [http-nio-8082-exec-1] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: -1(Long)
+2025-12-06 15:00:56.216 [http-nio-8082-exec-1] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-12-06 15:00:56.221 [http-nio-8082-exec-1] WARN  c.p.x.user.biz.exception.GlobalExceptionHandler - /user/findById request fail, errorCode: USER-20007, errorMessage: 该用户不存在
+2025-12-06 15:00:56.232 [http-nio-8082-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:50:59.027 [http-nio-8082-exec-3] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:50:59.097 [http-nio-8082-exec-3] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":-1}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 16:50:59.154 [http-nio-8082-exec-3] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2025-12-06 16:50:59.163 [http-nio-8082-exec-3] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: -1(Long)
+2025-12-06 16:50:59.169 [http-nio-8082-exec-3] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-12-06 16:50:59.172 [http-nio-8082-exec-3] WARN  c.p.x.user.biz.exception.GlobalExceptionHandler - /user/findById request fail, errorCode: USER-20007, errorMessage: 该用户不存在
+2025-12-06 16:50:59.176 [http-nio-8082-exec-3] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:51:16.262 [http-nio-8082-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:51:16.264 [http-nio-8082-exec-4] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":2}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 16:51:16.266 [http-nio-8082-exec-4] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2025-12-06 16:51:16.266 [http-nio-8082-exec-4] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 2(Long)
+2025-12-06 16:51:16.270 [http-nio-8082-exec-4] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-12-06 16:51:16.270 [http-nio-8082-exec-4] WARN  c.p.x.user.biz.exception.GlobalExceptionHandler - /user/findById request fail, errorCode: USER-20007, errorMessage: 该用户不存在
+2025-12-06 16:51:16.271 [http-nio-8082-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:53:13.329 [http-nio-8082-exec-6] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户注册], 入参: {"phone":"13772792310"}, 请求类: UserController, 请求方法: register =================================== 
+2025-12-06 16:53:13.363 [http-nio-8082-exec-6] DEBUG c.p.x.u.b.domain.mapper.UserDOMapper.selectByPhone - ==>  Preparing: select id, password from t_user where phone = ?
+2025-12-06 16:53:13.366 [http-nio-8082-exec-6] DEBUG c.p.x.u.b.domain.mapper.UserDOMapper.selectByPhone - ==> Parameters: 13772792310(String)
+2025-12-06 16:53:13.371 [http-nio-8082-exec-6] DEBUG c.p.x.u.b.domain.mapper.UserDOMapper.selectByPhone - <==      Total: 0
+2025-12-06 16:53:13.372 [http-nio-8082-exec-6] INFO  c.p.x.user.biz.service.impl.UserServiceImpl - ==> 用户是否注册, phone: 13772792310, userDO: null
+2025-12-06 16:53:13.717 [http-nio-8082-exec-6] DEBUG c.p.x.user.biz.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-12-06 16:53:13.829 [http-nio-8082-exec-6] DEBUG c.p.x.user.biz.domain.mapper.UserDOMapper.insert - ==> Parameters: 100(Long), 10100(String), null, 小红薯10100(String), null, null, null, 13772792310(String), null, 0(Integer), null, 2025-12-06T16:53:13.715323400(LocalDateTime), 2025-12-06T16:53:13.715323400(LocalDateTime), false(Boolean)
+2025-12-06 16:53:13.839 [http-nio-8082-exec-6] DEBUG c.p.x.user.biz.domain.mapper.UserDOMapper.insert - <==    Updates: 1
+2025-12-06 16:53:13.843 [http-nio-8082-exec-6] DEBUG c.p.x.u.biz.domain.mapper.UserRoleDOMapper.insert - ==>  Preparing: insert into t_user_role_rel (id, user_id, role_id, create_time, update_time, is_deleted ) values (?, ?, ?, ?, ?, ? )
+2025-12-06 16:53:13.844 [http-nio-8082-exec-6] DEBUG c.p.x.u.biz.domain.mapper.UserRoleDOMapper.insert - ==> Parameters: null, 100(Long), 1(Long), 2025-12-06T16:53:13.843624700(LocalDateTime), 2025-12-06T16:53:13.843624700(LocalDateTime), false(Boolean)
+2025-12-06 16:53:13.849 [http-nio-8082-exec-6] DEBUG c.p.x.u.biz.domain.mapper.UserRoleDOMapper.insert - <==    Updates: 1
+2025-12-06 16:53:13.850 [http-nio-8082-exec-6] DEBUG c.p.x.u.b.d.mapper.RoleDOMapper.selectByPrimaryKey - ==>  Preparing: select id, role_name, role_key, `status`, sort, remark, create_time, update_time, is_deleted from t_role where id = ?
+2025-12-06 16:53:13.851 [http-nio-8082-exec-6] DEBUG c.p.x.u.b.d.mapper.RoleDOMapper.selectByPrimaryKey - ==> Parameters: 1(Long)
+2025-12-06 16:53:13.856 [http-nio-8082-exec-6] DEBUG c.p.x.u.b.d.mapper.RoleDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-12-06 16:53:13.879 [http-nio-8082-exec-6] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [用户注册], 耗时: 551ms, 出参: {"success":true,"message":null,"errorCode":null,"data":100} =================================== 
+2025-12-06 16:54:16.558 [http-nio-8082-exec-5] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户注册], 入参: {"phone":"13772792311"}, 请求类: UserController, 请求方法: register =================================== 
+2025-12-06 16:54:16.560 [http-nio-8082-exec-5] DEBUG c.p.x.u.b.domain.mapper.UserDOMapper.selectByPhone - ==>  Preparing: select id, password from t_user where phone = ?
+2025-12-06 16:54:16.560 [http-nio-8082-exec-5] DEBUG c.p.x.u.b.domain.mapper.UserDOMapper.selectByPhone - ==> Parameters: 13772792311(String)
+2025-12-06 16:54:16.561 [http-nio-8082-exec-5] DEBUG c.p.x.u.b.domain.mapper.UserDOMapper.selectByPhone - <==      Total: 0
+2025-12-06 16:54:16.561 [http-nio-8082-exec-5] INFO  c.p.x.user.biz.service.impl.UserServiceImpl - ==> 用户是否注册, phone: 13772792311, userDO: null
+2025-12-06 16:54:16.573 [http-nio-8082-exec-5] DEBUG c.p.x.user.biz.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-12-06 16:54:16.575 [http-nio-8082-exec-5] DEBUG c.p.x.user.biz.domain.mapper.UserDOMapper.insert - ==> Parameters: 101(Long), 10101(String), null, 小红薯10101(String), null, null, null, 13772792311(String), null, 0(Integer), null, 2025-12-06T16:54:16.573815400(LocalDateTime), 2025-12-06T16:54:16.573815400(LocalDateTime), false(Boolean)
+2025-12-06 16:54:16.578 [http-nio-8082-exec-5] DEBUG c.p.x.user.biz.domain.mapper.UserDOMapper.insert - <==    Updates: 1
+2025-12-06 16:54:16.578 [http-nio-8082-exec-5] DEBUG c.p.x.u.biz.domain.mapper.UserRoleDOMapper.insert - ==>  Preparing: insert into t_user_role_rel (id, user_id, role_id, create_time, update_time, is_deleted ) values (?, ?, ?, ?, ?, ? )
+2025-12-06 16:54:16.578 [http-nio-8082-exec-5] DEBUG c.p.x.u.biz.domain.mapper.UserRoleDOMapper.insert - ==> Parameters: null, 101(Long), 1(Long), 2025-12-06T16:54:16.578151600(LocalDateTime), 2025-12-06T16:54:16.578151600(LocalDateTime), false(Boolean)
+2025-12-06 16:54:16.580 [http-nio-8082-exec-5] DEBUG c.p.x.u.biz.domain.mapper.UserRoleDOMapper.insert - <==    Updates: 1
+2025-12-06 16:54:16.580 [http-nio-8082-exec-5] DEBUG c.p.x.u.b.d.mapper.RoleDOMapper.selectByPrimaryKey - ==>  Preparing: select id, role_name, role_key, `status`, sort, remark, create_time, update_time, is_deleted from t_role where id = ?
+2025-12-06 16:54:16.581 [http-nio-8082-exec-5] DEBUG c.p.x.u.b.d.mapper.RoleDOMapper.selectByPrimaryKey - ==> Parameters: 1(Long)
+2025-12-06 16:54:16.583 [http-nio-8082-exec-5] DEBUG c.p.x.u.b.d.mapper.RoleDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-12-06 16:54:16.601 [http-nio-8082-exec-5] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [用户注册], 耗时: 43ms, 出参: {"success":true,"message":null,"errorCode":null,"data":101} =================================== 
+2025-12-06 16:54:43.495 [http-nio-8082-exec-9] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 16:54:43.497 [http-nio-8082-exec-9] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2025-12-06 16:54:43.498 [http-nio-8082-exec-9] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 100(Long)
+2025-12-06 16:54:43.501 [http-nio-8082-exec-9] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-12-06 16:54:43.503 [http-nio-8082-exec-9] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 7ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"小红薯10100","avatar":null}} =================================== 
+2025-12-06 16:55:01.218 [http-nio-8082-exec-10] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:55:01.218 [http-nio-8082-exec-10] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 16:55:01.227 [http-nio-8082-exec-10] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 9ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"小红薯10100","avatar":null}} =================================== 
+2025-12-06 16:55:01.228 [http-nio-8082-exec-10] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:55:44.173 [http-nio-8082-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":1}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 16:55:44.176 [http-nio-8082-exec-2] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2025-12-06 16:55:44.177 [http-nio-8082-exec-2] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 1(Long)
+2025-12-06 16:55:44.179 [http-nio-8082-exec-2] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-12-06 16:55:44.179 [http-nio-8082-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 6ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":1,"nickName":"peiko1","avatar":"http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png"}} =================================== 
+2025-12-06 16:55:50.024 [http-nio-8082-exec-3] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:55:50.025 [http-nio-8082-exec-3] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":-1}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 16:55:50.027 [http-nio-8082-exec-3] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2025-12-06 16:55:50.028 [http-nio-8082-exec-3] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: -1(Long)
+2025-12-06 16:55:50.029 [http-nio-8082-exec-3] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-12-06 16:55:50.030 [http-nio-8082-exec-3] WARN  c.p.x.user.biz.exception.GlobalExceptionHandler - /user/findById request fail, errorCode: USER-20007, errorMessage: 该用户不存在
+2025-12-06 16:55:50.031 [http-nio-8082-exec-3] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:55:57.481 [http-nio-8082-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:55:57.481 [http-nio-8082-exec-4] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":2}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 16:55:57.484 [http-nio-8082-exec-4] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2025-12-06 16:55:57.485 [http-nio-8082-exec-4] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 2(Long)
+2025-12-06 16:55:57.486 [http-nio-8082-exec-4] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-12-06 16:55:57.487 [http-nio-8082-exec-4] WARN  c.p.x.user.biz.exception.GlobalExceptionHandler - /user/findById request fail, errorCode: USER-20007, errorMessage: 该用户不存在
+2025-12-06 16:55:57.488 [http-nio-8082-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:56:01.536 [http-nio-8082-exec-8] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:56:01.537 [http-nio-8082-exec-8] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 16:56:01.538 [http-nio-8082-exec-8] INFO  c.p.x.user.biz.service.impl.UserServiceImpl - ==> 命中了本地缓存；FindUserByIdRspDTO(id=100, nickName=小红薯10100, avatar=null)
+2025-12-06 16:56:01.538 [http-nio-8082-exec-8] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"小红薯10100","avatar":null}} =================================== 
+2025-12-06 16:56:01.539 [http-nio-8082-exec-8] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:57:12.609 [http-nio-8082-exec-7] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:57:12.610 [http-nio-8082-exec-7] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 16:57:12.610 [http-nio-8082-exec-7] INFO  c.p.x.user.biz.service.impl.UserServiceImpl - ==> 命中了本地缓存；FindUserByIdRspDTO(id=100, nickName=小红薯10100, avatar=null)
+2025-12-06 16:57:12.610 [http-nio-8082-exec-7] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 0ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"小红薯10100","avatar":null}} =================================== 
+2025-12-06 16:57:12.610 [http-nio-8082-exec-7] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 17:05:28.744 [http-nio-8082-exec-9] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 17:05:28.745 [http-nio-8082-exec-9] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 17:05:28.745 [http-nio-8082-exec-9] INFO  c.p.x.user.biz.service.impl.UserServiceImpl - ==> 命中了本地缓存；FindUserByIdRspDTO(id=100, nickName=小红薯10100, avatar=null)
+2025-12-06 17:05:28.745 [http-nio-8082-exec-9] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 0ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"小红薯10100","avatar":null}} =================================== 
+2025-12-06 17:05:28.747 [http-nio-8082-exec-9] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 17:14:53.547 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-06 17:14:53.547 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-06 17:14:53.547 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-06 17:14:53.547 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 17:14:53.548 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 17:14:53.548 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-06 17:14:53.550 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-06 17:14:53.558 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-06 17:15:03.748 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-06 17:15:03.753 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-06 17:15:03.753 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-06 17:15:03.755 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-06 17:15:03.756 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-06 17:47:59.277 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 17:47:59.280 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 17:47:59.280 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 17:47:59.286 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 17:47:59.691 [main] INFO  c.p.xiaohashu.user.biz.XiaohashuUserBizApplication - The following 1 profile is active: "dev"
+2025-12-06 17:48:00.042 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 17:48:00.044 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 17:48:00.057 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-06 17:48:00.180 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3031661c-5b79-36bf-8d26-293f426ee2f9
+2025-12-06 17:48:00.202 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.oss.api.FileFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 17:48:00.203 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 17:48:00.204 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 17:48:00.492 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2025-12-06 17:48:00.492 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 17:48:00.495 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 17:48:00.501 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 17:48:00.501 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 17:48:00.558 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 17:48:00.558 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 856 ms
+2025-12-06 17:48:00.628 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 17:48:00.841 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 17:48:01.032 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-oss' URL not provided. Will try picking an instance via load-balancing.
+2025-12-06 17:48:01.224 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-06 17:48:01.774 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2025-12-06 17:48:01.800 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-06 17:48:01.800 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-06 17:48:02.289 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-06 17:48:02.290 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-06 17:48:02.291 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-06 17:48:02.291 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-06 17:48:02.320 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user 10.12.41.102:8082 register finished
+2025-12-06 17:48:02.403 [main] INFO  c.p.xiaohashu.user.biz.XiaohashuUserBizApplication - Started XiaohashuUserBizApplication in 3.547 seconds (process running for 3.876)
+2025-12-06 17:48:02.403 [main] INFO  c.p.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-06 17:48:02.659 [main] WARN  c.p.x.u.biz.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2025-12-06 17:50:43.432 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-06 17:50:43.432 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-06 17:50:43.433 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-06 17:50:43.443 [http-nio-8082-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 17:50:43.523 [http-nio-8082-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 17:50:43.534 [http-nio-8082-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 12ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"小红薯10100","avatar":null}} =================================== 
+2025-12-06 17:50:43.547 [http-nio-8082-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 17:52:06.321 [http-nio-8082-exec-3] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 17:52:06.322 [http-nio-8082-exec-3] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":-1}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 17:52:06.343 [http-nio-8082-exec-3] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2025-12-06 17:52:06.451 [http-nio-8082-exec-3] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: -1(Long)
+2025-12-06 17:52:06.469 [http-nio-8082-exec-3] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-12-06 17:52:06.473 [http-nio-8082-exec-3] WARN  c.p.x.user.biz.exception.GlobalExceptionHandler - /user/findById request fail, errorCode: USER-20007, errorMessage: 该用户不存在
+2025-12-06 17:52:06.474 [http-nio-8082-exec-3] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 17:54:22.063 [http-nio-8082-exec-5] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 17:54:22.065 [http-nio-8082-exec-5] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":-1}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 17:54:22.068 [http-nio-8082-exec-5] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2025-12-06 17:54:22.069 [http-nio-8082-exec-5] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: -1(Long)
+2025-12-06 17:54:22.079 [http-nio-8082-exec-5] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-12-06 17:54:22.080 [http-nio-8082-exec-5] WARN  c.p.x.user.biz.exception.GlobalExceptionHandler - /user/findById request fail, errorCode: USER-20007, errorMessage: 该用户不存在
+2025-12-06 17:54:22.080 [http-nio-8082-exec-5] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 17:54:25.625 [http-nio-8082-exec-6] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 17:54:25.626 [http-nio-8082-exec-6] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-06 17:54:25.629 [http-nio-8082-exec-6] INFO  c.p.x.user.biz.service.impl.UserServiceImpl - ==> 命中了本地缓存；FindUserByIdRspDTO(id=100, nickName=小红薯10100, avatar=null)
+2025-12-06 17:54:25.629 [http-nio-8082-exec-6] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 4ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"小红薯10100","avatar":null}} =================================== 
+2025-12-06 17:54:25.630 [http-nio-8082-exec-6] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1

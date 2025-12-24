@@ -1,0 +1,455 @@
+2025-12-03 14:25:05.693 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-03 14:25:05.697 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-03 14:25:05.707 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2025-12-03 14:25:05.721 [http-nio-8080-exec-1] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 1
+2025-12-03 14:25:05.722 [http-nio-8080-exec-1] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-03 14:25:05.750 [http-nio-8080-exec-1] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-03 14:25:32.919 [http-nio-8080-exec-2] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 1
+2025-12-03 14:25:32.920 [http-nio-8080-exec-2] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-03 14:25:32.982 [http-nio-8080-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"13772792309","code":null,"password":"123456","type":2}, 请求类: UserController, 请求方法: loginAndRegister =================================== 
+2025-12-03 14:25:33.021 [http-nio-8080-exec-2] DEBUG c.p.x.a.domain.mapper.UserDOMapper.selectByPhone - ==>  Preparing: select id, password from t_user where phone = ?
+2025-12-03 14:25:33.145 [http-nio-8080-exec-2] DEBUG c.p.x.a.domain.mapper.UserDOMapper.selectByPhone - ==> Parameters: 13772792309(String)
+2025-12-03 14:25:33.167 [http-nio-8080-exec-2] DEBUG c.p.x.a.domain.mapper.UserDOMapper.selectByPhone - <==      Total: 1
+2025-12-03 14:25:33.305 [http-nio-8080-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [用户登录/注册], 耗时: 324ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"uQTW3mImLKFVVJZOeqPAs4xMef9Rwv0SPfL8oDNLHGeOvdkVyMDRFdjMVwQK9IRKL9BChTh3zEeCAFzsPckdhaw0dvrcB2RTwVvnLAZj6wi6frFmie5oTkxRI05USydH"} =================================== 
+2025-12-03 14:25:33.308 [http-nio-8080-exec-2] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-03 15:24:41.547 [http-nio-8080-exec-3] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 1
+2025-12-03 15:24:41.548 [http-nio-8080-exec-3] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-03 15:24:41.578 [http-nio-8080-exec-3] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [修改密码], 入参: {"newPassword":"123456"}, 请求类: UserController, 请求方法: updatePassword =================================== 
+2025-12-03 15:24:41.699 [http-nio-8080-exec-3] DEBUG c.p.x.a.d.m.U.updateByPrimaryKeySelective - ==>  Preparing: update t_user SET `password` = ?, update_time = ? where id = ?
+2025-12-03 15:24:41.706 [http-nio-8080-exec-3] DEBUG c.p.x.a.d.m.U.updateByPrimaryKeySelective - ==> Parameters: $2a$10$qPmfyAvydZ75Eych60XYMeC0Hk1k8G/7H/pAVVOAcXqHkB6ACKFKe(String), 2025-12-03T15:24:41.641866800(LocalDateTime), 1(Long)
+2025-12-03 15:24:41.738 [http-nio-8080-exec-3] DEBUG c.p.x.a.d.m.U.updateByPrimaryKeySelective - <==    Updates: 1
+2025-12-03 15:24:41.738 [http-nio-8080-exec-3] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [修改密码], 耗时: 161ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-03 15:24:41.740 [http-nio-8080-exec-3] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-03 15:24:52.705 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-03 15:24:52.705 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-03 15:24:52.705 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-03 15:24:52.705 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-03 15:24:52.706 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-03 15:24:52.706 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-03 15:24:52.707 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-03 15:24:52.717 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-03 15:25:02.909 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-03 15:25:02.911 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-03 15:26:24.486 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-03 15:26:24.489 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-03 15:26:24.489 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-03 15:26:24.494 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-03 15:26:24.858 [main] INFO  c.peikol.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-12-03 15:26:25.215 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-03 15:26:25.217 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-03 15:26:25.229 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-12-03 15:26:25.323 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0b48ed13-799a-34c3-90db-6de2a0aa9f35
+2025-12-03 15:26:25.338 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-03 15:26:25.549 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-12-03 15:26:25.549 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-03 15:26:25.551 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-03 15:26:25.557 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-03 15:26:25.557 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-03 15:26:25.618 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-03 15:26:25.618 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 750 ms
+2025-12-03 15:26:25.894 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-03 15:26:26.120 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-03 15:26:26.120 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-03 15:26:26.460 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-03 15:26:26.501 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-03 15:26:26.513 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-03 15:26:26.513 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-03 15:26:26.974 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-03 15:26:26.974 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-03 15:26:26.976 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-03 15:26:26.977 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-03 15:26:27.001 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-auth 10.12.41.102:8080 register finished
+2025-12-03 15:26:27.079 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.alarmConfig': Injection of autowired dependencies failed
+2025-12-03 15:26:27.080 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-03 15:26:27.083 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-03 15:26:27.089 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:597)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.peikol.xiaohashu.auth.XiaohashuAuthApplication.main(XiaohashuAuthApplication.java:12)
+2025-12-03 15:26:27.105 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-03 15:26:27.114 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-03 15:26:27.125 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.alarmConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:365)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:375)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:179)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:362)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.eagerlyInitialize(RefreshScope.java:126)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.start(RefreshScope.java:118)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.onApplicationEvent(RefreshScope.java:113)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.onApplicationEvent(RefreshScope.java:68)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.peikol.xiaohashu.auth.XiaohashuAuthApplication.main(XiaohashuAuthApplication.java:12)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'alarm.type' in value "${alarm.type}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:920)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481)
+	... 27 common frames omitted
+2025-12-03 15:26:28.097 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-03 15:26:28.098 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-03 15:26:28.098 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-03 15:26:28.098 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-03 15:26:28.099 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-03 15:26:28.099 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-03 15:30:50.168 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-03 15:30:50.170 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-03 15:30:50.171 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-03 15:30:50.176 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-03 15:30:50.535 [main] INFO  c.peikol.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-12-03 15:30:50.864 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-03 15:30:50.865 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-03 15:30:50.877 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-03 15:30:50.961 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0b48ed13-799a-34c3-90db-6de2a0aa9f35
+2025-12-03 15:30:50.969 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-03 15:30:51.174 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-12-03 15:30:51.174 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-03 15:30:51.177 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-03 15:30:51.182 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-03 15:30:51.183 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-03 15:30:51.241 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-03 15:30:51.242 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 698 ms
+2025-12-03 15:30:51.516 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-03 15:30:51.736 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-03 15:30:51.736 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-03 15:30:52.071 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-03 15:30:52.110 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-03 15:30:52.122 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-03 15:30:52.122 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-03 15:30:52.598 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-03 15:30:52.599 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-03 15:30:52.600 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-03 15:30:52.600 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-03 15:30:52.625 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-auth 10.12.41.102:8080 register finished
+2025-12-03 15:30:52.706 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.alarmConfig': Injection of autowired dependencies failed
+2025-12-03 15:30:52.706 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-03 15:30:52.710 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-03 15:30:52.715 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:597)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.peikol.xiaohashu.auth.XiaohashuAuthApplication.main(XiaohashuAuthApplication.java:12)
+2025-12-03 15:30:52.733 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-03 15:30:52.740 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-03 15:30:52.749 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.alarmConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:365)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:375)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:179)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:362)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.eagerlyInitialize(RefreshScope.java:126)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.start(RefreshScope.java:118)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.onApplicationEvent(RefreshScope.java:113)
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.onApplicationEvent(RefreshScope.java:68)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.peikol.xiaohashu.auth.XiaohashuAuthApplication.main(XiaohashuAuthApplication.java:12)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'alarm.type' in value "${alarm.type}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:920)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481)
+	... 27 common frames omitted
+2025-12-03 15:30:54.730 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-03 15:30:54.730 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-03 15:30:54.730 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-03 15:30:54.730 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-03 15:30:54.730 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-03 15:30:54.732 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-03 15:31:14.697 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-03 15:31:14.699 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-03 15:31:14.699 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-03 15:31:14.705 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-03 15:31:15.057 [main] INFO  c.peikol.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-12-03 15:31:15.383 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-03 15:31:15.383 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-03 15:31:15.397 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-03 15:31:15.480 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0b48ed13-799a-34c3-90db-6de2a0aa9f35
+2025-12-03 15:31:15.487 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-03 15:31:15.691 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-12-03 15:31:15.692 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-03 15:31:15.694 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-03 15:31:15.699 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-03 15:31:15.699 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-03 15:31:15.762 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-03 15:31:15.762 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 696 ms
+2025-12-03 15:31:16.029 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-03 15:31:16.238 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-03 15:31:16.238 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-03 15:31:16.572 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-03 15:31:16.609 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-03 15:31:16.622 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-03 15:31:16.622 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-03 15:31:17.068 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-03 15:31:17.069 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-03 15:31:17.069 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-03 15:31:17.070 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-03 15:31:17.092 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-auth 10.12.41.102:8080 register finished
+2025-12-03 15:31:17.175 [main] INFO  c.peikol.xiaohashu.auth.XiaohashuAuthApplication - Started XiaohashuAuthApplication in 2.853 seconds (process running for 3.154)
+2025-12-03 15:31:46.366 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-03 15:31:46.366 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-03 15:31:46.367 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-03 15:31:46.369 [http-nio-8080-exec-1] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 1
+2025-12-03 15:31:46.369 [http-nio-8080-exec-1] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-03 15:31:46.420 [http-nio-8080-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [修改密码], 入参: {"newPassword":"123456"}, 请求类: AuthController, 请求方法: updatePassword =================================== 
+2025-12-03 15:31:46.861 [http-nio-8080-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [修改密码], 耗时: 442ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-03 15:31:46.872 [http-nio-8080-exec-1] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-03 23:54:12.345 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-03 23:54:12.345 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-03 23:54:12.345 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-03 23:54:12.346 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-03 23:54:12.347 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-03 23:54:12.348 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-03 23:54:12.353 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-03 23:54:12.366 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-03 23:54:22.424 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-03 23:54:22.430 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-03 23:54:26.752 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-03 23:54:26.755 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-03 23:54:26.755 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-03 23:54:26.759 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-03 23:54:27.099 [main] INFO  c.peikol.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-12-03 23:54:27.423 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-03 23:54:27.424 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-03 23:54:27.435 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-03 23:54:27.515 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0b48ed13-799a-34c3-90db-6de2a0aa9f35
+2025-12-03 23:54:27.524 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-03 23:54:27.726 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-12-03 23:54:27.726 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-03 23:54:27.729 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-03 23:54:27.733 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-03 23:54:27.733 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-03 23:54:27.790 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-03 23:54:27.790 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 682 ms
+2025-12-03 23:54:28.059 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-03 23:54:28.269 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-03 23:54:28.269 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-03 23:54:28.615 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-03 23:54:28.649 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-12-03 23:54:28.661 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-03 23:54:28.662 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-03 23:54:29.129 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-03 23:54:29.130 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-03 23:54:29.130 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-03 23:54:29.132 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-03 23:54:29.159 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-auth 10.12.41.102:8080 register finished
+2025-12-03 23:54:29.244 [main] INFO  c.peikol.xiaohashu.auth.XiaohashuAuthApplication - Started XiaohashuAuthApplication in 2.827 seconds (process running for 5.518)
+2025-12-03 23:55:01.470 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-03 23:55:01.470 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-03 23:55:01.470 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-03 23:55:01.470 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-03 23:55:01.470 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-03 23:55:01.470 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-03 23:55:01.471 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-03 23:55:01.476 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-03 23:55:11.534 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)

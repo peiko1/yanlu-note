@@ -1,0 +1,6 @@
+2025-12-05 13:49:12.340 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-05 13:49:12.363 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-05 13:49:12.448 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 83 ms
+2025-12-05 13:49:12.461 [http-nio-8080-exec-3] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: null
+2025-12-05 20:59:40.712 [http-nio-8080-exec-5] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: null
+2025-12-05 20:59:41.097 [http-nio-8080-exec-4] INFO  c.p.x.auth.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: null

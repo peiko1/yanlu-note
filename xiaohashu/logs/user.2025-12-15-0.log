@@ -1,0 +1,26 @@
+2025-12-15 18:26:38.108 [lettuce-nioEventLoop-4-1] INFO  io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-15 18:26:38.253 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /127.0.0.1:6379
+2025-12-15 18:26:38.298 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1/<unresolved>:6379]: Connection refused: no further information: /127.0.0.1:6379
+2025-12-15 18:26:47.348 [lettuce-eventExecutorLoop-1-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+2025-12-15 18:26:47.352 [lettuce-nioEventLoop-4-14] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1/<unresolved>:6379]: Connection refused: no further information: /127.0.0.1:6379
+2025-12-15 18:26:55.642 [lettuce-eventExecutorLoop-1-8] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+2025-12-15 18:26:55.645 [lettuce-nioEventLoop-4-15] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1/<unresolved>:6379]: Connection refused: no further information: /127.0.0.1:6379
+2025-12-15 18:27:12.042 [lettuce-eventExecutorLoop-1-10] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+2025-12-15 18:27:12.047 [lettuce-nioEventLoop-4-16] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [127.0.0.1/<unresolved>:6379]: Connection refused: no further information: /127.0.0.1:6379
+2025-12-15 18:27:42.157 [lettuce-eventExecutorLoop-1-12] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+2025-12-15 18:27:42.250 [lettuce-nioEventLoop-4-17] INFO  io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 127.0.0.1/<unresolved>:6379

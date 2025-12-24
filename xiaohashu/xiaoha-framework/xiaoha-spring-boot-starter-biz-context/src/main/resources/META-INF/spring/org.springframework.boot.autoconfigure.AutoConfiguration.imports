@@ -1,0 +1,2 @@
+com.peikol.framework.biz.context.config.ContextAutoConfiguration
+com.peikol.framework.biz.context.config.FeignContextAutoConfiguration

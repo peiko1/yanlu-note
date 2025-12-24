@@ -1,0 +1,1411 @@
+2025-12-06 13:58:09.978 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 13:58:09.980 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 13:58:09.981 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 13:58:09.985 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 13:58:10.365 [main] INFO  c.p.x.u.r.b.d.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 13:58:10.702 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.peikol.xiaohashu.user.relation.biz.domain.mapper]' package. Please check your configuration.
+2025-12-06 13:58:10.740 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0ec475b8-8bca-3cad-871e-1a60c3cf118b
+2025-12-06 13:58:10.955 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2025-12-06 13:58:10.956 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 13:58:10.958 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 13:58:10.963 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 13:58:10.963 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 13:58:11.020 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 13:58:11.020 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 643 ms
+2025-12-06 13:58:11.414 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 13:58:11.589 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 13:58:11.787 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-12-06 13:58:11.788 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-06 13:58:11.792 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-06 13:58:11.795 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-06 13:58:11.809 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-06 13:58:11.818 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8087 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8087 or configure this application to listen on another port.
+
+2025-12-06 13:58:11.819 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 13:58:11.819 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 14:00:58.867 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:00:58.870 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:00:58.871 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 14:00:58.879 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 14:00:59.269 [main] INFO  c.p.x.u.r.b.d.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 14:00:59.554 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.peikol.xiaohashu.user.relation.biz.domain.mapper]' package. Please check your configuration.
+2025-12-06 14:00:59.593 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0ec475b8-8bca-3cad-871e-1a60c3cf118b
+2025-12-06 14:00:59.809 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2025-12-06 14:00:59.809 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 14:00:59.812 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 14:00:59.817 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 14:00:59.818 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 14:00:59.878 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 14:00:59.878 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 600 ms
+2025-12-06 14:01:00.283 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 14:01:00.462 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 14:01:00.679 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2025-12-06 14:01:00.708 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-06 14:01:00.708 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-06 14:01:01.218 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-06 14:01:01.220 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-06 14:01:01.220 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-06 14:01:01.221 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-06 14:01:01.264 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 10.12.41.102:8089 register finished
+2025-12-06 14:01:01.345 [main] INFO  c.p.x.u.r.b.d.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 2.928 seconds (process running for 3.242)
+2025-12-06 14:09:52.725 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-06 14:09:52.726 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 14:09:52.725 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-06 14:09:52.726 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-06 14:09:52.726 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 14:09:52.726 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-06 14:09:52.726 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-06 14:09:52.734 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-06 14:10:05.701 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:10:05.709 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:10:05.710 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 14:10:05.723 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 14:10:06.630 [main] INFO  c.p.x.u.r.b.d.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 14:10:07.336 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 14:10:07.340 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 14:10:07.360 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2025-12-06 14:10:07.537 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=10102424-f95c-3559-8eb8-95d332ef0949
+2025-12-06 14:10:08.178 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2025-12-06 14:10:08.178 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 14:10:08.184 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 14:10:08.197 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 14:10:08.198 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 14:10:08.319 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 14:10:08.319 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1661 ms
+2025-12-06 14:10:09.212 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 14:10:09.539 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 14:10:10.381 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2025-12-06 14:10:10.468 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-06 14:10:10.468 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-06 14:10:14.164 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-06 14:10:14.168 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-06 14:10:14.169 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-06 14:10:14.169 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-06 14:10:14.240 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 10.12.41.102:8089 register finished
+2025-12-06 14:10:14.523 [main] INFO  c.p.x.u.r.b.d.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 9.859 seconds (process running for 10.775)
+2025-12-06 14:49:43.221 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-06 14:49:43.221 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 14:49:43.221 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-06 14:49:43.222 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-06 14:49:43.223 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 14:49:43.223 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-06 14:49:43.224 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-06 14:49:43.230 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-06 14:49:47.034 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:49:47.038 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:49:47.039 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 14:49:47.046 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 14:49:47.429 [main] INFO  c.p.x.u.r.b.d.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 14:49:47.753 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 14:49:47.755 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 14:49:47.766 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-12-06 14:49:47.887 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b96af272-c428-311c-9136-9cd2ab706aa3
+2025-12-06 14:49:47.907 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 14:49:48.194 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2025-12-06 14:49:48.195 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 14:49:48.197 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 14:49:48.203 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 14:49:48.203 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 14:49:48.259 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 14:49:48.259 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 820 ms
+2025-12-06 14:49:48.309 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'relationController': Injection of resource dependencies failed
+2025-12-06 14:49:48.309 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-06 14:49:48.326 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-06 14:49:48.338 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'service.com.peikol.xiaohashu.user.relation.biz.RelationService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'service.com.peikol.xiaohashu.user.relation.biz.RelationService' in your configuration.
+
+2025-12-06 14:49:48.339 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 14:49:48.340 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 14:54:54.333 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:54:54.334 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:54:54.336 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 14:54:54.341 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 14:54:54.745 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 14:54:55.074 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 14:54:55.076 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 14:54:55.089 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-06 14:54:55.212 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=427e8674-b100-3879-baad-e312198a3060
+2025-12-06 14:54:55.232 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 14:54:55.503 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2025-12-06 14:54:55.504 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 14:54:55.506 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 14:54:55.513 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 14:54:55.513 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 14:54:55.570 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 14:54:55.571 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 816 ms
+2025-12-06 14:54:55.622 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'relationController': Injection of resource dependencies failed
+2025-12-06 14:54:55.623 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-06 14:54:55.641 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-06 14:54:55.651 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'service.biz.relation.com.peikol.xiaohashu.count.biz.RelationService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'service.biz.relation.com.peikol.xiaohashu.count.biz.RelationService' in your configuration.
+
+2025-12-06 14:54:55.652 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 14:54:55.652 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 14:56:53.259 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:56:53.262 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:56:53.262 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 14:56:53.267 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 14:56:53.643 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 14:56:53.983 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 14:56:53.986 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 14:56:53.999 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-06 14:56:54.131 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=5a8ec38d-ada7-3756-bcf0-8d6e3b01c587
+2025-12-06 14:56:54.152 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 14:56:54.433 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2025-12-06 14:56:54.434 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 14:56:54.436 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 14:56:54.442 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 14:56:54.442 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 14:56:54.508 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 14:56:54.508 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 854 ms
+2025-12-06 14:56:54.564 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'relationController': Injection of resource dependencies failed
+2025-12-06 14:56:54.564 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-06 14:56:54.580 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-06 14:56:54.591 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'rpc.biz.relation.com.peikol.xiaohashu.count.biz.UserRpcService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'rpc.biz.relation.com.peikol.xiaohashu.count.biz.UserRpcService' in your configuration.
+
+2025-12-06 14:56:54.592 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 14:56:54.592 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 14:57:20.680 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:57:20.684 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 14:57:20.684 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 14:57:20.690 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 14:57:21.069 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 14:57:21.389 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 14:57:21.390 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 14:57:21.401 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-12-06 14:57:21.519 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=11f9a02f-05a8-3800-9462-d9d4a6d65109
+2025-12-06 14:57:21.538 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 14:57:21.807 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2025-12-06 14:57:21.808 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 14:57:21.810 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 14:57:21.816 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 14:57:21.816 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 14:57:21.876 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 14:57:21.876 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 796 ms
+2025-12-06 14:57:21.986 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-06 14:57:22.531 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 14:57:22.697 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 14:57:22.953 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-06 14:57:23.000 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2025-12-06 14:57:23.026 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-06 14:57:23.026 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-06 14:57:23.506 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-06 14:57:23.507 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-06 14:57:23.507 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-06 14:57:23.507 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-06 14:57:23.532 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 10.12.41.102:8089 register finished
+2025-12-06 14:57:23.613 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 3.417 seconds (process running for 3.796)
+2025-12-06 15:00:45.043 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-06 15:00:45.043 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-06 15:00:45.044 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-06 15:00:45.052 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 15:00:45.126 [http-nio-8089-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":1}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 15:00:45.129 [http-nio-8089-exec-1] WARN  c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request fail, errorCode: RELATION-20001, errorMessage: 无法关注自己
+2025-12-06 15:00:45.138 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 15:00:55.809 [http-nio-8089-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 15:00:55.810 [http-nio-8089-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":-1}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 15:00:55.815 [http-nio-8089-exec-2] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 15:00:56.239 [http-nio-8089-exec-2] WARN  c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request fail, errorCode: RELATION-20002, errorMessage: 关注的用户不存在
+2025-12-06 15:00:56.240 [http-nio-8089-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:48:28.006 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-06 16:48:28.006 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 16:48:28.006 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-06 16:48:28.014 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-06 16:48:28.015 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 16:48:28.018 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-06 16:48:28.031 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-06 16:48:28.055 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-06 16:48:32.434 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 16:48:32.437 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 16:48:32.437 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 16:48:32.445 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 16:48:32.845 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 16:48:33.222 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 16:48:33.224 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 16:48:33.238 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-06 16:48:33.376 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=8027af12-40a0-393a-a200-7273c1843909
+2025-12-06 16:48:33.396 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 16:48:33.708 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2025-12-06 16:48:33.709 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 16:48:33.712 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 16:48:33.720 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 16:48:33.720 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 16:48:33.784 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 16:48:33.784 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 928 ms
+2025-12-06 16:48:34.072 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-06 16:48:34.095 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 16:48:34.335 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 16:48:34.938 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-06 16:48:34.989 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2025-12-06 16:48:35.021 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-06 16:48:35.022 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-06 16:48:35.634 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-06 16:48:35.637 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-06 16:48:35.637 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-06 16:48:35.637 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-06 16:48:35.664 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 10.12.41.102:8089 register finished
+2025-12-06 16:48:35.749 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 3.771 seconds (process running for 4.126)
+2025-12-06 16:50:58.766 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-06 16:50:58.766 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-06 16:50:58.767 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-06 16:50:58.777 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:50:58.867 [http-nio-8089-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":-1}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 16:50:58.878 [http-nio-8089-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 16:50:59.183 [http-nio-8089-exec-1] WARN  c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request fail, errorCode: RELATION-20002, errorMessage: 关注的用户不存在
+2025-12-06 16:50:59.189 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:51:13.231 [http-nio-8089-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:51:13.232 [http-nio-8089-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":1}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 16:51:13.232 [http-nio-8089-exec-2] WARN  c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request fail, errorCode: RELATION-20001, errorMessage: 无法关注自己
+2025-12-06 16:51:13.232 [http-nio-8089-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:51:16.244 [http-nio-8089-exec-5] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:51:16.245 [http-nio-8089-exec-5] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":2}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 16:51:16.246 [http-nio-8089-exec-5] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 16:51:16.272 [http-nio-8089-exec-5] WARN  c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request fail, errorCode: RELATION-20002, errorMessage: 关注的用户不存在
+2025-12-06 16:51:16.272 [http-nio-8089-exec-5] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:54:43.492 [http-nio-8089-exec-3] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":100}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 16:54:43.873 [http-nio-8089-exec-3] ERROR c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request error, 
+org.springframework.data.redis.core.script.ScriptingException: Error reading script text
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:97)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getSha1(DefaultRedisScript.java:81)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.eval(DefaultScriptExecutor.java:77)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.lambda$execute$0(DefaultScriptExecutor.java:68)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:406)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:373)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:360)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:58)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:52)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:503)
+	at impl.service.biz.relation.com.peikol.xiaohashu.count.biz.RelationServiceImpl.follow(RelationServiceImpl.java:83)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController.follow(RelationController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.peikol.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController$$SpringCGLIB$$0.follow(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.peikol.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:29)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: class path resource [lua/follow_check_and_add.lua] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:211)
+	at org.springframework.core.io.support.EncodedResource.getReader(EncodedResource.java:141)
+	at org.springframework.scripting.support.ResourceScriptSource.getScriptAsString(ResourceScriptSource.java:103)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:95)
+	... 92 common frames omitted
+2025-12-06 16:55:01.202 [http-nio-8089-exec-6] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:55:01.203 [http-nio-8089-exec-6] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":100}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 16:55:01.203 [http-nio-8089-exec-6] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 16:55:01.231 [http-nio-8089-exec-6] ERROR c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request error, 
+org.springframework.data.redis.core.script.ScriptingException: Error reading script text
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:97)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getSha1(DefaultRedisScript.java:81)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.eval(DefaultScriptExecutor.java:77)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.lambda$execute$0(DefaultScriptExecutor.java:68)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:406)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:373)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:360)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:58)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:52)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:503)
+	at impl.service.biz.relation.com.peikol.xiaohashu.count.biz.RelationServiceImpl.follow(RelationServiceImpl.java:83)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController.follow(RelationController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.peikol.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController$$SpringCGLIB$$0.follow(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.peikol.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:37)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: class path resource [lua/follow_check_and_add.lua] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:211)
+	at org.springframework.core.io.support.EncodedResource.getReader(EncodedResource.java:141)
+	at org.springframework.scripting.support.ResourceScriptSource.getScriptAsString(ResourceScriptSource.java:103)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:95)
+	... 92 common frames omitted
+2025-12-06 16:55:01.233 [http-nio-8089-exec-6] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:55:44.155 [http-nio-8089-exec-7] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":1}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 16:55:44.182 [http-nio-8089-exec-7] ERROR c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request error, 
+org.springframework.data.redis.core.script.ScriptingException: Error reading script text
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:97)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getSha1(DefaultRedisScript.java:81)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.eval(DefaultScriptExecutor.java:77)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.lambda$execute$0(DefaultScriptExecutor.java:68)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:406)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:373)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:360)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:58)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:52)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:503)
+	at impl.service.biz.relation.com.peikol.xiaohashu.count.biz.RelationServiceImpl.follow(RelationServiceImpl.java:83)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController.follow(RelationController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.peikol.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController$$SpringCGLIB$$0.follow(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.peikol.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:29)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: class path resource [lua/follow_check_and_add.lua] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:211)
+	at org.springframework.core.io.support.EncodedResource.getReader(EncodedResource.java:141)
+	at org.springframework.scripting.support.ResourceScriptSource.getScriptAsString(ResourceScriptSource.java:103)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:95)
+	... 92 common frames omitted
+2025-12-06 16:55:50.012 [http-nio-8089-exec-8] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:55:50.013 [http-nio-8089-exec-8] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":-1}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 16:55:50.013 [http-nio-8089-exec-8] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 16:55:50.032 [http-nio-8089-exec-8] WARN  c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request fail, errorCode: RELATION-20002, errorMessage: 关注的用户不存在
+2025-12-06 16:55:50.032 [http-nio-8089-exec-8] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:55:54.167 [http-nio-8089-exec-9] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:55:54.168 [http-nio-8089-exec-9] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":1}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 16:55:54.168 [http-nio-8089-exec-9] WARN  c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request fail, errorCode: RELATION-20001, errorMessage: 无法关注自己
+2025-12-06 16:55:54.168 [http-nio-8089-exec-9] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:55:57.463 [http-nio-8089-exec-10] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:55:57.463 [http-nio-8089-exec-10] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":2}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 16:55:57.464 [http-nio-8089-exec-10] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 16:55:57.488 [http-nio-8089-exec-10] WARN  c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request fail, errorCode: RELATION-20002, errorMessage: 关注的用户不存在
+2025-12-06 16:55:57.489 [http-nio-8089-exec-10] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:56:01.521 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:56:01.522 [http-nio-8089-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":100}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 16:56:01.523 [http-nio-8089-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 16:56:01.539 [http-nio-8089-exec-1] ERROR c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request error, 
+org.springframework.data.redis.core.script.ScriptingException: Error reading script text
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:97)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getSha1(DefaultRedisScript.java:81)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.eval(DefaultScriptExecutor.java:77)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.lambda$execute$0(DefaultScriptExecutor.java:68)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:406)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:373)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:360)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:58)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:52)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:503)
+	at impl.service.biz.relation.com.peikol.xiaohashu.count.biz.RelationServiceImpl.follow(RelationServiceImpl.java:83)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController.follow(RelationController.java:26)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.peikol.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController$$SpringCGLIB$$0.follow(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.peikol.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:37)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: class path resource [lua/follow_check_and_add.lua] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:211)
+	at org.springframework.core.io.support.EncodedResource.getReader(EncodedResource.java:141)
+	at org.springframework.scripting.support.ResourceScriptSource.getScriptAsString(ResourceScriptSource.java:103)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:95)
+	... 90 common frames omitted
+2025-12-06 16:56:01.542 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 16:57:03.411 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-06 16:57:03.411 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-06 16:57:03.411 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 16:57:03.411 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-06 16:57:03.412 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 16:57:03.412 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-06 16:57:03.412 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-06 16:57:03.421 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-06 16:57:05.612 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 16:57:05.615 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 16:57:05.615 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 16:57:05.621 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 16:57:06.026 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 16:57:06.357 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 16:57:06.359 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 16:57:06.371 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-06 16:57:06.493 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=8027af12-40a0-393a-a200-7273c1843909
+2025-12-06 16:57:06.513 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 16:57:06.804 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2025-12-06 16:57:06.805 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 16:57:06.807 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 16:57:06.813 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 16:57:06.814 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 16:57:06.876 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 16:57:06.876 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 839 ms
+2025-12-06 16:57:07.143 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-06 16:57:07.168 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 16:57:07.384 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 16:57:07.996 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-06 16:57:08.043 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2025-12-06 16:57:08.071 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-06 16:57:08.071 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-06 16:57:08.556 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-06 16:57:08.557 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-06 16:57:08.557 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-06 16:57:08.558 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-06 16:57:08.587 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 10.12.41.102:8089 register finished
+2025-12-06 16:57:08.672 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 3.515 seconds (process running for 3.833)
+2025-12-06 16:57:12.420 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-06 16:57:12.420 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-06 16:57:12.421 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-06 16:57:12.433 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 16:57:12.509 [http-nio-8089-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":100}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 16:57:12.517 [http-nio-8089-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 16:57:12.971 [http-nio-8089-exec-1] ERROR c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request error, 
+org.springframework.data.redis.core.script.ScriptingException: Error reading script text
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:97)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getSha1(DefaultRedisScript.java:81)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.eval(DefaultScriptExecutor.java:77)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.lambda$execute$0(DefaultScriptExecutor.java:68)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:406)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:373)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:360)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:58)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:52)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:503)
+	at impl.service.biz.relation.com.peikol.xiaohashu.count.biz.RelationServiceImpl.follow(RelationServiceImpl.java:83)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController.follow(RelationController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.peikol.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController$$SpringCGLIB$$0.follow(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.peikol.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:37)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: class path resource [lua/follow_check_and_add.lua] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:211)
+	at org.springframework.core.io.support.EncodedResource.getReader(EncodedResource.java:141)
+	at org.springframework.scripting.support.ResourceScriptSource.getScriptAsString(ResourceScriptSource.java:103)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:95)
+	... 92 common frames omitted
+2025-12-06 16:57:12.983 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 17:01:40.945 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 17:01:40.945 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-06 17:01:40.945 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-06 17:01:40.945 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-06 17:01:40.945 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 17:01:40.947 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-06 17:01:40.948 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-06 17:01:40.954 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-06 17:01:42.907 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 17:01:42.912 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 17:01:42.912 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 17:01:42.917 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 17:01:43.462 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 17:01:43.911 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 17:01:43.913 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 17:01:43.926 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-12-06 17:01:44.077 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=8027af12-40a0-393a-a200-7273c1843909
+2025-12-06 17:01:44.106 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 17:01:44.464 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2025-12-06 17:01:44.464 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 17:01:44.468 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 17:01:44.476 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 17:01:44.476 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 17:01:44.550 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 17:01:44.550 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1070 ms
+2025-12-06 17:01:44.920 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-06 17:01:44.954 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 17:01:45.230 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 17:01:46.042 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-06 17:01:46.115 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2025-12-06 17:01:46.153 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-06 17:01:46.153 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-06 17:01:46.814 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-06 17:01:46.816 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-06 17:01:46.817 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-06 17:01:46.818 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-06 17:01:46.850 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 10.12.41.102:8089 register finished
+2025-12-06 17:01:46.954 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 4.521 seconds (process running for 4.851)
+2025-12-06 17:05:28.548 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-06 17:05:28.548 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-06 17:05:28.549 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-06 17:05:28.560 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 17:05:28.637 [http-nio-8089-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":100}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 17:05:28.645 [http-nio-8089-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 17:05:29.128 [http-nio-8089-exec-1] DEBUG c.p.x.u.r.b.d.m.FollowingDOMapper.selectByUserId - ==>  Preparing: select user_id, following_user_id, create_time from t_following where user_id = ?
+2025-12-06 17:05:29.291 [http-nio-8089-exec-1] DEBUG c.p.x.u.r.b.d.m.FollowingDOMapper.selectByUserId - ==> Parameters: 1(Long)
+2025-12-06 17:05:29.332 [http-nio-8089-exec-1] DEBUG c.p.x.u.r.b.d.m.FollowingDOMapper.selectByUserId - <==      Total: 0
+2025-12-06 17:05:29.341 [http-nio-8089-exec-1] ERROR c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request error, 
+org.springframework.data.redis.core.script.ScriptingException: Error reading script text
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:97)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getSha1(DefaultRedisScript.java:81)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.eval(DefaultScriptExecutor.java:77)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.lambda$execute$0(DefaultScriptExecutor.java:68)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:406)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:373)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:360)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:58)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:52)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:503)
+	at impl.service.biz.relation.com.peikol.xiaohashu.count.biz.RelationServiceImpl.follow(RelationServiceImpl.java:105)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController.follow(RelationController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.peikol.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController$$SpringCGLIB$$0.follow(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.peikol.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:37)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: class path resource [lua/follow_add_and_expire.lua] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:211)
+	at org.springframework.core.io.support.EncodedResource.getReader(EncodedResource.java:141)
+	at org.springframework.scripting.support.ResourceScriptSource.getScriptAsString(ResourceScriptSource.java:103)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:95)
+	... 92 common frames omitted
+2025-12-06 17:05:29.353 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 17:14:53.568 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-06 17:14:53.568 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 17:14:53.568 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-06 17:14:53.569 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-06 17:14:53.569 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 17:14:53.569 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-06 17:14:53.571 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-06 17:14:53.579 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-06 17:15:03.606 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-06 17:15:03.611 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-06 17:15:03.612 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-06 17:15:03.614 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-06 17:16:17.446 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 17:16:17.452 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 17:16:17.452 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 17:16:17.463 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 17:16:18.176 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 17:16:18.756 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 17:16:18.758 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 17:16:18.773 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-12-06 17:16:18.913 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.peikol.xiaohashu.user.relation.biz.domain.mapper]' package. Please check your configuration.
+2025-12-06 17:16:19.002 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9a3c5c14-12b4-35e2-a95f-a3aa6a18ecde
+2025-12-06 17:16:19.043 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 17:16:19.554 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2025-12-06 17:16:19.555 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 17:16:19.560 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 17:16:19.569 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 17:16:19.569 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 17:16:19.678 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 17:16:19.678 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1480 ms
+2025-12-06 17:16:20.423 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 17:16:20.747 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 17:16:20.885 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-user-relation\xiaohashu-user-relation-biz\target\classes\mapper\FansDOMapper.xml]'
+2025-12-06 17:16:20.886 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-06 17:16:20.893 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-06 17:16:20.895 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-06 17:16:20.920 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-06 17:16:20.941 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-user-relation\xiaohashu-user-relation-biz\target\classes\mapper\FansDOMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at biz.relation.com.peikol.xiaohashu.user.XiaohashuUserRelationBizApplication.main(XiaohashuUserRelationBizApplication.java:15)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-user-relation\xiaohashu-user-relation-biz\target\classes\mapper\FansDOMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-user-relation\xiaohashu-user-relation-biz\target\classes\mapper\FansDOMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:695)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:572)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:712)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 20 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\mycode\Java\xiaohashu\xiaohashu-user-relation\xiaohashu-user-relation-biz\target\classes\mapper\FansDOMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'dataobject.com.peikol.xiaohashu.user.count.biz.domain.FansDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: dataobject.com.peikol.xiaohashu.user.count.biz.domain.FansDO
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:125)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:98)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:693)
+	... 28 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'dataobject.com.peikol.xiaohashu.user.count.biz.domain.FansDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: dataobject.com.peikol.xiaohashu.user.count.biz.domain.FansDO
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:103)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:222)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:214)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:206)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 30 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'dataobject.com.peikol.xiaohashu.user.count.biz.domain.FansDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: dataobject.com.peikol.xiaohashu.user.count.biz.domain.FansDO
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:132)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:101)
+	... 34 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: dataobject.com.peikol.xiaohashu.user.count.biz.domain.FansDO
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:226)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:103)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:322)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
+	... 36 common frames omitted
+2025-12-06 17:16:20.949 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 17:16:20.949 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 17:47:08.405 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 17:47:08.408 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 17:47:08.410 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 17:47:08.418 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 17:47:08.987 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 17:47:09.458 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 17:47:09.460 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 17:47:09.475 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-12-06 17:47:09.654 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=8027af12-40a0-393a-a200-7273c1843909
+2025-12-06 17:47:09.684 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 17:47:10.314 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2025-12-06 17:47:10.315 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 17:47:10.318 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 17:47:10.329 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 17:47:10.329 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 17:47:10.419 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 17:47:10.419 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1418 ms
+2025-12-06 17:47:10.871 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-06 17:47:10.911 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 17:47:11.229 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 17:47:12.049 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-06 17:47:12.139 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2025-12-06 17:47:12.189 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-06 17:47:12.189 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-06 17:47:13.212 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-06 17:47:13.213 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-06 17:47:13.214 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-06 17:47:13.215 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-06 17:47:13.256 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 10.12.41.102:8089 register finished
+2025-12-06 17:47:13.394 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 5.711 seconds (process running for 6.275)
+2025-12-06 17:50:39.179 [http-nio-8089-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-06 17:50:39.179 [http-nio-8089-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-06 17:50:39.180 [http-nio-8089-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-06 17:50:39.189 [http-nio-8089-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 17:50:39.261 [http-nio-8089-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":1}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 17:50:39.264 [http-nio-8089-exec-2] WARN  c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request fail, errorCode: RELATION-20001, errorMessage: 无法关注自己
+2025-12-06 17:50:39.278 [http-nio-8089-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 17:50:43.263 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 17:50:43.264 [http-nio-8089-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":100}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 17:50:43.269 [http-nio-8089-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 17:50:43.927 [http-nio-8089-exec-1] DEBUG c.p.x.u.r.b.d.m.FollowingDOMapper.selectByUserId - ==>  Preparing: select user_id, following_user_id, create_time from t_following where user_id = ?
+2025-12-06 17:50:44.043 [http-nio-8089-exec-1] DEBUG c.p.x.u.r.b.d.m.FollowingDOMapper.selectByUserId - ==> Parameters: 1(Long)
+2025-12-06 17:50:44.063 [http-nio-8089-exec-1] DEBUG c.p.x.u.r.b.d.m.FollowingDOMapper.selectByUserId - <==      Total: 0
+2025-12-06 17:50:44.070 [http-nio-8089-exec-1] ERROR c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request error, 
+org.springframework.data.redis.core.script.ScriptingException: Error reading script text
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:97)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getSha1(DefaultRedisScript.java:81)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.eval(DefaultScriptExecutor.java:77)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.lambda$execute$0(DefaultScriptExecutor.java:68)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:406)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:373)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:360)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:58)
+	at org.springframework.data.redis.core.script.DefaultScriptExecutor.execute(DefaultScriptExecutor.java:52)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:503)
+	at impl.service.biz.relation.com.peikol.xiaohashu.count.biz.RelationServiceImpl.follow(RelationServiceImpl.java:105)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController.follow(RelationController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.peikol.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+	at controller.biz.relation.com.peikol.xiaohashu.count.biz.RelationController$$SpringCGLIB$$0.follow(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.peikol.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:37)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.io.FileNotFoundException: class path resource [lua/follow_add_and_expire.lua] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:211)
+	at org.springframework.core.io.support.EncodedResource.getReader(EncodedResource.java:141)
+	at org.springframework.scripting.support.ResourceScriptSource.getScriptAsString(ResourceScriptSource.java:103)
+	at org.springframework.data.redis.core.script.DefaultRedisScript.getScriptAsString(DefaultRedisScript.java:95)
+	... 92 common frames omitted
+2025-12-06 17:50:44.075 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 17:52:06.317 [http-nio-8089-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 17:52:06.319 [http-nio-8089-exec-4] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":-1}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 17:52:06.319 [http-nio-8089-exec-4] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 17:52:06.475 [http-nio-8089-exec-4] WARN  c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request fail, errorCode: RELATION-20002, errorMessage: 关注的用户不存在
+2025-12-06 17:52:06.476 [http-nio-8089-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 17:53:57.978 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-06 17:53:57.979 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-06 17:53:57.979 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-06 17:53:57.979 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-06 17:53:57.979 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-06 17:53:57.979 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-06 17:53:57.979 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-06 17:53:57.983 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-06 17:54:00.181 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-06 17:54:00.184 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-06 17:54:00.184 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-06 17:54:00.189 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-06 17:54:00.675 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-12-06 17:54:01.162 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-06 17:54:01.165 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-06 17:54:01.185 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2025-12-06 17:54:01.346 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=8027af12-40a0-393a-a200-7273c1843909
+2025-12-06 17:54:01.385 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-06 17:54:01.790 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2025-12-06 17:54:01.791 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-06 17:54:01.794 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-06 17:54:01.803 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-06 17:54:01.803 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-06 17:54:01.872 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-06 17:54:01.872 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1181 ms
+2025-12-06 17:54:02.238 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-06 17:54:02.271 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-06 17:54:02.535 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-06 17:54:03.318 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-06 17:54:03.379 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+2025-12-06 17:54:03.411 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-06 17:54:03.411 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-06 17:54:04.072 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-06 17:54:04.073 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-06 17:54:04.074 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-06 17:54:04.074 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-06 17:54:04.107 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 10.12.41.102:8089 register finished
+2025-12-06 17:54:04.192 [main] INFO  c.p.x.u.r.biz.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 4.492 seconds (process running for 4.876)
+2025-12-06 17:54:21.869 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-06 17:54:21.870 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-06 17:54:21.871 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-06 17:54:21.882 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 17:54:21.952 [http-nio-8089-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":-1}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 17:54:21.961 [http-nio-8089-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 17:54:22.092 [http-nio-8089-exec-1] WARN  c.p.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request fail, errorCode: RELATION-20002, errorMessage: 关注的用户不存在
+2025-12-06 17:54:22.101 [http-nio-8089-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-06 17:54:25.621 [http-nio-8089-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-06 17:54:25.621 [http-nio-8089-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":100}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-12-06 17:54:25.622 [http-nio-8089-exec-2] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-06 17:54:26.053 [http-nio-8089-exec-2] DEBUG c.p.x.u.r.b.d.m.FollowingDOMapper.selectByUserId - ==>  Preparing: select user_id, following_user_id, create_time from t_following where user_id = ?
+2025-12-06 17:54:26.170 [http-nio-8089-exec-2] DEBUG c.p.x.u.r.b.d.m.FollowingDOMapper.selectByUserId - ==> Parameters: 1(Long)
+2025-12-06 17:54:26.187 [http-nio-8089-exec-2] DEBUG c.p.x.u.r.b.d.m.FollowingDOMapper.selectByUserId - <==      Total: 0
+2025-12-06 17:54:26.211 [http-nio-8089-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [关注用户], 耗时: 589ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-06 17:54:26.213 [http-nio-8089-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1

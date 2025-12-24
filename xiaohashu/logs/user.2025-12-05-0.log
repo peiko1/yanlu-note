@@ -1,0 +1,4 @@
+2025-12-05 13:49:46.088 [http-nio-8082-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-05 13:49:46.118 [http-nio-8082-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":1}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-05 13:49:46.127 [http-nio-8082-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 9ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":1,"nickName":"peiko1","avatar":"http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png"}} =================================== 
+2025-12-05 13:49:46.131 [http-nio-8082-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1

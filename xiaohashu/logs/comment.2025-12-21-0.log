@@ -1,0 +1,1194 @@
+2025-12-21 14:32:34.387 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-21 14:32:34.390 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-21 14:32:34.391 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-21 14:32:34.400 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-21 14:32:34.947 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - The following 1 profile is active: "dev"
+2025-12-21 14:32:35.354 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.peikol.xiaohashu.comment.biz.domain.mapper]' package. Please check your configuration.
+2025-12-21 14:32:35.423 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d44c8b51-b98e-3f18-80ed-7266dbd7d0a8
+2025-12-21 14:32:35.829 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2025-12-21 14:32:35.829 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-21 14:32:35.832 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-21 14:32:35.836 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-21 14:32:35.836 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-21 14:32:35.912 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-21 14:32:35.912 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 952 ms
+2025-12-21 14:32:36.397 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-21 14:32:36.599 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-21 14:32:36.853 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2025-12-21 14:32:36.884 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-21 14:32:36.884 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-21 14:32:37.497 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-21 14:32:37.499 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-21 14:32:37.499 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-21 14:32:37.499 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-21 14:32:37.539 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-comment 10.12.41.102:8093 register finished
+2025-12-21 14:32:37.662 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - Started XiaohashuCommentBizApplication in 3.98 seconds (process running for 4.598)
+2025-12-21 14:56:04.486 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-21 14:56:04.486 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-21 14:56:04.486 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-21 14:56:04.486 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-21 14:56:04.487 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-21 14:56:04.487 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-21 14:56:04.487 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-21 14:56:04.494 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-21 14:56:09.429 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-21 14:56:09.431 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-21 14:56:09.432 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-21 14:56:09.437 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-21 14:56:09.821 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - The following 1 profile is active: "dev"
+2025-12-21 14:56:10.229 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d229382c-dd0b-39a4-9873-8ddc7fbedc3f
+2025-12-21 14:56:10.340 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:10.342 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:10.399 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:10.404 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:10.406 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:10.407 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$676/0x0000011a1749e948] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:10.408 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:10.412 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:10.413 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:10.542 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2025-12-21 14:56:10.542 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-21 14:56:10.543 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-21 14:56:10.550 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-21 14:56:10.550 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-21 14:56:10.626 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-21 14:56:10.626 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 795 ms
+2025-12-21 14:56:11.122 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-12-21 14:56:12.090 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-21 14:56:12.261 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-21 14:56:12.374 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentLikeDOMapper.xml]'
+2025-12-21 14:56:12.375 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-21 14:56:12.378 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-21 14:56:14.730 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-21 14:56:14.744 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-21 14:56:14.755 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentLikeDOMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.peikol.xiaohashu.comment.biz.XiaohashuCommentBizApplication.main(XiaohashuCommentBizApplication.java:12)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentLikeDOMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentLikeDOMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:695)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:572)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:712)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 20 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentLikeDOMapper.xml]'. Cause: java.lang.IllegalArgumentException: Result Maps collection already contains key com.peikol.xiaohashu.comment.biz.domain.mapper.CommentLikeDOMapper.BaseResultMap
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:125)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:98)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:693)
+	... 28 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Result Maps collection already contains key com.peikol.xiaohashu.comment.biz.domain.mapper.CommentLikeDOMapper.BaseResultMap
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:1158)
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:1111)
+	at org.apache.ibatis.session.Configuration.addResultMap(Configuration.java:792)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addResultMap(MapperBuilderAssistant.java:181)
+	at org.apache.ibatis.builder.ResultMapResolver.resolve(ResultMapResolver.java:48)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:248)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:214)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:206)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 30 common frames omitted
+2025-12-21 14:56:16.773 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-21 14:56:16.774 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-21 14:56:42.041 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-21 14:56:42.045 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-21 14:56:42.045 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-21 14:56:42.050 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-21 14:56:42.427 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - The following 1 profile is active: "dev"
+2025-12-21 14:56:42.851 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d229382c-dd0b-39a4-9873-8ddc7fbedc3f
+2025-12-21 14:56:42.951 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:42.953 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:42.988 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:42.991 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:42.993 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:42.994 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$676/0x00000194b849d6c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:42.995 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:42.999 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:43.000 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 14:56:43.122 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2025-12-21 14:56:43.122 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-21 14:56:43.125 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-21 14:56:43.131 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-21 14:56:43.131 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-21 14:56:43.199 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-21 14:56:43.199 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 762 ms
+2025-12-21 14:56:43.659 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-12-21 14:56:44.585 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-21 14:56:44.751 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-21 14:56:44.859 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentLikeDOMapper.xml]'
+2025-12-21 14:56:44.859 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-21 14:56:44.862 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-21 14:56:47.229 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-21 14:56:47.245 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-21 14:56:47.255 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentLikeDOMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.peikol.xiaohashu.comment.biz.XiaohashuCommentBizApplication.main(XiaohashuCommentBizApplication.java:12)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentLikeDOMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentLikeDOMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:695)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:572)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:712)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 20 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentLikeDOMapper.xml]'. Cause: java.lang.IllegalArgumentException: Result Maps collection already contains key com.peikol.xiaohashu.comment.biz.domain.mapper.CommentLikeDOMapper.BaseResultMap
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:125)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:98)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:693)
+	... 28 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Result Maps collection already contains key com.peikol.xiaohashu.comment.biz.domain.mapper.CommentLikeDOMapper.BaseResultMap
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:1158)
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:1111)
+	at org.apache.ibatis.session.Configuration.addResultMap(Configuration.java:792)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addResultMap(MapperBuilderAssistant.java:181)
+	at org.apache.ibatis.builder.ResultMapResolver.resolve(ResultMapResolver.java:48)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:248)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:214)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:206)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 30 common frames omitted
+2025-12-21 14:56:50.287 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-21 15:19:38.527 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-21 15:19:38.531 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-21 15:19:38.531 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-21 15:19:38.537 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-21 15:19:38.994 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - The following 1 profile is active: "dev"
+2025-12-21 15:19:39.424 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d229382c-dd0b-39a4-9873-8ddc7fbedc3f
+2025-12-21 15:19:39.541 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:19:39.542 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:19:39.586 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:19:39.587 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:19:39.588 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:19:39.589 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$664/0x000001b689486410] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:19:39.590 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:19:39.594 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:19:39.596 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:19:39.849 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2025-12-21 15:19:39.849 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-21 15:19:39.853 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-21 15:19:39.858 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-21 15:19:39.858 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-21 15:19:39.919 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-21 15:19:39.919 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 914 ms
+2025-12-21 15:19:40.420 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-12-21 15:19:41.361 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-21 15:19:41.558 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-21 15:19:41.606 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentDOMapper.xml]'
+2025-12-21 15:19:41.606 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-21 15:19:41.609 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-21 15:19:44.013 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-21 15:19:44.027 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-21 15:19:44.038 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentDOMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.peikol.xiaohashu.comment.biz.XiaohashuCommentBizApplication.main(XiaohashuCommentBizApplication.java:12)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentDOMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 19 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [D:\mycode\Java\xiaohashu\xiaohashu-comment\xiaohashu-comment-biz\target\classes\mapper\CommentDOMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:695)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:572)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:712)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 20 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 84; 文档根元素 "mapper" 必须匹配 DOCTYPE 根 "null"。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:262)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:83)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:692)
+	... 28 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 文档根元素 "mapper" 必须匹配 DOCTYPE 根 "null"。
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.rootElementSpecified(XMLDTDValidator.java:1539)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleStartElement(XMLDTDValidator.java:1806)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.startElement(XMLDTDValidator.java:728)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1407)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(XMLDocumentScannerImpl.java:1292)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3079)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:260)
+	... 31 common frames omitted
+2025-12-21 15:19:47.033 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-21 15:22:07.965 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-21 15:22:07.968 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-21 15:22:07.968 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-21 15:22:07.975 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-21 15:22:08.430 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - The following 1 profile is active: "dev"
+2025-12-21 15:22:08.877 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d229382c-dd0b-39a4-9873-8ddc7fbedc3f
+2025-12-21 15:22:09.003 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:22:09.006 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:22:09.049 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:22:09.051 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:22:09.054 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:22:09.054 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$676/0x000002098149e660] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:22:09.055 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:22:09.060 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:22:09.061 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 15:22:09.240 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2025-12-21 15:22:09.240 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-21 15:22:09.244 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-21 15:22:09.250 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-21 15:22:09.250 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-21 15:22:09.317 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-21 15:22:09.317 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 877 ms
+2025-12-21 15:22:09.788 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-12-21 15:22:10.786 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-21 15:22:10.964 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-21 15:22:11.261 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2025-12-21 15:22:11.288 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-21 15:22:11.288 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-21 15:22:11.835 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-21 15:22:11.836 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-21 15:22:11.836 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-21 15:22:11.837 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-21 15:22:11.864 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-comment 10.12.41.102:8093 register finished
+2025-12-21 15:22:11.950 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - Started XiaohashuCommentBizApplication in 4.472 seconds (process running for 4.836)
+2025-12-21 15:28:16.061 [http-nio-8093-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-21 15:28:16.062 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-21 15:28:16.062 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-12-21 15:28:16.071 [http-nio-8093-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-21 15:28:16.140 [http-nio-8093-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发布评论], 入参: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null}, 请求类: CommentController, 请求方法: publishComment =================================== 
+2025-12-21 15:28:16.152 [http-nio-8093-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发布评论], 耗时: 14ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-21 15:28:16.164 [http-nio-8093-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-21 15:28:16.605 [NettyClientPublicExecutor_4] INFO  c.p.x.comment.biz.service.impl.CommentServiceImpl - ==> 【评论发布】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=0A0C2966CF1C63947C6B6A510BEF0000, offsetMsgId=0A0C296600002A9F000000000191B6F2, messageQueue=MessageQueue [topic=PublishCommentTopic, brokerName=broker-a, queueId=2], queueOffset=0]
+2025-12-21 17:11:10.450 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-21 17:11:10.454 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-21 17:11:10.454 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-21 17:11:10.458 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-21 17:11:10.890 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - The following 1 profile is active: "dev"
+2025-12-21 17:11:11.329 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=1aa05540-6078-3c90-b677-1caf9c8f946d
+2025-12-21 17:11:11.349 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:11:11.514 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:11:11.517 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:11:11.522 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:11:11.524 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:11:11.527 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:11:11.527 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$697/0x000001b3914c9520] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:11:11.529 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:11:11.534 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:11:11.538 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:11:11.678 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2025-12-21 17:11:11.678 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-21 17:11:11.681 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-21 17:11:11.686 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-21 17:11:11.687 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-21 17:11:11.809 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-21 17:11:11.809 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 906 ms
+2025-12-21 17:11:11.872 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of resource dependencies failed
+2025-12-21 17:11:11.873 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-21 17:11:11.891 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-21 17:11:11.902 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.peikol.xiaohashu.comment.biz.XiaohashuCommentBizApplication.main(XiaohashuCommentBizApplication.java:14)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentServiceImpl': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:490)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 17 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rocketMQTemplate' defined in class path resource [org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.class]: Failed to instantiate [org.apache.rocketmq.spring.core.RocketMQTemplate]: Factory method 'rocketMQTemplate' threw exception with message: Error creating bean with name 'defaultMQProducer' defined in class path resource [org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.class]: Failed to instantiate [org.apache.rocketmq.client.producer.DefaultMQProducer]: Factory method 'defaultMQProducer' threw exception with message: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.rocketmq.spring.core.RocketMQTemplate]: Factory method 'rocketMQTemplate' threw exception with message: Error creating bean with name 'defaultMQProducer' defined in class path resource [org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.class]: Failed to instantiate [org.apache.rocketmq.client.producer.DefaultMQProducer]: Factory method 'defaultMQProducer' threw exception with message: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 49 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultMQProducer' defined in class path resource [org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.class]: Failed to instantiate [org.apache.rocketmq.client.producer.DefaultMQProducer]: Factory method 'defaultMQProducer' threw exception with message: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration.rocketMQTemplate(RocketMQAutoConfiguration.java:166)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$0.CGLIB$rocketMQTemplate$3(<generated>)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$0.rocketMQTemplate(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.rocketmq.client.producer.DefaultMQProducer]: Factory method 'defaultMQProducer' threw exception with message: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 71 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.apache.rocketmq.client.ClientConfig.<init>(ClientConfig.java:39)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.<init>(DefaultMQProducer.java:202)
+	at org.apache.rocketmq.client.producer.TransactionMQProducer.<init>(TransactionMQProducer.java:51)
+	at org.apache.rocketmq.client.producer.TransactionMQProducer.<init>(TransactionMQProducer.java:39)
+	at org.apache.rocketmq.spring.support.RocketMQUtil.createDefaultMQProducer(RocketMQUtil.java:267)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration.defaultMQProducer(RocketMQAutoConfiguration.java:105)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$0.CGLIB$defaultMQProducer$2(<generated>)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$0.defaultMQProducer(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 72 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.rocketmq.remoting.common.RemotingUtil
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 88 common frames omitted
+2025-12-21 17:11:11.907 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-21 17:11:11.907 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-21 17:16:00.716 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-21 17:16:00.718 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-21 17:16:00.718 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-21 17:16:00.724 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-21 17:16:01.118 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - The following 1 profile is active: "dev"
+2025-12-21 17:16:01.552 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=1aa05540-6078-3c90-b677-1caf9c8f946d
+2025-12-21 17:16:01.572 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:16:01.732 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:16:01.734 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:16:01.739 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:16:01.741 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:16:01.744 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:16:01.745 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$697/0x00000210424c9c28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:16:01.746 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:16:01.750 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:16:01.752 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:16:01.879 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2025-12-21 17:16:01.880 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-21 17:16:01.882 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-21 17:16:01.888 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-21 17:16:01.888 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-21 17:16:01.951 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-21 17:16:01.951 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 824 ms
+2025-12-21 17:16:02.012 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of resource dependencies failed
+2025-12-21 17:16:02.013 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-21 17:16:02.031 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-21 17:16:02.041 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.peikol.xiaohashu.comment.biz.XiaohashuCommentBizApplication.main(XiaohashuCommentBizApplication.java:14)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentServiceImpl': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:490)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 17 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rocketMQTemplate' defined in class path resource [org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.class]: Failed to instantiate [org.apache.rocketmq.spring.core.RocketMQTemplate]: Factory method 'rocketMQTemplate' threw exception with message: Error creating bean with name 'defaultMQProducer' defined in class path resource [org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.class]: Failed to instantiate [org.apache.rocketmq.client.producer.DefaultMQProducer]: Factory method 'defaultMQProducer' threw exception with message: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.rocketmq.spring.core.RocketMQTemplate]: Factory method 'rocketMQTemplate' threw exception with message: Error creating bean with name 'defaultMQProducer' defined in class path resource [org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.class]: Failed to instantiate [org.apache.rocketmq.client.producer.DefaultMQProducer]: Factory method 'defaultMQProducer' threw exception with message: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 49 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultMQProducer' defined in class path resource [org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.class]: Failed to instantiate [org.apache.rocketmq.client.producer.DefaultMQProducer]: Factory method 'defaultMQProducer' threw exception with message: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration.rocketMQTemplate(RocketMQAutoConfiguration.java:166)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$0.CGLIB$rocketMQTemplate$4(<generated>)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$0.rocketMQTemplate(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.rocketmq.client.producer.DefaultMQProducer]: Factory method 'defaultMQProducer' threw exception with message: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 71 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.apache.rocketmq.client.ClientConfig.<init>(ClientConfig.java:39)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.<init>(DefaultMQProducer.java:202)
+	at org.apache.rocketmq.client.producer.TransactionMQProducer.<init>(TransactionMQProducer.java:51)
+	at org.apache.rocketmq.client.producer.TransactionMQProducer.<init>(TransactionMQProducer.java:39)
+	at org.apache.rocketmq.spring.support.RocketMQUtil.createDefaultMQProducer(RocketMQUtil.java:267)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration.defaultMQProducer(RocketMQAutoConfiguration.java:105)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$0.CGLIB$defaultMQProducer$3(<generated>)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$0.defaultMQProducer(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 72 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.rocketmq.remoting.common.RemotingUtil
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 88 common frames omitted
+2025-12-21 17:16:02.044 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-21 17:26:58.335 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-21 17:26:58.337 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-21 17:26:58.338 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-21 17:26:58.346 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-21 17:26:58.767 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - The following 1 profile is active: "dev"
+2025-12-21 17:26:59.254 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=1aa05540-6078-3c90-b677-1caf9c8f946d
+2025-12-21 17:26:59.273 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:26:59.432 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:26:59.434 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:26:59.438 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:26:59.441 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:26:59.444 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:26:59.444 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$697/0x00000248b75064b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:26:59.445 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:26:59.449 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:26:59.450 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:26:59.591 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2025-12-21 17:26:59.591 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-21 17:26:59.594 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-21 17:26:59.601 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-21 17:26:59.601 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-21 17:26:59.665 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-21 17:26:59.665 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 886 ms
+2025-12-21 17:26:59.731 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of resource dependencies failed
+2025-12-21 17:26:59.732 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-21 17:26:59.753 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-21 17:26:59.762 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.peikol.xiaohashu.comment.biz.XiaohashuCommentBizApplication.main(XiaohashuCommentBizApplication.java:14)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentServiceImpl': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:490)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 17 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sendMqRetryHelper': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rocketMQTemplate' defined in class path resource [org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.class]: Failed to instantiate [org.apache.rocketmq.spring.core.RocketMQTemplate]: Factory method 'rocketMQTemplate' threw exception with message: Error creating bean with name 'defaultMQProducer' defined in class path resource [org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.class]: Failed to instantiate [org.apache.rocketmq.client.producer.DefaultMQProducer]: Factory method 'defaultMQProducer' threw exception with message: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 47 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.rocketmq.spring.core.RocketMQTemplate]: Factory method 'rocketMQTemplate' threw exception with message: Error creating bean with name 'defaultMQProducer' defined in class path resource [org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.class]: Failed to instantiate [org.apache.rocketmq.client.producer.DefaultMQProducer]: Factory method 'defaultMQProducer' threw exception with message: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 63 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultMQProducer' defined in class path resource [org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.class]: Failed to instantiate [org.apache.rocketmq.client.producer.DefaultMQProducer]: Factory method 'defaultMQProducer' threw exception with message: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration.rocketMQTemplate(RocketMQAutoConfiguration.java:166)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$0.CGLIB$rocketMQTemplate$3(<generated>)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$0.rocketMQTemplate(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 64 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.rocketmq.client.producer.DefaultMQProducer]: Factory method 'defaultMQProducer' threw exception with message: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 85 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/apache/rocketmq/remoting/common/RemotingUtil
+	at org.apache.rocketmq.client.ClientConfig.<init>(ClientConfig.java:39)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.<init>(DefaultMQProducer.java:202)
+	at org.apache.rocketmq.client.producer.TransactionMQProducer.<init>(TransactionMQProducer.java:51)
+	at org.apache.rocketmq.client.producer.TransactionMQProducer.<init>(TransactionMQProducer.java:39)
+	at org.apache.rocketmq.spring.support.RocketMQUtil.createDefaultMQProducer(RocketMQUtil.java:267)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration.defaultMQProducer(RocketMQAutoConfiguration.java:105)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$0.CGLIB$defaultMQProducer$2(<generated>)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$SpringCGLIB$$0.defaultMQProducer(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 86 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.rocketmq.remoting.common.RemotingUtil
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 102 common frames omitted
+2025-12-21 17:26:59.765 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-21 17:26:59.766 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-21 17:33:45.659 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-21 17:33:45.661 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-21 17:33:45.662 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-21 17:33:45.668 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-21 17:33:46.087 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - The following 1 profile is active: "dev"
+2025-12-21 17:33:46.551 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=640b9254-901c-36ed-abc0-0f2cd5905d4c
+2025-12-21 17:33:46.573 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:33:46.744 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:33:46.745 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:33:46.789 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:33:46.791 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:33:46.794 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:33:46.794 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$697/0x0000029d3d5175d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:33:46.796 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:33:46.801 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:33:46.802 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:33:46.946 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2025-12-21 17:33:46.946 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-21 17:33:46.948 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-21 17:33:46.955 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-21 17:33:46.956 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-21 17:33:47.029 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-21 17:33:47.029 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 930 ms
+2025-12-21 17:33:47.127 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-12-21 17:33:47.361 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-21 17:33:47.577 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_1] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> 本批次消息大小: 1
+2025-12-21 17:33:47.579 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_1] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> Consumer - Received message: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,15,28,16,140974000],"creatorId":1}
+2025-12-21 17:33:47.893 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-21 17:33:48.073 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-21 17:33:48.321 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-21 17:33:48.379 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2025-12-21 17:33:48.407 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-21 17:33:48.408 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-21 17:33:48.927 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-21 17:33:48.928 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-21 17:33:48.928 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-21 17:33:48.929 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-21 17:33:48.965 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-comment 10.12.41.102:8093 register finished
+2025-12-21 17:33:49.058 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - Started XiaohashuCommentBizApplication in 3.889 seconds (process running for 4.25)
+2025-12-21 17:35:16.241 [http-nio-8093-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-21 17:35:16.241 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-21 17:35:16.242 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-21 17:35:16.252 [http-nio-8093-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-21 17:35:16.321 [http-nio-8093-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发布评论], 入参: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null}, 请求类: CommentController, 请求方法: publishComment =================================== 
+2025-12-21 17:35:16.323 [http-nio-8093-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-21 17:35:16.507 [http-nio-8093-exec-1] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 开始异步发送 MQ, Topic: PublishCommentTopic, Body: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,17,35,16,505882000],"creatorId":1,"commentId":1}
+2025-12-21 17:35:16.512 [http-nio-8093-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发布评论], 耗时: 193ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-21 17:35:16.526 [http-nio-8093-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-21 17:35:16.540 [NettyClientPublicExecutor_1] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 【评论发布】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F000001DCB863947C6B6AC5522D0000, offsetMsgId=0A0C296600002A9F000000000191B918, messageQueue=MessageQueue [topic=PublishCommentTopic, brokerName=broker-a, queueId=0], queueOffset=0]
+2025-12-21 17:35:16.546 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_2] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> 本批次消息大小: 1
+2025-12-21 17:35:16.546 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_2] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> Consumer - Received message: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,17,35,16,505882000],"creatorId":1,"commentId":1}
+2025-12-21 17:40:43.539 [Thread-33] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-21 17:40:43.539 [Thread-31] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-21 17:40:43.539 [Thread-31] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-21 17:40:43.539 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-21 17:40:43.539 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-21 17:40:43.539 [Thread-33] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-21 17:40:43.540 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-21 17:40:43.546 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-21 17:40:53.587 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-21 17:40:53.594 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-21 17:40:53.604 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[10.12.41.102:10911] result: true
+2025-12-21 17:40:53.605 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-12-21 17:40:53.604 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-21 17:40:53.608 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-21 17:40:53.614 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-12-21 17:40:53.614 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[10.12.41.102:10911] result: true
+2025-12-21 17:40:57.268 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-21 17:40:57.273 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-21 17:40:57.274 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-21 17:40:57.282 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-21 17:40:57.980 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - The following 1 profile is active: "dev"
+2025-12-21 17:40:58.770 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=640b9254-901c-36ed-abc0-0f2cd5905d4c
+2025-12-21 17:40:58.809 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:40:59.099 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:40:59.102 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:40:59.149 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:40:59.153 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:40:59.157 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:40:59.158 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$697/0x000001a789515348] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:40:59.160 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:40:59.166 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:40:59.168 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:40:59.401 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2025-12-21 17:40:59.402 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-21 17:40:59.407 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-21 17:40:59.416 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-21 17:40:59.417 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-21 17:40:59.537 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-21 17:40:59.537 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1535 ms
+2025-12-21 17:40:59.697 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-12-21 17:41:00.068 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-21 17:41:00.885 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-21 17:41:01.161 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-21 17:41:01.554 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-21 17:41:01.631 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2025-12-21 17:41:01.668 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-21 17:41:01.668 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-21 17:41:02.313 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-21 17:41:02.314 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-21 17:41:02.315 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-21 17:41:02.315 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-21 17:41:02.349 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-comment 10.12.41.102:8093 register finished
+2025-12-21 17:41:02.441 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - Started XiaohashuCommentBizApplication in 5.91 seconds (process running for 7.186)
+2025-12-21 17:41:52.785 [http-nio-8093-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-21 17:41:52.785 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-21 17:41:52.786 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-21 17:41:52.794 [http-nio-8093-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-21 17:41:52.917 [http-nio-8093-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发布评论], 入参: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null}, 请求类: CommentController, 请求方法: publishComment =================================== 
+2025-12-21 17:42:06.694 [http-nio-8093-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-21 17:44:16.579 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-12-21 17:44:16.582 [http-nio-8093-exec-1] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 开始异步发送 MQ, Topic: PublishCommentTopic, Body: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,17,43,45,786783500],"creatorId":1,"commentId":2}
+2025-12-21 17:44:16.603 [http-nio-8093-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发布评论], 耗时: 143688ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-21 17:44:16.617 [http-nio-8093-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-21 17:44:16.624 [NettyClientPublicExecutor_1] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 【评论发布】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F000001E20C63947C6B6ACD8FE70000, offsetMsgId=0A0C296600002A9F000000000191BB4C, messageQueue=MessageQueue [topic=PublishCommentTopic, brokerName=broker-a, queueId=3], queueOffset=0]
+2025-12-21 17:44:16.632 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_1] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> 本批次消息大小: 1
+2025-12-21 17:44:16.633 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_1] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> Consumer - Received message: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,17,43,45,786783500],"creatorId":1,"commentId":2}
+2025-12-21 17:45:09.379 [http-nio-8093-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-21 17:45:09.380 [http-nio-8093-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发布评论], 入参: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null}, 请求类: CommentController, 请求方法: publishComment =================================== 
+2025-12-21 17:45:56.151 [http-nio-8093-exec-2] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-21 17:46:00.558 [http-nio-8093-exec-2] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 开始异步发送 MQ, Topic: PublishCommentTopic, Body: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,17,45,59,262662900],"creatorId":1,"commentId":3}
+2025-12-21 17:46:00.558 [http-nio-8093-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发布评论], 耗时: 51178ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-21 17:46:00.559 [http-nio-8093-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-21 17:46:00.565 [NettyClientPublicExecutor_2] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 【评论发布】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F000001E20C63947C6B6ACF25EF0001, offsetMsgId=0A0C296600002A9F000000000191BD80, messageQueue=MessageQueue [topic=PublishCommentTopic, brokerName=broker-a, queueId=1], queueOffset=0]
+2025-12-21 17:46:00.571 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_2] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> 本批次消息大小: 1
+2025-12-21 17:46:00.571 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_2] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> Consumer - Received message: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,17,45,59,262662900],"creatorId":1,"commentId":3}
+2025-12-21 17:49:14.409 [http-nio-8093-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-21 17:49:14.411 [http-nio-8093-exec-4] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发布评论], 入参: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null}, 请求类: CommentController, 请求方法: publishComment =================================== 
+2025-12-21 17:49:14.412 [http-nio-8093-exec-4] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-21 17:49:14.417 [http-nio-8093-exec-4] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 开始异步发送 MQ, Topic: PublishCommentTopic, Body: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,17,49,14,417285500],"creatorId":1,"commentId":4}
+2025-12-21 17:49:14.418 [http-nio-8093-exec-4] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发布评论], 耗时: 7ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-21 17:49:14.418 [http-nio-8093-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-21 17:49:14.422 [NettyClientPublicExecutor_3] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 【评论发布】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F000001E20C63947C6B6AD21B320002, offsetMsgId=0A0C296600002A9F000000000191BFB4, messageQueue=MessageQueue [topic=PublishCommentTopic, brokerName=broker-a, queueId=0], queueOffset=1]
+2025-12-21 17:49:14.424 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_3] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> 本批次消息大小: 1
+2025-12-21 17:49:14.424 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_3] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> Consumer - Received message: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,17,49,14,417285500],"creatorId":1,"commentId":4}
+2025-12-21 17:49:53.982 [http-nio-8093-exec-6] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-21 17:49:53.983 [http-nio-8093-exec-6] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发布评论], 入参: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null}, 请求类: CommentController, 请求方法: publishComment =================================== 
+2025-12-21 17:49:53.983 [http-nio-8093-exec-6] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-21 17:49:53.988 [http-nio-8093-exec-6] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 开始异步发送 MQ, Topic: PublishCommentTopic, Body: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,17,49,53,988190400],"creatorId":1,"commentId":5}
+2025-12-21 17:49:53.989 [http-nio-8093-exec-6] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发布评论], 耗时: 6ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-21 17:49:53.990 [http-nio-8093-exec-6] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-21 17:49:53.992 [NettyClientPublicExecutor_4] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 【评论发布】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F000001E20C63947C6B6AD2B5C50003, offsetMsgId=0A0C296600002A9F000000000191C1E8, messageQueue=MessageQueue [topic=PublishCommentTopic, brokerName=broker-a, queueId=3], queueOffset=1]
+2025-12-21 17:49:53.996 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_4] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> 本批次消息大小: 1
+2025-12-21 17:49:53.996 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_4] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> Consumer - Received message: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,17,49,53,988190400],"creatorId":1,"commentId":5}
+2025-12-21 17:50:36.424 [Thread-31] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-21 17:50:36.424 [Thread-31] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-21 17:50:36.424 [Thread-33] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-21 17:50:36.424 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-21 17:50:36.424 [Thread-33] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-21 17:50:36.424 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-21 17:50:36.425 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-21 17:50:36.429 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-21 17:50:46.469 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-21 17:50:46.475 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-21 17:50:46.484 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[10.12.41.102:10911] result: true
+2025-12-21 17:50:46.484 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-12-21 17:50:46.486 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-21 17:50:46.491 [SpringApplicationShutdownHook] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1132)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:370)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:335)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:228)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:419)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1036)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:113)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1084)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1053)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:173)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1003)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:139)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:108)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-21 17:50:46.498 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-12-21 17:50:46.498 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[10.12.41.102:10911] result: true
+2025-12-21 17:50:49.134 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-21 17:50:49.137 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-21 17:50:49.138 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-21 17:50:49.146 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-21 17:50:49.722 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - The following 1 profile is active: "dev"
+2025-12-21 17:50:50.364 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=640b9254-901c-36ed-abc0-0f2cd5905d4c
+2025-12-21 17:50:50.400 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:50:50.573 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:50:50.576 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:50:50.612 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:50:50.614 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:50:50.617 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:50:50.617 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$697/0x00000246015152f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:50:50.618 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:50:50.629 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:50:50.630 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 17:50:50.819 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2025-12-21 17:50:50.821 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-21 17:50:50.824 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-21 17:50:50.833 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-21 17:50:50.833 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-21 17:50:50.911 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-21 17:50:50.912 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1176 ms
+2025-12-21 17:50:51.025 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-12-21 17:50:51.300 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-21 17:50:51.849 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-21 17:50:52.082 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-21 17:50:52.388 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-21 17:50:52.443 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2025-12-21 17:50:52.482 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-21 17:50:52.482 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-21 17:50:53.131 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-21 17:50:53.133 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-21 17:50:53.134 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-21 17:50:53.134 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-21 17:50:53.172 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-comment 10.12.41.102:8093 register finished
+2025-12-21 17:50:53.296 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - Started XiaohashuCommentBizApplication in 4.844 seconds (process running for 5.407)
+2025-12-21 17:51:50.812 [http-nio-8093-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-21 17:51:50.812 [http-nio-8093-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-21 17:51:50.813 [http-nio-8093-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-21 17:51:50.819 [http-nio-8093-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-21 17:51:50.898 [http-nio-8093-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发布评论], 入参: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null}, 请求类: CommentController, 请求方法: publishComment =================================== 
+2025-12-21 17:51:56.253 [http-nio-8093-exec-2] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-21 18:39:11.907 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[10.12.41.102:10911] result: true
+2025-12-21 18:39:11.907 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[10.12.41.102:10911] result: true
+2025-12-21 18:39:11.908 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-12-21 18:39:11.908 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-12-21 18:39:11.908 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-12-21 18:39:11.908 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-12-21 18:39:11.909 [http-nio-8093-exec-2] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 开始异步发送 MQ, Topic: PublishCommentTopic, Body: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,18,39,11,903572600],"creatorId":1,"commentId":6}
+2025-12-21 18:39:11.911 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[10.12.41.102:10911] result: true
+2025-12-21 18:39:11.948 [http-nio-8093-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发布评论], 耗时: 2841048ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-21 18:39:11.953 [Thread-33] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-21 18:39:11.953 [Thread-31] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-21 18:39:11.954 [Thread-31] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-21 18:39:11.954 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-21 18:39:11.955 [Thread-33] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-21 18:39:11.956 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-21 18:39:11.961 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-21 18:39:12.016 [http-nio-8093-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-21 18:39:12.016 [NettyClientPublicExecutor_2] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 【评论发布】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015ECC63947C6B6AFFD8710000, offsetMsgId=0A0C296600002A9F000000000191C41C, messageQueue=MessageQueue [topic=PublishCommentTopic, brokerName=broker-a, queueId=2], queueOffset=1]
+2025-12-21 18:39:12.071 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-21 18:39:17.101 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-21 18:39:17.103 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-21 18:39:17.104 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-21 18:39:17.109 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-21 18:39:17.538 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - The following 1 profile is active: "dev"
+2025-12-21 18:39:18.001 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=640b9254-901c-36ed-abc0-0f2cd5905d4c
+2025-12-21 18:39:18.021 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 18:39:18.173 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 18:39:18.175 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 18:39:18.206 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 18:39:18.209 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 18:39:18.212 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 18:39:18.212 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$697/0x000001e8e45173a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 18:39:18.213 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 18:39:18.218 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 18:39:18.219 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-21 18:39:18.355 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8093 (http)
+2025-12-21 18:39:18.356 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-21 18:39:18.358 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-21 18:39:18.364 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-21 18:39:18.364 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-21 18:39:18.432 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-21 18:39:18.432 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 882 ms
+2025-12-21 18:39:18.500 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-21 18:39:18.732 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-21 18:39:18.872 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-12-21 18:39:19.093 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-21 18:39:19.224 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_1] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> 本批次消息大小: 1
+2025-12-21 18:39:19.229 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_1] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> Consumer - Received message: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,18,39,11,903572600],"creatorId":1,"commentId":6}
+2025-12-21 18:39:19.288 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_1] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ## 清洗后的 CommentBOS: [{"id":6,"noteId":1996553589358592026,"userId":1,"contentUuid":"e3226250-6768-4b64-844e-b50be5f7abe3","content":"这是一条评论","isContentEmpty":false,"imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","level":1,"replyTotal":0,"likeTotal":0,"parentId":1996553589358592026,"replyCommentId":0,"replyUserId":0,"isTop":false,"createTime":[2025,12,21,18,39,11,903572600],"updateTime":[2025,12,21,18,39,11,903572600]}]
+2025-12-21 18:39:19.673 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-21 18:39:19.726 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8093 (http) with context path ''
+2025-12-21 18:39:19.758 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-21 18:39:19.758 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-21 18:39:20.255 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-21 18:39:20.256 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-21 18:39:20.257 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-21 18:39:20.258 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-21 18:39:20.281 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-comment 10.12.41.102:8093 register finished
+2025-12-21 18:39:20.368 [main] INFO  c.p.x.comment.biz.XiaohashuCommentBizApplication - Started XiaohashuCommentBizApplication in 3.711 seconds (process running for 4.059)
+2025-12-21 18:39:26.620 [http-nio-8093-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-21 18:39:26.620 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-21 18:39:26.621 [http-nio-8093-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-21 18:39:26.628 [http-nio-8093-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-21 18:39:26.703 [http-nio-8093-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发布评论], 入参: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null}, 请求类: CommentController, 请求方法: publishComment =================================== 
+2025-12-21 18:39:26.705 [http-nio-8093-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-21 18:39:26.833 [http-nio-8093-exec-1] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 开始异步发送 MQ, Topic: PublishCommentTopic, Body: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,18,39,26,832046900],"creatorId":1,"commentId":7}
+2025-12-21 18:39:26.838 [http-nio-8093-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发布评论], 耗时: 136ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-21 18:39:26.851 [http-nio-8093-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-21 18:39:26.862 [NettyClientPublicExecutor_1] INFO  c.p.xiaohashu.comment.biz.retry.SendMqRetryHelper - ==> 【评论发布】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F000001EC5863947C6B6B0012870000, offsetMsgId=0A0C296600002A9F000000000191C650, messageQueue=MessageQueue [topic=PublishCommentTopic, brokerName=broker-a, queueId=1], queueOffset=1]
+2025-12-21 18:39:26.863 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_2] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> 本批次消息大小: 1
+2025-12-21 18:39:26.863 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_2] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ==> Consumer - Received message: {"noteId":1996553589358592026,"content":"这是一条评论","imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","replyCommentId":null,"createTime":[2025,12,21,18,39,26,832046900],"creatorId":1,"commentId":7}
+2025-12-21 18:39:26.863 [ConsumeMessageThread_xiaohashu_group_PublishCommentTopic_2] INFO  c.p.x.comment.biz.consumer.Comment2DBConsumer - ## 清洗后的 CommentBOS: [{"id":7,"noteId":1996553589358592026,"userId":1,"contentUuid":"95c5629b-5b22-4d9e-883c-d444985bde1e","content":"这是一条评论","isContentEmpty":false,"imageUrl":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","level":1,"replyTotal":0,"likeTotal":0,"parentId":1996553589358592026,"replyCommentId":0,"replyUserId":0,"isTop":false,"createTime":[2025,12,21,18,39,26,832046900],"updateTime":[2025,12,21,18,39,26,832046900]}]

@@ -1,0 +1,33 @@
+2025-12-11 16:58:42.486 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-11 16:58:42.488 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-11 16:58:42.489 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-11 16:58:42.493 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-11 16:58:42.826 [main] INFO  c.p.xiaohashu.kv.biz.XiaohashuKVBizApplication - The following 1 profile is active: "dev"
+2025-12-11 16:58:43.086 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2025-12-11 16:58:43.148 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 0 Reactive Cassandra repository interfaces.
+2025-12-11 16:58:43.151 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2025-12-11 16:58:43.161 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 1 Cassandra repository interfaces.
+2025-12-11 16:58:43.253 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=c90ace4d-09d9-3304-8fd6-0cf476dabd86
+2025-12-11 16:58:43.406 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2025-12-11 16:58:43.406 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-11 16:58:43.409 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-11 16:58:43.414 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-11 16:58:43.414 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-11 16:58:43.472 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-11 16:58:43.472 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 639 ms
+2025-12-11 16:58:43.707 [main] INFO  c.d.o.driver.internal.core.DefaultMavenCoordinates - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+2025-12-11 16:58:44.041 [s0-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-12-11 16:58:44.748 [s1-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-12-11 16:58:45.433 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-11 16:58:45.476 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2025-12-11 16:58:45.501 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-11 16:58:45.502 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-11 16:58:45.998 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-11 16:58:45.999 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-11 16:58:45.999 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-11 16:58:45.999 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-11 16:58:46.025 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-kv 10.12.41.102:8084 register finished
+2025-12-11 16:58:46.111 [main] INFO  c.p.xiaohashu.kv.biz.XiaohashuKVBizApplication - Started XiaohashuKVBizApplication in 3.973 seconds (process running for 5.0)
+2025-12-11 20:18:21.745 [http-nio-8084-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-11 20:18:21.747 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-11 20:18:21.757 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms

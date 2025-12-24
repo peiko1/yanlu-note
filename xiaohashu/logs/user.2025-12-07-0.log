@@ -1,0 +1,47 @@
+2025-12-07 14:26:47.870 [http-nio-8082-exec-8] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-07 14:26:47.912 [http-nio-8082-exec-8] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-07 14:26:47.926 [http-nio-8082-exec-8] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 15ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"小红薯10100","avatar":null}} =================================== 
+2025-12-07 14:26:47.930 [http-nio-8082-exec-8] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-07 14:47:45.809 [http-nio-8082-exec-10] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-07 14:47:45.810 [http-nio-8082-exec-10] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-07 14:47:45.811 [http-nio-8082-exec-10] INFO  c.p.x.user.biz.service.impl.UserServiceImpl - ==> 命中了本地缓存；FindUserByIdRspDTO(id=100, nickName=小红薯10100, avatar=null)
+2025-12-07 14:47:45.811 [http-nio-8082-exec-10] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"小红薯10100","avatar":null}} =================================== 
+2025-12-07 14:47:45.812 [http-nio-8082-exec-10] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-07 14:47:52.590 [http-nio-8082-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-07 14:47:52.592 [http-nio-8082-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":101}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-07 14:47:52.621 [http-nio-8082-exec-1] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, xiaohashu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted from t_user where id = ?
+2025-12-07 14:47:52.626 [http-nio-8082-exec-1] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 101(Long)
+2025-12-07 14:47:52.650 [http-nio-8082-exec-1] DEBUG c.p.x.u.b.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-12-07 14:47:52.652 [http-nio-8082-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 60ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":101,"nickName":"小红薯10101","avatar":null}} =================================== 
+2025-12-07 14:47:52.653 [http-nio-8082-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-07 15:29:38.602 [http-nio-8082-exec-3] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-07 15:29:38.614 [http-nio-8082-exec-3] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":101}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-07 15:29:38.623 [http-nio-8082-exec-3] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 11ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":101,"nickName":"小红薯10101","avatar":null}} =================================== 
+2025-12-07 15:29:38.627 [http-nio-8082-exec-3] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-07 15:30:08.676 [http-nio-8082-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-07 15:30:08.677 [http-nio-8082-exec-4] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-07 15:30:08.679 [http-nio-8082-exec-4] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"小红薯10100","avatar":null}} =================================== 
+2025-12-07 15:30:08.682 [http-nio-8082-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-07 16:47:17.258 [http-nio-8082-exec-6] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-07 16:47:17.279 [http-nio-8082-exec-6] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-07 16:47:17.294 [http-nio-8082-exec-6] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 12ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"小红薯10100","avatar":null}} =================================== 
+2025-12-07 16:47:17.299 [http-nio-8082-exec-6] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-07 16:47:21.743 [http-nio-8082-exec-7] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-07 16:47:21.744 [http-nio-8082-exec-7] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":101}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-07 16:47:21.746 [http-nio-8082-exec-7] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 1ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":101,"nickName":"小红薯10101","avatar":null}} =================================== 
+2025-12-07 16:47:21.747 [http-nio-8082-exec-7] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-07 16:52:07.509 [http-nio-8082-exec-9] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-07 16:52:07.510 [http-nio-8082-exec-9] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":101}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-07 16:52:07.510 [http-nio-8082-exec-9] INFO  c.p.x.user.biz.service.impl.UserServiceImpl - ==> 命中了本地缓存；FindUserByIdRspDTO(id=101, nickName=小红薯10101, avatar=null)
+2025-12-07 16:52:07.510 [http-nio-8082-exec-9] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 0ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":101,"nickName":"小红薯10101","avatar":null}} =================================== 
+2025-12-07 16:52:07.512 [http-nio-8082-exec-9] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-07 16:55:31.279 [http-nio-8082-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-07 16:55:31.280 [http-nio-8082-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":101}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-07 16:55:31.280 [http-nio-8082-exec-1] INFO  c.p.x.user.biz.service.impl.UserServiceImpl - ==> 命中了本地缓存；FindUserByIdRspDTO(id=101, nickName=小红薯10101, avatar=null)
+2025-12-07 16:55:31.280 [http-nio-8082-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 0ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":101,"nickName":"小红薯10101","avatar":null}} =================================== 
+2025-12-07 16:55:31.281 [http-nio-8082-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-07 16:56:01.015 [http-nio-8082-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-07 16:56:01.016 [http-nio-8082-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户信息], 入参: {"id":100}, 请求类: UserController, 请求方法: findById =================================== 
+2025-12-07 16:56:01.016 [http-nio-8082-exec-2] INFO  c.p.x.user.biz.service.impl.UserServiceImpl - ==> 命中了本地缓存；FindUserByIdRspDTO(id=100, nickName=小红薯10100, avatar=null)
+2025-12-07 16:56:01.017 [http-nio-8082-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户信息], 耗时: 0ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":100,"nickName":"小红薯10100","avatar":null}} =================================== 
+2025-12-07 16:56:01.018 [http-nio-8082-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1

@@ -1,0 +1,19 @@
+2025-12-21 13:47:26.221 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-21 13:47:26.221 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-21 13:47:26.221 [Thread-28] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-21 13:47:26.222 [Thread-36] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-21 13:47:26.223 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-21 13:47:26.226 [Thread-28] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-21 13:47:26.232 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-21 13:47:26.250 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-21 13:47:36.344 [Thread-33] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server stop.
+2025-12-21 13:47:36.356 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-xiaohashu', registryValue='http://127.0.0.1:10001/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2025-12-21 13:47:36.356 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+2025-12-21 13:47:36.356 [SpringApplicationShutdownHook] INFO  com.xxl.job.core.server.EmbedServer - >>>>>>>>>>> xxl-job remoting server destroy success.
+2025-12-21 13:47:36.356 [xxl-job, executor JobLogFileCleanThread] INFO  com.xxl.job.core.thread.JobLogFileCleanThread - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2025-12-21 13:47:36.356 [xxl-job, executor TriggerCallbackThread] INFO  com.xxl.job.core.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2025-12-21 13:47:36.357 [Thread-32] INFO  com.xxl.job.core.thread.TriggerCallbackThread - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2025-12-21 13:47:36.357 [SpringApplicationShutdownHook] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group_data_align_CountNoteLikeTopic', namespace='', nameServer='127.0.0.1:9876', topic='CountNoteLikeTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-12-21 13:47:36.357 [SpringApplicationShutdownHook] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group_data_align_CountNoteCollectTopic', namespace='', nameServer='127.0.0.1:9876', topic='CountNoteCollectTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-12-21 13:47:36.357 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-21 13:47:36.359 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

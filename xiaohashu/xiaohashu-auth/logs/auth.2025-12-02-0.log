@@ -1,0 +1,329 @@
+2025-12-02 21:36:30.563 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 21:36:30.565 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 21:36:30.565 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 21:36:30.569 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 21:36:31.037 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-12-02 21:36:31.522 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-02 21:36:31.524 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-02 21:36:31.547 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-12-02 21:36:31.701 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=790f1423-d255-32d7-9ad1-e87355d4d814
+2025-12-02 21:36:32.064 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-02 21:36:32.774 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-02 21:36:34.481 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 21:36:34.481 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 21:36:35.005 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 4.799 seconds (process running for 5.946)
+2025-12-02 21:36:35.006 [main] INFO  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-02 21:36:35.330 [main] DEBUG c.p.x.a.d.mapper.RoleDOMapper.selectEnabledList - ==>  Preparing: select id, role_key, role_name from t_role where status = 0 and is_deleted = 0
+2025-12-02 21:36:35.421 [main] DEBUG c.p.x.a.d.mapper.RoleDOMapper.selectEnabledList - ==> Parameters: 
+2025-12-02 21:36:35.438 [main] DEBUG c.p.x.a.d.mapper.RoleDOMapper.selectEnabledList - <==      Total: 1
+2025-12-02 21:36:35.450 [main] DEBUG c.p.x.a.d.m.RolePermissionDOMapper.selectByRoleIds - ==>  Preparing: select role_id, permission_id from t_role_permission_rel where role_id in ( ? )
+2025-12-02 21:36:35.452 [main] DEBUG c.p.x.a.d.m.RolePermissionDOMapper.selectByRoleIds - ==> Parameters: 1(Long)
+2025-12-02 21:36:35.455 [main] DEBUG c.p.x.a.d.m.RolePermissionDOMapper.selectByRoleIds - <==      Total: 2
+2025-12-02 21:36:35.456 [main] DEBUG c.p.x.a.d.m.P.selectAppEnabledList - ==>  Preparing: select id, name, permission_key from t_permission where status = 0 and type = 3 and is_deleted = 0
+2025-12-02 21:36:35.458 [main] DEBUG c.p.x.a.d.m.P.selectAppEnabledList - ==> Parameters: 
+2025-12-02 21:36:35.460 [main] DEBUG c.p.x.a.d.m.P.selectAppEnabledList - <==      Total: 2
+2025-12-02 21:36:35.471 [main] INFO  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 服务启动，成功同步角色权限数据到 Redis 中...
+2025-12-02 21:36:35.724 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBUwIBADANBgkqhkiG9w0BAQEFAASCAT0wggE5AgEAAkEAiP1VyWn0VUJ+nEzudDUE2M15VYJy5G8HHZt/sa2wWF3LF9EB7bo62IQEmnsg9twOAv1BYzj+v+FiYsdRW0z9PQIDAQABAkAIY+vTMEgkyLPUgum/+FdZqAwcbqb20s4OxC1oBolcgBqQUHJNCWIJ7owFTjMeyOX49FTRtNhiR5IHsTL44cCBAiEA7U0jciz1UMtL8+x+uUuivxSZoKiSR3YZE+KMIPCR0i0CIQCTyLNDIFO0poBDdJKiynkqE97b6Vt0H5CsbWcGclaRUQIgQx3WMKzWlYtqaAszrGTgGvtQmEgVV3DnluA0kfx4weECIFQc1lLtclcOsVAzaEZ5gU7+skhuYFwOnzRUrF/R8g2RAiAr6MpgTrR6eXVfEDRyz4Re8p9pPeQEwqZ2cq8rscyAmQ==
+2025-12-02 21:36:35.724 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIj9Vclp9FVCfpxM7nQ1BNjNeVWCcuRvBx2bf7GtsFhdyxfRAe26OtiEBJp7IPbcDgL9QWM4/r/hYmLHUVtM/T0CAwEAAQ==
+2025-12-02 21:36:35.726 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: OvnwrhLNWSRurUPPF6n6oGVfT+D1wrKJ0he+lUnD8jlCJa8HWlDV8zYTWLcaUxOQiah2beMhUfIiiVJgsXXFRA==
+2025-12-02 21:36:35.752 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.RedisTests]: RedisTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 21:36:35.753 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.RedisTests
+2025-12-02 21:36:35.761 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - value 值：null
+2025-12-02 21:36:35.776 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - key 是否存在：false
+2025-12-02 21:36:35.785 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests]: ThreadPoolTaskExecutorTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 21:36:35.786 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests
+2025-12-02 21:36:35.791 [AuthExecutor-1] INFO  c.p.xiaohashu.auth.ThreadPoolTaskExecutorTests - 异步线程中说: peiko1
+2025-12-02 21:36:35.851 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 21:36:35.851 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 21:36:35.851 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 21:36:35.852 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 21:36:45.994 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-02 21:36:45.997 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-02 21:37:42.035 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 21:37:42.037 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 21:37:42.038 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 21:37:42.041 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 21:37:42.529 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-12-02 21:37:43.099 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-02 21:37:43.105 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-02 21:37:43.148 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-12-02 21:37:43.363 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=790f1423-d255-32d7-9ad1-e87355d4d814
+2025-12-02 21:37:43.686 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-02 21:37:44.337 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-02 21:37:45.865 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 21:37:45.865 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 21:37:46.337 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 4.696 seconds (process running for 5.342)
+2025-12-02 21:37:46.338 [main] INFO  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-02 21:37:46.671 [main] WARN  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2025-12-02 21:37:46.915 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBUgIBADANBgkqhkiG9w0BAQEFAASCATwwggE4AgEAAkEAmXs+DCoIXG2c2dSr48AJxYjn+mcVCR5DlwjuED+Z+qQvyYuZcvzdfZdlUDTK6soACHFhoPX6eA0N1/6HcSIx3QIDAQABAj8pi0rBnyXB3wdaoQXgorQy7FfpTKTTf3tIGzAqPdnOZv575/0/lgSy9CGPDkiBkoMHykxjpiXWUs1Cc1ZV9AECIQC0N/H0c4yylGs5Cv6pkcfkHi/AZwX7+2AZuOiqOxqzAQIhANoFHbW7W9rWVmkkei9BMrEKY8Oj6EEsL7Tpz1U7N6rdAiAwApNnjvzVeiqSWLZ9EAQTZmNMO2Xhuhbg41zANNypAQIgCwIJHvznxWPfFw31cV9cXN4GbYFgH7JIclz/z/Defa0CIHF3Q0iQHQLG1IVCAPoAw6Y89zbnq1qBFaERNOLvheZY
+2025-12-02 21:37:46.915 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJl7PgwqCFxtnNnUq+PACcWI5/pnFQkeQ5cI7hA/mfqkL8mLmXL83X2XZVA0yurKAAhxYaD1+ngNDdf+h3EiMd0CAwEAAQ==
+2025-12-02 21:37:46.917 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: OqfgCN5R9/jSRu2zQfQEAby6asJJo7lBoz7mAd8ylJpWRZHUtyigVQwRQ5uriPM3RMA4UHp3c22xh6JsRaU0cg==
+2025-12-02 21:37:46.937 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.RedisTests]: RedisTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 21:37:46.938 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.RedisTests
+2025-12-02 21:37:46.948 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - value 值：peiko1
+2025-12-02 21:37:46.962 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - key 是否存在：false
+2025-12-02 21:37:46.973 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests]: ThreadPoolTaskExecutorTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 21:37:46.974 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests
+2025-12-02 21:37:46.979 [AuthExecutor-1] INFO  c.p.xiaohashu.auth.ThreadPoolTaskExecutorTests - 异步线程中说: peiko1
+2025-12-02 21:37:47.028 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 21:37:47.028 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 21:37:47.028 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 21:37:47.028 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 21:37:57.164 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-02 21:37:57.169 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-02 21:59:30.742 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 21:59:30.743 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 21:59:30.743 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 21:59:30.747 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 21:59:31.250 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-12-02 21:59:31.765 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-02 21:59:31.769 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-02 21:59:31.789 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-12-02 21:59:31.962 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=790f1423-d255-32d7-9ad1-e87355d4d814
+2025-12-02 21:59:32.306 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-02 21:59:32.960 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-02 21:59:34.697 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 21:59:34.706 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 21:59:35.274 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 4.919 seconds (process running for 5.563)
+2025-12-02 21:59:35.275 [main] INFO  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-02 21:59:35.597 [main] WARN  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2025-12-02 21:59:35.861 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEA2DdFx4rIWgRcNSXVxJYTo0IKOAYxSTOzD9q1QT7KuaKgzaBdXUh55ZnmiHMrO74SFEn1aJZnIOT9RvcTK68KeQIDAQABAkAQeFtmKR38b28XtFddl4IM8mOlY2FfPmMyPrqGaxJVxBf50afjeLWtHE9ciJ9EAMxTDT01SrDL/If97cnhewIlAiEA3M4JSa2lTFH5yPUrgCO9JWogquD9vehC4Mv3WTwbGnUCIQD6rfwjW7aoGvp1ZkHlmOQtqARh2PGP8bWwNLS9ZW/HdQIgEPlNwXo10M4kc4xVUb5tlei4pioxl125dmp3k0aJltkCIFvDEIcI7YX/yirrcbfQDcbAuEnxFgvxGOcVhAvIc/B5AiEAtvVQrQhQyg2Vwixj4kCLbzd7kBmwv6PSVEMm5g4+Sxg=
+2025-12-02 21:59:35.861 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANg3RceKyFoEXDUl1cSWE6NCCjgGMUkzsw/atUE+yrmioM2gXV1IeeWZ5ohzKzu+EhRJ9WiWZyDk/Ub3EyuvCnkCAwEAAQ==
+2025-12-02 21:59:35.866 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: wsyua5cn6BvKCQNDSduWhqxpEdZWLQCeKREmqKw0aryITnyMbirWBu9V2/iG3BfY/71JW6OCTElXAeiuKGdFcg==
+2025-12-02 21:59:35.894 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.RedisTests]: RedisTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 21:59:35.895 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.RedisTests
+2025-12-02 21:59:35.906 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - value 值：peiko1
+2025-12-02 21:59:35.920 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - key 是否存在：false
+2025-12-02 21:59:35.931 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests]: ThreadPoolTaskExecutorTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 21:59:35.932 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests
+2025-12-02 21:59:35.935 [AuthExecutor-1] INFO  c.p.xiaohashu.auth.ThreadPoolTaskExecutorTests - 异步线程中说: peiko1
+2025-12-02 21:59:35.993 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 21:59:35.993 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 21:59:35.993 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 21:59:35.993 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 21:59:46.133 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-02 21:59:46.137 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-02 22:05:25.308 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:05:25.310 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:05:25.311 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 22:05:25.314 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 22:05:25.800 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-12-02 22:05:26.406 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-02 22:05:26.408 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-02 22:05:26.438 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-12-02 22:05:26.615 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=790f1423-d255-32d7-9ad1-e87355d4d814
+2025-12-02 22:05:26.957 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-02 22:05:27.655 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-02 22:05:29.380 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 22:05:29.380 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 22:05:29.836 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 4.894 seconds (process running for 5.554)
+2025-12-02 22:05:29.837 [main] INFO  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-02 22:05:30.128 [main] WARN  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2025-12-02 22:05:30.412 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBVQIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAu7y0Kk1uZAEjFbikmfu2L5YFa1fXozZOjwTIStYz92ZQHGxr3sERlejaTWbw0Iz9z1yL0oQWCx3L80LI7+cNNwIDAQABAkA+9IvSN78SCBOU4CNKg89Xa86LbZyhXb/AVBE6j1RD3NXCFKUIZU2C9Q0uIqMO2HhUUp7Bq3PSCOwtCpB3voXpAiEAvJAwxJdrRHw5hPYKR6Tf0rXmZNUZIDmmbvPK3/AOXQsCIQD+4ODXD3z281TSlY4/FOuyGMlYY1QWo11EoS0tx8s0BQIhAKem2AViz5ezj3ydOWSbvfldi3wpT86sE0Ng9QcIK+0jAiEAr1HQVx54PwYyGoh1SD8DwYX7OalZdhj5VvPnN85uoGECIFSmcXfDvZloL15opgNTgALywm/xouevtfPe/p73evhB
+2025-12-02 22:05:30.412 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALu8tCpNbmQBIxW4pJn7ti+WBWtX16M2To8EyErWM/dmUBxsa97BEZXo2k1m8NCM/c9ci9KEFgsdy/NCyO/nDTcCAwEAAQ==
+2025-12-02 22:05:30.414 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: QZiaNmfoPbxh40T8c8pnSgoaBC4a1G6kzknwRCkymy7+F3bBEO4Ni3SJRwEmY1o2mGH0Ssvek8+NUllmG7zORQ==
+2025-12-02 22:05:30.437 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.RedisTests]: RedisTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:05:30.438 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.RedisTests
+2025-12-02 22:05:30.448 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - value 值：peiko1
+2025-12-02 22:05:30.461 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - key 是否存在：false
+2025-12-02 22:05:30.470 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests]: ThreadPoolTaskExecutorTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:05:30.471 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests
+2025-12-02 22:05:30.474 [AuthExecutor-1] INFO  c.p.xiaohashu.auth.ThreadPoolTaskExecutorTests - 异步线程中说: peiko1
+2025-12-02 22:05:30.537 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 22:05:30.537 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 22:05:30.537 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 22:05:30.538 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 22:05:40.681 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-02 22:05:40.685 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-02 22:17:15.348 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:17:15.350 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:17:15.351 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 22:17:15.355 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 22:17:15.847 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-12-02 22:17:16.319 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-02 22:17:16.323 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-02 22:17:16.344 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-12-02 22:17:16.503 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=790f1423-d255-32d7-9ad1-e87355d4d814
+2025-12-02 22:17:16.833 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-02 22:17:17.494 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-02 22:17:19.219 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 22:17:19.219 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 22:17:19.711 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 4.716 seconds (process running for 5.378)
+2025-12-02 22:17:19.712 [main] INFO  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-02 22:17:20.015 [main] WARN  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2025-12-02 22:17:20.288 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEA1pmgx8EJ9uHTEUTYSy3+jZeXG7ZqRjceZIbvnQM/Xf8vDKFkusOLxZsNQOIJ4YgwPExQqgGNHbOa0gO+0EOcSQIDAQABAkAo8o1sMBhPpE1a2TEQP0l4CPnLTuY+WZwSAHFOG2WG8KWsfduZboc0+aLWjU/8RdCF4kKU2Hx1ofTKdB0j5fCRAiEA870lUNIxhKcaYlOUknrxozrdGRTr/uG68KVmH61MP30CIQDhZTw+qwzN/hQWygGQ/73m3NCXjVLxvsxVqINYGWJBvQIgLeD8lSn7iCysGrYA0VGzCjaaR45YnbF/rqxzfKLyJ0ECIBar2CN1kRQnOl4Qc5fiIXfXPiQAUxd92Y/EI3H5G6kBAiEAxtej8xh67zxpAhmKAOOUZ2TIw6qW00hd02MX67dQ8Qo=
+2025-12-02 22:17:20.288 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANaZoMfBCfbh0xFE2Est/o2Xlxu2akY3HmSG750DP13/LwyhZLrDi8WbDUDiCeGIMDxMUKoBjR2zmtIDvtBDnEkCAwEAAQ==
+2025-12-02 22:17:20.290 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: bNIOw9qpGVg6FZIal9d8156NwkIKzD/ixyu/oSVL9YyJwGDCEjouEcK+haEUxBe/BtK3LxI4+Bkb/V/QO4dWsQ==
+2025-12-02 22:17:20.314 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.RedisTests]: RedisTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:17:20.315 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.RedisTests
+2025-12-02 22:17:20.325 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - value 值：peiko1
+2025-12-02 22:17:20.339 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - key 是否存在：false
+2025-12-02 22:17:20.349 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests]: ThreadPoolTaskExecutorTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:17:20.350 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests
+2025-12-02 22:17:20.355 [AuthExecutor-1] INFO  c.p.xiaohashu.auth.ThreadPoolTaskExecutorTests - 异步线程中说: peiko1
+2025-12-02 22:17:20.393 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 22:17:20.393 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 22:17:20.393 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 22:17:20.393 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 22:17:30.533 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-02 22:17:30.536 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-02 22:21:37.128 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:21:37.131 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:21:37.131 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 22:21:37.137 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 22:21:37.877 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-12-02 22:21:38.626 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-02 22:21:38.632 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-02 22:21:38.664 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2025-12-02 22:21:38.879 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=790f1423-d255-32d7-9ad1-e87355d4d814
+2025-12-02 22:21:39.375 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-02 22:21:40.171 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-02 22:21:42.564 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 22:21:42.564 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 22:21:43.155 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 6.62 seconds (process running for 7.563)
+2025-12-02 22:21:43.157 [main] INFO  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-02 22:21:43.611 [main] WARN  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2025-12-02 22:21:43.972 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBVQIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAilquYHgpbu6LuFwHCffz3vEQhaXMtvrPTJQD8RRogsWzdBS+gBXjK8tRPJwYkKm26MjNWc5NhO/C9WPuGOWvbQIDAQABAkALaEGjY5Tq+BEeELxl1oNNeOvHUS3JUnGgGz4d9PRO/9XMit/VoVQY9wxa0omzRZDSbvJveb0Tqawly3P65HTjAiEAzeiOmOLsn1tflGLK5sS3qQnC2M5H27ZS4Z8Q/5tC1Z8CIQCsAwYFwLu+LJvnlzv7A7gPh4eJaAISUvKkGrgjj1uncwIhAIIKs7Re7K4gGRcv5ZElABEj9wjSDpP2bBXOTgAAYI9lAiBqlEkEAYKSeBN1sLhCdPBz9tbdJau67NhZJBEaP3ZbzwIhALAb2cBRnBnjbb+gG00seJ8FRG1TYP7/5Ndka2Q30K87
+2025-12-02 22:21:43.973 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIparmB4KW7ui7hcBwn3897xEIWlzLb6z0yUA/EUaILFs3QUvoAV4yvLUTycGJCptujIzVnOTYTvwvVj7hjlr20CAwEAAQ==
+2025-12-02 22:21:43.976 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: Kuw/gn4FGoNJckFt37lpejkTaZGBtLzjADngCOFVv+V8ernPsSLZUMcZa2CBLOzLrzpwn9mpRySWDV68G21qXg==
+2025-12-02 22:21:44.016 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.RedisTests]: RedisTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:21:44.017 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.RedisTests
+2025-12-02 22:21:44.033 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - value 值：peiko1
+2025-12-02 22:21:44.049 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - key 是否存在：false
+2025-12-02 22:21:44.062 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests]: ThreadPoolTaskExecutorTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:21:44.063 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests
+2025-12-02 22:21:44.068 [AuthExecutor-1] INFO  c.p.xiaohashu.auth.ThreadPoolTaskExecutorTests - 异步线程中说: peiko1
+2025-12-02 22:21:44.096 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 22:21:44.096 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 22:21:44.097 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 22:21:44.097 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 22:21:54.249 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-02 22:21:54.256 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-02 22:23:49.025 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:23:49.026 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:23:49.027 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 22:23:49.031 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 22:23:49.509 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-12-02 22:23:50.014 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-02 22:23:50.017 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-02 22:23:50.041 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-12-02 22:23:50.198 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=790f1423-d255-32d7-9ad1-e87355d4d814
+2025-12-02 22:23:50.536 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-02 22:23:51.236 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-02 22:23:52.797 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 22:23:52.798 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 22:23:53.392 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 4.742 seconds (process running for 5.393)
+2025-12-02 22:23:53.392 [main] INFO  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-02 22:23:53.758 [main] WARN  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2025-12-02 22:23:54.001 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEApqF31RyjJm/93yFdw6qRrVplTvbsU6kH14sI7+qp0C7aeamK3vN7lFpe4vvrEM+GTmqEsfhSqUvJcLpHLixkawIDAQABAkAOFPY+FeH51RwU18qHRypxhoKqRjbZqR7HCfJy6Bd6xt/hxLFxPUttq6ypy0ypL6otyHecceN9bxNdJPWGyEm9AiEA3lP5FOyLgsmP0u+0rzFxwKeETvPIOS3shXva0VoboZ8CIQC/3gTOU4fPnCvxo9MUj7vowoh/+rcptsmP45IrWo6BtQIhALuoW2S66GLjaP9djsAVVvOLMdVGValVxv9AdIkiqpH3AiBSyMPAFnBx1otrXmkz5PSJ8G2e8plXCUQcrm8h/5efRQIgc0U5Ab98lqKUJg6Kt3k44UfEDngbl1Bg9fwnfqzR4xA=
+2025-12-02 22:23:54.001 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKahd9UcoyZv/d8hXcOqka1aZU727FOpB9eLCO/qqdAu2nmpit7ze5RaXuL76xDPhk5qhLH4UqlLyXC6Ry4sZGsCAwEAAQ==
+2025-12-02 22:23:54.003 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: Bu2DOyNTJ5hDDin/sM2tIJ7P43QUQrLHdzeUhRZ6CjLl9OitwWhFWJGDI+3V15cOsIOm6R8fgJ7aah3MFKkb+g==
+2025-12-02 22:23:54.023 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.RedisTests]: RedisTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:23:54.024 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.RedisTests
+2025-12-02 22:23:54.033 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - value 值：peiko1
+2025-12-02 22:23:54.045 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - key 是否存在：false
+2025-12-02 22:23:54.054 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests]: ThreadPoolTaskExecutorTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:23:54.055 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests
+2025-12-02 22:23:54.060 [AuthExecutor-1] INFO  c.p.xiaohashu.auth.ThreadPoolTaskExecutorTests - 异步线程中说: peiko1
+2025-12-02 22:23:54.107 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 22:23:54.107 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 22:23:54.107 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 22:23:54.107 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 22:24:04.241 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-02 22:24:04.245 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-02 22:53:15.767 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:53:15.767 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:53:15.767 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 22:53:15.771 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 22:53:16.267 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-12-02 22:53:16.782 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-02 22:53:16.784 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-02 22:53:16.817 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-12-02 22:53:17.015 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=790f1423-d255-32d7-9ad1-e87355d4d814
+2025-12-02 22:53:17.345 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-02 22:53:18.192 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-02 22:53:20.382 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 22:53:20.382 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 22:53:21.065 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 5.647 seconds (process running for 6.838)
+2025-12-02 22:53:21.065 [main] INFO  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-02 22:53:21.580 [main] WARN  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2025-12-02 22:53:21.881 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEApAzRJPvbVaAKgkfiEHYXPpfPEvPW5fkCk/kowblEhTa36lJ1qAAvjGqgfsgpc0zSMoudZ6vMCTevAKSehXzcrwIDAQABAkAOdK6tUqA2QF8MsebiynUr59awddo286VdgrQrtfaqwk2e4+PNyfpexD5Sr72ZUxXptWX4foks6rUuDipv9WzpAiEA/z98RD6JqIdsCqXuhUp4wf1M3L5WAIW1EjMlF3OsE30CIQCkiIw4sjdwsGM1TTYCnygOZk20py9VAJFH968deO5QmwIgQJsFDRD3Ltz4D8noEXzEC/XdGpJimkc9iZnAbasthtECIF7QKS3K1VPk8WaX1dXw7V5O6dx+szHin9W/D3SGaZ6dAiEAzRQEwL/bpyu8Cg1G3L2a17lyxdGmns7mO8k/fWFo/Ko=
+2025-12-02 22:53:21.881 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKQM0ST721WgCoJH4hB2Fz6XzxLz1uX5ApP5KMG5RIU2t+pSdagAL4xqoH7IKXNM0jKLnWerzAk3rwCknoV83K8CAwEAAQ==
+2025-12-02 22:53:21.881 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: hya4zgosRZroefwVR0FWeCSdj4Vms2TvFyyxN3rgRy4t9ryFshjilfXOFa1gHQSXzq4nM9LKlio2Jos1GOWTfQ==
+2025-12-02 22:53:21.916 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.RedisTests]: RedisTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:53:21.917 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.RedisTests
+2025-12-02 22:53:21.931 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - value 值：peiko1
+2025-12-02 22:53:21.947 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - key 是否存在：false
+2025-12-02 22:53:21.958 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests]: ThreadPoolTaskExecutorTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:53:21.958 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests
+2025-12-02 22:53:21.966 [AuthExecutor-1] INFO  c.p.xiaohashu.auth.ThreadPoolTaskExecutorTests - 异步线程中说: peiko1
+2025-12-02 22:53:22.017 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 22:53:22.017 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 22:53:22.019 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 22:53:22.019 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 22:53:32.146 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-02 22:53:32.154 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-02 22:56:11.137 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:56:11.139 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:56:11.139 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 22:56:11.142 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 22:56:11.646 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-12-02 22:56:12.114 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-02 22:56:12.117 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-02 22:56:12.144 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2025-12-02 22:56:12.297 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=790f1423-d255-32d7-9ad1-e87355d4d814
+2025-12-02 22:56:12.638 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-02 22:56:13.314 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-02 22:56:14.856 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 22:56:14.856 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 22:56:15.306 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 4.563 seconds (process running for 5.232)
+2025-12-02 22:56:15.307 [main] INFO  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-02 22:56:15.597 [main] WARN  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2025-12-02 22:56:15.840 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBVQIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAgTmVEBxC9JsgCDm2ZHdQUY1xRv5llGT8wnC0rGxL1SatOHtKNSICPEwNrvx/50IdMy89J/Q5vx/VrrpiR39vwQIDAQABAkATI56mwLDP/qu7XCTd82fzdDH7VFFiLaTb/Ypc4TtICdfOY2btcOwy/zlino7wW8X4Y8iSKFyT41SDc86PrSLzAiEAkstx2aVcbQ4Quda1XQbFY9ArLPvvJe3pMFnzX/CDdRMCIQDhXAiFflsN23jPALKYjAuEmEIpd1vyii1kIII5pYwmWwIgWb4q8kZYBQvuSc7rvd2f22+ulafIAsY6I6c6VNLzayUCIQCNaxmV2/L7wSwQipmIjOl1ba6nItW6X+eYG6Zc0nweXQIhAI7pTqhTdW1fc88p98MlPpuQZKZ68QWuIATYderZDY9U
+2025-12-02 22:56:15.841 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIE5lRAcQvSbIAg5tmR3UFGNcUb+ZZRk/MJwtKxsS9UmrTh7SjUiAjxMDa78f+dCHTMvPSf0Ob8f1a66Ykd/b8ECAwEAAQ==
+2025-12-02 22:56:15.844 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: IAbOtHFHkWGinAsW3gFOUpoAEp4M3MfeEvPHOpVa5q04LWlHZZ2GbR/tk1qtKpjdnRy2mpaTX+C0oOY84A3udw==
+2025-12-02 22:56:15.863 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.RedisTests]: RedisTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:56:15.864 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.RedisTests
+2025-12-02 22:56:15.874 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - value 值：peiko1
+2025-12-02 22:56:15.887 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - key 是否存在：false
+2025-12-02 22:56:15.900 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests]: ThreadPoolTaskExecutorTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:56:15.900 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests
+2025-12-02 22:56:15.904 [AuthExecutor-1] INFO  c.p.xiaohashu.auth.ThreadPoolTaskExecutorTests - 异步线程中说: peiko1
+2025-12-02 22:56:15.950 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 22:56:15.950 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 22:56:15.951 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 22:56:15.951 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 22:56:26.090 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-02 22:56:26.096 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-12-02 22:56:50.942 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:56:50.944 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 22:56:50.944 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 22:56:50.947 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 22:56:51.423 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-12-02 22:56:51.908 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-02 22:56:51.911 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-02 22:56:51.935 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2025-12-02 22:56:52.091 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=790f1423-d255-32d7-9ad1-e87355d4d814
+2025-12-02 22:56:52.439 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-02 22:56:53.191 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-02 22:56:54.823 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 22:56:54.824 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 22:56:55.256 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 4.715 seconds (process running for 5.354)
+2025-12-02 22:56:55.257 [main] INFO  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 服务启动，开始同步角色权限数据到 Redis 中...
+2025-12-02 22:56:55.589 [main] WARN  c.p.x.auth.runner.PushRolePermissions2RedisRunner - ==> 角色权限数据已经同步至 Redis 中，不再同步...
+2025-12-02 22:56:55.853 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBVQIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEA21sZDWAGTyrIuqMDxQ8dRL743qif6k2yLYoki5MUlqYUQ7IEyxMJnFMqln0raZAmdW2LMHgyv4q9OP1NMPWTuQIDAQABAkAad0sWQ0n3ltKpvB3qEokGQKFv4foLb8zp9DM1GO2gwFddY0DBrVjZPBG5MmIVd33hXTGmYBHdoWQikNr0A3ShAiEA71xTdeXtcAzeEoqnXRzychb4/s90ArMavxE2TGtTu9ECIQDqmsP2EcwW2bBLKpiuIZIP/vIRMEKTRcYkoodgcgabaQIhAMtf4voVtryx8i5G6RVQdx9BLaczlRqGG3+knEIqHydBAiBypPLCGuxa9kI6WTSHU4xnGLT+RVEjWuN7H5l8PfyQkQIhAKhGKxKWYR+TuaQNG0gWmPYFL26xuvc96GDb3vkA0UXp
+2025-12-02 22:56:55.853 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANtbGQ1gBk8qyLqjA8UPHUS++N6on+pNsi2KJIuTFJamFEOyBMsTCZxTKpZ9K2mQJnVtizB4Mr+KvTj9TTD1k7kCAwEAAQ==
+2025-12-02 22:56:55.855 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: tgxDnDHdQ0qRSSH3M/qeoMqnLuRPq6HXWqsolS9mlSpLneIgXaO0V4vm+83jFwxe9SOOKgmaZu12dQCI60+2YA==
+2025-12-02 22:56:55.876 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.RedisTests]: RedisTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:56:55.877 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.RedisTests
+2025-12-02 22:56:55.887 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - value 值：peiko1
+2025-12-02 22:56:55.901 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - key 是否存在：false
+2025-12-02 22:56:55.912 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests]: ThreadPoolTaskExecutorTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-02 22:56:55.913 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.ThreadPoolTaskExecutorTests
+2025-12-02 22:56:55.916 [AuthExecutor-1] INFO  c.p.xiaohashu.auth.ThreadPoolTaskExecutorTests - 异步线程中说: peiko1
+2025-12-02 22:56:55.979 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 22:56:55.979 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 22:56:55.981 [Thread-27] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 22:56:55.981 [Thread-4] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 22:57:06.112 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-12-02 22:57:06.117 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

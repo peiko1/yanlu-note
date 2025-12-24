@@ -1,0 +1,76 @@
+2025-11-14 13:24:39.292 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Starting DruidTests using Java 17.0.17 with PID 16324 (started by peikol in D:\mycode\Java\xiaohashu\xiaohashu-auth)
+2025-11-14 13:24:39.293 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-11-14 13:24:40.504 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-14 13:24:41.014 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-14 13:24:41.451 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 2.43 seconds (process running for 3.553)
+2025-11-14 13:24:42.332 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBUwIBADANBgkqhkiG9w0BAQEFAASCAT0wggE5AgEAAkEAiZgRYRYSegxpu/mdajKD8QUc+DW0jooB74Ty2HoX6lnN6T+shc2PgIvgbz8w+FJe/wzsprxtlQhAw9bL/IKckQIDAQABAkA+B8XyAHrk9fqnCXILoel0u6rjRYb4acRUoJnAuU5V0mmDcd8oN7DhGG5Y144OPJlGVpxxAp5e0/+XbTcJBbL3AiEAm8JwmKNPjtFLLLzAP909S6vScLFV508vg6gdacQXBvcCIQDiJNa0urOKWGVlo8r6mp+58ioLh64br4ng5wTg8UXutwIgLkariz3h8i2OZyFBAPhrMKNA54hYXFuzYys8aeL/cGsCICY/LMDsQqlHQf7qsM2pkRIVzt6cV+n+ykbrS3vv0nAJAiAvo395xNv8JcJFcEQ/PCxLNwEVLQQncU58SXCBnQP3YA==
+2025-11-14 13:24:42.337 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAImYEWEWEnoMabv5nWoyg/EFHPg1tI6KAe+E8th6F+pZzek/rIXNj4CL4G8/MPhSXv8M7Ka8bZUIQMPWy/yCnJECAwEAAQ==
+2025-11-14 13:24:42.338 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: W8Q0f5vGqH87gLi9MCx0SJig3nxrW7bPKJYitqo45c5/uZ3h9M4Gpci2fRjSdOew65pAMF2IotsAaLEkq/D2pw==
+2025-11-14 13:24:42.372 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.XiaohashuAuthApplicationTests]: XiaohashuAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-14 13:24:42.373 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.XiaohashuAuthApplicationTests
+2025-11-14 13:24:42.420 [main] DEBUG c.p.x.auth.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (id, username, create_time, update_time) values (?, ?, ?, ?)
+2025-11-14 13:24:42.597 [main] DEBUG c.p.x.auth.domain.mapper.UserDOMapper.insert - ==> Parameters: null, aka(String), 2025-11-14T13:24:42.380843(LocalDateTime), 2025-11-14T13:24:42.380843(LocalDateTime)
+2025-11-14 13:24:42.609 [main] DEBUG c.p.x.auth.domain.mapper.UserDOMapper.insert - <==    Updates: 1
+2025-11-14 13:24:42.615 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-11-14 13:24:42.622 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 2(Long)
+2025-11-14 13:24:42.635 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-11-14 13:24:42.656 [main] INFO  c.p.xiaohashu.auth.XiaohashuAuthApplicationTests - User: {"id":2,"username":"peiko1","createTime":"2025-11-13 22:48:15","updateTime":"2025-11-13 22:48:15"}
+2025-11-14 13:24:42.658 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==>  Preparing: update t_user set username = ?, create_time = ?, update_time = ? where id = ?
+2025-11-14 13:24:42.661 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==> Parameters: peiko1(String), 2025-11-14T13:24:42.658793700(LocalDateTime), 2025-11-14T13:24:42.658793700(LocalDateTime), 2(Long)
+2025-11-14 13:24:42.665 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - <==    Updates: 1
+2025-11-14 13:24:42.710 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-11-14 13:24:42.715 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-11-14 13:49:50.150 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Starting DruidTests using Java 17.0.17 with PID 4540 (started by peikol in D:\mycode\Java\xiaohashu\xiaohashu-auth)
+2025-11-14 13:49:50.151 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-11-14 13:49:51.380 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-14 13:49:51.905 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-14 13:49:52.356 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 2.481 seconds (process running for 3.096)
+2025-11-14 13:49:53.133 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBVQIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAmUFTXzrjxStZp/Oa5OxP0ilvIRq+cfsZMzmuu8Yd0oAivze5PbyCZedxewux/GHJfX989F0DtjScattL4r3c6wIDAQABAkAQgaC2g7k/O0lkytrGsqJw7ardKJbqioj5o3TWdKLcURXMd5g5lHR54rMR8Sg2CYpfu5yQHwuGpjxYMy/42uxBAiEAsDJkxAXhT7dFIzXmAtOwXpErGTI/cslHRBI91tpdoicCIQDequZS5AeQKtf+zAFvdEJgPQ/CyepFxCWez2Vbc1UdnQIhAKCz9dAMBOpuH7Lzr+wYI569DPAYMmKBTmy5rolN9WS1AiEAsEs+8IH6Ovqw6Ns8h7HUm728rMyQ34vc/U/XQACgc0ECIBYoP6yxMCFrPshLyRJHP23Xz5BtCLhNR5lv73xBvdAk
+2025-11-14 13:49:53.139 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJlBU18648UrWafzmuTsT9IpbyEavnH7GTM5rrvGHdKAIr83uT28gmXncXsLsfxhyX1/fPRdA7Y0nGrbS+K93OsCAwEAAQ==
+2025-11-14 13:49:53.140 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: DNnmLx9u2KNGzLStKun+MN2Ond3nrfjC89hl3dXhVyR1pSvr2cUD7VO0eznn5XbK0oxBTq81PVeZEzzSLUtttA==
+2025-11-14 13:49:53.181 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.XiaohashuAuthApplicationTests]: XiaohashuAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-14 13:49:53.184 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.XiaohashuAuthApplicationTests
+2025-11-14 13:49:53.231 [main] DEBUG c.p.x.auth.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (id, username, create_time, update_time) values (?, ?, ?, ?)
+2025-11-14 13:49:53.396 [main] DEBUG c.p.x.auth.domain.mapper.UserDOMapper.insert - ==> Parameters: null, aka(String), 2025-11-14T13:49:53.189496800(LocalDateTime), 2025-11-14T13:49:53.189496800(LocalDateTime)
+2025-11-14 13:49:53.413 [main] DEBUG c.p.x.auth.domain.mapper.UserDOMapper.insert - <==    Updates: 1
+2025-11-14 13:49:53.421 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-11-14 13:49:53.433 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 2(Long)
+2025-11-14 13:49:53.447 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-11-14 13:49:53.473 [main] INFO  c.p.xiaohashu.auth.XiaohashuAuthApplicationTests - User: {"id":2,"username":"peiko1","createTime":"2025-11-14 13:24:43","updateTime":"2025-11-14 13:24:43"}
+2025-11-14 13:49:53.476 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==>  Preparing: update t_user set username = ?, create_time = ?, update_time = ? where id = ?
+2025-11-14 13:49:53.478 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==> Parameters: peiko1(String), 2025-11-14T13:49:53.476205200(LocalDateTime), 2025-11-14T13:49:53.476205200(LocalDateTime), 2(Long)
+2025-11-14 13:49:53.482 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - <==    Updates: 1
+2025-11-14 13:49:53.536 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-11-14 13:49:53.542 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-11-14 13:51:28.981 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Starting DruidTests using Java 17.0.17 with PID 22696 (started by peikol in D:\mycode\Java\xiaohashu\xiaohashu-auth)
+2025-11-14 13:51:28.982 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - The following 1 profile is active: "dev"
+2025-11-14 13:51:30.201 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-14 13:51:30.654 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-14 13:51:31.031 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - Started DruidTests in 2.32 seconds (process running for 2.919)
+2025-11-14 13:51:31.754 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - privateKey: MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAsKHsyTO41NJdaoa3+5lnMKpRsy2OJLjvlwae3pGlSm67XTuAFTS7wVbWiQVibcd1xlEEPlp6Baoxj2mQQpg/TwIDAQABAkAt8AcJswJ0kzuJa30pGdX9EabK72OjCFgDksy5vO5co24/70w60bsRm5DTe8C51EgWoPXKx4PZ0j5XStt3WW/tAiEAzu5CP85YsdImq5x5V5U5mibbLQ1QjgOseBep7ijQN30CIQDahGnMG021R4A3EvVPmp7/E+nQne7erEQO82TIqQJDuwIgXSrS8y1xq6ZFuPB7hZ5vT+N8vR0IjthCl9N3s/32OXUCIQDLbSfc5rIyCA1ZuCF9aRGJn601FEIzNCXr0TTLBWPhTwIgGJcSnRSJsqM4F21NmYcBbf/PosknVREQZOFKs+9Jlyw=
+2025-11-14 13:51:31.759 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALCh7MkzuNTSXWqGt/uZZzCqUbMtjiS475cGnt6RpUpuu107gBU0u8FW1okFYm3HdcZRBD5aegWqMY9pkEKYP08CAwEAAQ==
+2025-11-14 13:51:31.763 [main] INFO  com.peikol.xiaohashu.auth.DruidTests - password: oSd6ktlJ4xmdFFRcBfIzEYIHJ2Csnb3wmCGaRRVuZSnaHEG8x4e79YDi/dpwpoqY3nxkbpS2S8qo1Z7Go0BlFg==
+2025-11-14 13:51:31.791 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.peikol.xiaohashu.auth.XiaohashuAuthApplicationTests]: XiaohashuAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-14 13:51:31.793 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.peikol.xiaohashu.auth.XiaohashuAuthApplication for test class com.peikol.xiaohashu.auth.XiaohashuAuthApplicationTests
+2025-11-14 13:51:31.833 [main] DEBUG c.p.x.auth.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (id, username, create_time, update_time) values (?, ?, ?, ?)
+2025-11-14 13:51:32.000 [main] DEBUG c.p.x.auth.domain.mapper.UserDOMapper.insert - ==> Parameters: null, aka(String), 2025-11-14T13:51:31.798892100(LocalDateTime), 2025-11-14T13:51:31.798892100(LocalDateTime)
+2025-11-14 13:51:32.022 [main] DEBUG c.p.x.auth.domain.mapper.UserDOMapper.insert - <==    Updates: 1
+2025-11-14 13:51:32.027 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==>  Preparing: select id, username, create_time, update_time from t_user where id = ?
+2025-11-14 13:51:32.034 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - ==> Parameters: 2(Long)
+2025-11-14 13:51:32.047 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-11-14 13:51:32.071 [main] INFO  c.p.xiaohashu.auth.XiaohashuAuthApplicationTests - User: {"id":2,"username":"peiko1","createTime":"2025-11-14 13:49:53","updateTime":"2025-11-14 13:49:53"}
+2025-11-14 13:51:32.073 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==>  Preparing: update t_user set username = ?, create_time = ?, update_time = ? where id = ?
+2025-11-14 13:51:32.076 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - ==> Parameters: peiko1(String), 2025-11-14T13:51:32.073583200(LocalDateTime), 2025-11-14T13:51:32.073583200(LocalDateTime), 2(Long)
+2025-11-14 13:51:32.082 [main] DEBUG c.p.x.a.d.mapper.UserDOMapper.updateByPrimaryKey - <==    Updates: 1
+2025-11-14 13:51:32.131 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-11-14 13:51:32.134 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-11-14 17:15:35.324 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - Starting RedisTests using Java 17.0.17 with PID 10072 (started by peikol in D:\mycode\Java\xiaohashu\xiaohashu-auth)
+2025-11-14 17:15:35.325 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - The following 1 profile is active: "dev"
+2025-11-14 17:15:35.900 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-14 17:15:35.903 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-14 17:15:35.925 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-11-14 17:15:37.220 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-14 17:15:37.661 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-14 17:15:38.350 [main] INFO  com.peikol.xiaohashu.auth.RedisTests - Started RedisTests in 3.338 seconds (process running for 4.22)
+2025-11-14 17:15:39.640 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-11-14 17:15:39.650 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

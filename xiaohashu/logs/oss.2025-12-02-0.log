@@ -1,0 +1,198 @@
+2025-12-02 15:54:26.780 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 15:54:26.782 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 15:54:26.783 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 15:54:26.788 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 15:54:27.136 [main] INFO  c.p.xiaohashu.oss.biz.XiaohashuOssBizApplication - The following 1 profile is active: "dev"
+2025-12-02 15:54:27.393 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=83956f51-ad03-33e8-a339-adab8f11b614
+2025-12-02 15:54:27.506 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-12-02 15:54:27.506 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-02 15:54:27.508 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-02 15:54:27.513 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-02 15:54:27.513 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-02 15:54:27.569 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-02 15:54:27.569 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 425 ms
+2025-12-02 15:54:27.938 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 15:54:27.938 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 15:54:28.230 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-12-02 15:54:28.242 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 15:54:28.242 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 15:54:28.667 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-02 15:54:28.668 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-02 15:54:28.668 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-02 15:54:28.668 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-02 15:54:28.693 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-oss 10.12.41.102:8081 register finished
+2025-12-02 15:54:28.778 [main] INFO  c.p.xiaohashu.oss.biz.XiaohashuOssBizApplication - Started XiaohashuOssBizApplication in 2.368 seconds (process running for 2.705)
+2025-12-02 16:45:13.856 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 16:45:13.856 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 16:45:13.856 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-02 16:45:13.858 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-02 16:45:13.859 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 16:45:13.859 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 16:45:13.864 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-02 16:45:13.875 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-02 16:45:39.160 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 16:45:39.163 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 16:45:39.164 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 16:45:39.170 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 16:45:39.664 [main] INFO  c.p.xiaohashu.oss.biz.XiaohashuOssBizApplication - The following 1 profile is active: "dev"
+2025-12-02 16:45:39.993 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=1bb844a2-5887-35d7-99d2-c3cac139f95c
+2025-12-02 16:45:40.336 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-12-02 16:45:40.336 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-02 16:45:40.339 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-02 16:45:40.345 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-02 16:45:40.345 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-02 16:45:40.410 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-02 16:45:40.410 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 736 ms
+2025-12-02 16:45:40.896 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 16:45:40.896 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 16:45:41.239 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-12-02 16:45:41.262 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 16:45:41.262 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 16:45:41.798 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-02 16:45:41.800 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-02 16:45:41.801 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-02 16:45:41.801 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-02 16:45:41.829 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-oss 10.12.41.102:8081 register finished
+2025-12-02 16:45:41.921 [main] INFO  c.p.xiaohashu.oss.biz.XiaohashuOssBizApplication - Started XiaohashuOssBizApplication in 3.283 seconds (process running for 4.178)
+2025-12-02 16:46:16.896 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-02 16:46:16.896 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-02 16:46:16.897 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-02 16:46:16.916 [http-nio-8081-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [Feign 测试接口], 入参: , 请求类: TestFeignController, 请求方法: test =================================== 
+2025-12-02 16:46:16.917 [http-nio-8081-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [Feign 测试接口], 耗时: 3ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-02 20:30:32.552 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 20:30:32.552 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 20:30:32.552 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-02 20:30:32.552 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-02 20:30:32.553 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 20:30:32.553 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 20:30:32.555 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-02 20:30:32.563 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-02 20:30:45.251 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 20:30:45.252 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 20:30:45.254 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 20:30:45.259 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 20:30:45.627 [main] INFO  c.p.xiaohashu.oss.biz.XiaohashuOssBizApplication - The following 1 profile is active: "dev"
+2025-12-02 20:30:45.933 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=1bb844a2-5887-35d7-99d2-c3cac139f95c
+2025-12-02 20:30:46.247 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-12-02 20:30:46.247 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-02 20:30:46.250 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-02 20:30:46.256 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-02 20:30:46.256 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-02 20:30:46.325 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-02 20:30:46.325 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 692 ms
+2025-12-02 20:30:46.809 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 20:30:46.809 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 20:30:47.116 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-12-02 20:30:47.139 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 20:30:47.139 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 20:30:47.615 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-02 20:30:47.615 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-02 20:30:47.616 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-02 20:30:47.616 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-02 20:30:47.646 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-oss 10.12.41.102:8081 register finished
+2025-12-02 20:30:47.739 [main] INFO  c.p.xiaohashu.oss.biz.XiaohashuOssBizApplication - Started XiaohashuOssBizApplication in 2.937 seconds (process running for 3.252)
+2025-12-02 20:31:21.703 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-02 20:31:21.703 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-02 20:31:21.703 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-12-02 20:31:21.751 [http-nio-8081-exec-1] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-12-02 20:31:21.751 [http-nio-8081-exec-1] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 2fa38d9cb94b4f8a85eacce9e2524ccf.png
+2025-12-02 20:31:22.279 [http-nio-8081-exec-1] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/2fa38d9cb94b4f8a85eacce9e2524ccf.png
+2025-12-02 20:31:22.346 [http-nio-8081-exec-2] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-12-02 20:31:22.346 [http-nio-8081-exec-2] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 998a8262d3c84b8c965a033b576fd76d.png
+2025-12-02 20:31:22.515 [http-nio-8081-exec-2] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/998a8262d3c84b8c965a033b576fd76d.png
+2025-12-02 20:34:17.998 [http-nio-8081-exec-9] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-12-02 20:34:17.998 [http-nio-8081-exec-9] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 2a99ddc1ff374d03a2781175f72921cf.png
+2025-12-02 20:34:18.070 [http-nio-8081-exec-9] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/2a99ddc1ff374d03a2781175f72921cf.png
+2025-12-02 20:34:18.096 [http-nio-8081-exec-5] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-12-02 20:34:18.097 [http-nio-8081-exec-5] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 532a30b952a5446dbbdf3eaaa40e6abe.png
+2025-12-02 20:34:18.190 [http-nio-8081-exec-5] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/532a30b952a5446dbbdf3eaaa40e6abe.png
+2025-12-02 20:34:31.657 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 20:34:31.657 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-02 20:34:31.657 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 20:34:31.657 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-02 20:34:31.657 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 20:34:31.657 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 20:34:31.657 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-02 20:34:31.662 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-02 20:34:47.014 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 20:34:47.017 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 20:34:47.017 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 20:34:47.023 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 20:34:47.483 [main] INFO  c.p.xiaohashu.oss.biz.XiaohashuOssBizApplication - The following 1 profile is active: "dev"
+2025-12-02 20:34:47.787 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=281ccc2b-1076-369d-9234-24f3824b675b
+2025-12-02 20:34:48.016 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-12-02 20:34:48.017 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-02 20:34:48.019 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-02 20:34:48.024 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-02 20:34:48.024 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-02 20:34:48.094 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-02 20:34:48.094 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 600 ms
+2025-12-02 20:34:48.573 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 20:34:48.573 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 20:34:48.945 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-12-02 20:34:48.958 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 20:34:48.958 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 20:34:49.468 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-02 20:34:49.470 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-02 20:34:49.470 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-02 20:34:49.471 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-02 20:34:49.501 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-oss 10.12.41.102:8081 register finished
+2025-12-02 20:34:49.606 [main] INFO  c.p.xiaohashu.oss.biz.XiaohashuOssBizApplication - Started XiaohashuOssBizApplication in 3.088 seconds (process running for 3.528)
+2025-12-02 20:35:04.050 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-02 20:35:04.050 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-02 20:35:04.051 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-02 20:35:04.087 [http-nio-8081-exec-1] INFO  c.p.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: null
+2025-12-02 20:35:04.087 [http-nio-8081-exec-1] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-12-02 20:35:04.087 [http-nio-8081-exec-1] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 4fbe284ba20f49bc92f5143ff3100878.png
+2025-12-02 20:35:04.253 [http-nio-8081-exec-1] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/4fbe284ba20f49bc92f5143ff3100878.png
+2025-12-02 20:35:04.280 [http-nio-8081-exec-2] INFO  c.p.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: null
+2025-12-02 20:35:04.280 [http-nio-8081-exec-2] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-12-02 20:35:04.281 [http-nio-8081-exec-2] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 318a106a971541d4bb09c5ae769d8119.png
+2025-12-02 20:35:04.365 [http-nio-8081-exec-2] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/318a106a971541d4bb09c5ae769d8119.png
+2025-12-02 21:00:22.902 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-02 21:00:22.903 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-02 21:00:22.903 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-02 21:00:22.903 [Thread-30] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-02 21:00:22.903 [Thread-26] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-02 21:00:22.903 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-02 21:00:22.904 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-02 21:00:22.909 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-02 23:25:30.094 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-02 23:25:30.096 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-02 23:25:30.096 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-02 23:25:30.101 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-02 23:25:30.440 [main] INFO  c.p.xiaohashu.oss.biz.XiaohashuOssBizApplication - The following 1 profile is active: "dev"
+2025-12-02 23:25:30.696 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9b0b7068-af1c-362b-9ae0-5c079049cc42
+2025-12-02 23:25:30.873 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-12-02 23:25:30.873 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-02 23:25:30.875 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-02 23:25:30.880 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-02 23:25:30.880 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-02 23:25:30.936 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-02 23:25:30.936 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 487 ms
+2025-12-02 23:25:31.339 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 23:25:31.339 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 23:25:31.643 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-12-02 23:25:31.658 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-02 23:25:31.658 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-02 23:25:32.077 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-02 23:25:32.077 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-02 23:25:32.078 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-02 23:25:32.078 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-02 23:25:32.102 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-oss 10.12.41.102:8081 register finished
+2025-12-02 23:25:32.187 [main] INFO  c.p.xiaohashu.oss.biz.XiaohashuOssBizApplication - Started XiaohashuOssBizApplication in 2.443 seconds (process running for 2.73)
+2025-12-02 23:27:08.661 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-02 23:27:08.661 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-02 23:27:08.662 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-02 23:27:08.663 [http-nio-8081-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-02 23:27:08.690 [http-nio-8081-exec-1] INFO  c.p.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 1
+2025-12-02 23:27:08.690 [http-nio-8081-exec-1] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-12-02 23:27:08.690 [http-nio-8081-exec-1] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 1f4a34281e164b47b7cda6c031590300.png
+2025-12-02 23:27:08.896 [http-nio-8081-exec-1] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png
+2025-12-02 23:27:08.914 [http-nio-8081-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-02 23:27:08.936 [http-nio-8081-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-02 23:27:08.941 [http-nio-8081-exec-2] INFO  c.p.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 1
+2025-12-02 23:27:08.941 [http-nio-8081-exec-2] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-12-02 23:27:08.941 [http-nio-8081-exec-2] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 6f39b940da624a29a2a61d96956541bf.png
+2025-12-02 23:27:09.049 [http-nio-8081-exec-2] INFO  c.p.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/6f39b940da624a29a2a61d96956541bf.png
+2025-12-02 23:27:09.050 [http-nio-8081-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1

@@ -1,0 +1,133 @@
+2025-12-04 15:42:48.177 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-04 15:42:48.179 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-04 15:42:48.179 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-04 15:42:48.185 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-04 15:42:48.584 [main] INFO  c.p.x.note.biz.domain.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-04 15:42:48.852 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.peikol.xiaohashu.note.biz.domain.mapper]' package. Please check your configuration.
+2025-12-04 15:42:48.892 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=057437b6-670a-37cc-99f6-dd3f900a70cc
+2025-12-04 15:42:49.107 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-12-04 15:42:49.108 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-04 15:42:49.110 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-04 15:42:49.116 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-04 15:42:49.116 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-04 15:42:49.176 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-04 15:42:49.176 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 583 ms
+2025-12-04 15:42:49.584 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-04 15:42:49.752 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-04 15:42:49.960 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2025-12-04 15:42:49.987 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-04 15:42:49.987 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-04 15:42:50.451 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-04 15:42:50.452 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-04 15:42:50.453 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-04 15:42:50.453 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-04 15:42:50.526 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 10.12.41.102:8086 register finished
+2025-12-04 15:42:50.605 [main] INFO  c.p.x.note.biz.domain.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 2.863 seconds (process running for 3.194)
+2025-12-04 16:08:02.800 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-04 16:08:02.801 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-04 16:08:02.801 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-04 16:08:02.801 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-04 16:08:02.801 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-04 16:08:02.802 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-04 16:08:02.802 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-04 16:08:02.808 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-04 16:08:09.394 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-04 16:08:09.397 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-04 16:08:09.398 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-04 16:08:09.404 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-04 16:08:09.896 [main] INFO  c.p.x.note.biz.domain.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-04 16:08:10.288 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-04 16:08:10.289 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-04 16:08:10.301 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-04 16:08:10.410 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3887245d-0947-38e2-9825-acb7f21083f8
+2025-12-04 16:08:10.758 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-12-04 16:08:10.758 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-04 16:08:10.761 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-04 16:08:10.766 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-04 16:08:10.767 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-04 16:08:10.832 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-04 16:08:10.832 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 920 ms
+2025-12-04 16:08:11.461 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-04 16:08:11.661 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-04 16:08:12.082 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2025-12-04 16:08:12.128 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-04 16:08:12.128 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-04 16:08:12.672 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-04 16:08:12.673 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-04 16:08:12.673 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-04 16:08:12.673 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-04 16:08:12.703 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 10.12.41.102:8086 register finished
+2025-12-04 16:08:12.800 [main] INFO  c.p.x.note.biz.domain.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 3.916 seconds (process running for 4.346)
+2025-12-04 20:06:12.416 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-04 20:06:12.416 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-04 20:06:12.416 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-04 20:06:12.418 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-04 20:06:12.419 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-04 20:06:12.421 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-04 20:06:12.423 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-04 20:06:12.433 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-04 20:07:25.334 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-04 20:07:25.336 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-04 20:07:25.337 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-04 20:07:25.343 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-04 20:07:25.765 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-04 20:07:26.142 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-04 20:07:26.144 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-04 20:07:26.157 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-12-04 20:07:26.292 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=cedf1265-ca61-3806-bb2b-4f391b8c4777
+2025-12-04 20:07:26.313 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-04 20:07:26.314 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-04 20:07:26.666 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-12-04 20:07:26.666 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-04 20:07:26.670 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-04 20:07:26.678 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-04 20:07:26.678 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-04 20:07:26.747 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-04 20:07:26.747 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 967 ms
+2025-12-04 20:07:26.811 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-04 20:07:27.059 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-04 20:07:27.288 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-04 20:07:27.318 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-12-04 20:07:28.007 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-12-04 20:07:28.069 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2025-12-04 20:07:28.098 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-04 20:07:28.098 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-04 20:07:28.606 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-04 20:07:28.607 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-04 20:07:28.607 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-04 20:07:28.607 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-04 20:07:28.632 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 10.12.41.102:8086 register finished
+2025-12-04 20:07:28.714 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 3.96 seconds (process running for 4.356)
+2025-12-04 20:08:40.916 [http-nio-8086-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-04 20:08:40.916 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-04 20:08:40.917 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-04 20:08:40.929 [http-nio-8086-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-04 20:08:41.011 [http-nio-8086-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":0,"imgUris":["http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg"],"videoUri":null,"title":"图文笔记测试标题","content":"图文笔记测试内容","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-12-04 20:08:41.017 [http-nio-8086-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-04 20:08:41.138 [http-nio-8086-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-04 20:08:41.427 [http-nio-8086-exec-1] WARN  c.p.x.note.biz.exception.GlobalExceptionHandler - /note/publish request fail, errorCode: NOTE-20001, errorMessage: 笔记发布失败
+2025-12-04 20:08:41.435 [http-nio-8086-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-04 20:11:02.296 [http-nio-8086-exec-5] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-04 20:11:02.297 [http-nio-8086-exec-5] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":0,"imgUris":["http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png"],"videoUri":null,"title":"图文笔记测试标题","content":"图文笔记测试内容","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-12-04 20:11:02.297 [http-nio-8086-exec-5] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-04 20:11:02.302 [http-nio-8086-exec-5] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-04 20:11:02.306 [http-nio-8086-exec-5] WARN  c.p.x.note.biz.exception.GlobalExceptionHandler - /note/publish request fail, errorCode: NOTE-20001, errorMessage: 笔记发布失败
+2025-12-04 20:11:02.307 [http-nio-8086-exec-5] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-04 20:11:26.615 [http-nio-8086-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-04 20:11:26.616 [http-nio-8086-exec-4] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":0,"imgUris":["http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png"],"videoUri":null,"title":"图文笔记测试标题","content":"图文笔记测试内容","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-12-04 20:11:26.616 [http-nio-8086-exec-4] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-04 20:11:26.620 [http-nio-8086-exec-4] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-04 20:11:26.630 [http-nio-8086-exec-4] WARN  c.p.x.note.biz.exception.GlobalExceptionHandler - /note/publish request fail, errorCode: NOTE-20001, errorMessage: 笔记发布失败
+2025-12-04 20:11:26.631 [http-nio-8086-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-04 20:14:04.528 [http-nio-8086-exec-6] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-04 20:14:04.529 [http-nio-8086-exec-6] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":0,"imgUris":["http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png"],"videoUri":null,"title":"图文笔记测试标题","content":"图文笔记测试内容","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-12-04 20:14:04.529 [http-nio-8086-exec-6] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-04 20:14:04.533 [http-nio-8086-exec-6] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-04 20:14:04.805 [http-nio-8086-exec-6] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==>  Preparing: select name from t_topic where id = ?
+2025-12-04 20:14:04.989 [http-nio-8086-exec-6] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==> Parameters: 1(Long)
+2025-12-04 20:14:05.008 [http-nio-8086-exec-6] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - <==      Total: 1
+2025-12-04 20:14:05.011 [http-nio-8086-exec-6] DEBUG c.p.x.note.biz.domain.mapper.NoteDOMapper.insert - ==>  Preparing: insert into t_note (id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-12-04 20:14:05.106 [http-nio-8086-exec-6] DEBUG c.p.x.note.biz.domain.mapper.NoteDOMapper.insert - ==> Parameters: 1996553589358592026(Long), 图文笔记测试标题(String), false(Boolean), 1(Long), 1(Long), 高分美剧推荐(String), false(Boolean), 0(Integer), http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png(String), null, 0(Integer), 2025-12-04T20:14:05.010947400(LocalDateTime), 2025-12-04T20:14:05.010947400(LocalDateTime), 1(Integer), fd565929-9058-4b55-910e-36c575a1f1a7(String)
+2025-12-04 20:14:05.123 [http-nio-8086-exec-6] DEBUG c.p.x.note.biz.domain.mapper.NoteDOMapper.insert - <==    Updates: 1
+2025-12-04 20:14:05.124 [http-nio-8086-exec-6] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记发布], 耗时: 595ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-04 20:14:05.128 [http-nio-8086-exec-6] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1

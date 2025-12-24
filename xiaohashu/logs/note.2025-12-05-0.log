@@ -1,0 +1,826 @@
+2025-12-05 13:06:40.468 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-05 13:06:40.468 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-05 13:06:40.468 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-05 13:06:40.477 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-05 13:06:40.477 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-05 13:06:40.481 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-05 13:06:40.492 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-05 13:06:40.516 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-05 13:07:00.055 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-05 13:07:00.057 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-05 13:07:00.058 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-05 13:07:00.063 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-05 13:07:00.430 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-05 13:07:00.772 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-05 13:07:00.774 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-05 13:07:00.785 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-12-05 13:07:00.911 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7afb09a6-153c-3a96-a120-ab7351ec2871
+2025-12-05 13:07:00.932 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 13:07:00.933 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 13:07:00.934 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 13:07:01.336 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-12-05 13:07:01.337 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-05 13:07:01.339 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-05 13:07:01.346 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-05 13:07:01.346 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-05 13:07:01.407 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-05 13:07:01.408 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 967 ms
+2025-12-05 13:07:01.479 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-05 13:07:01.737 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-05 13:07:01.925 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 13:07:01.957 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 13:07:01.967 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 13:07:02.643 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2025-12-05 13:07:02.673 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-05 13:07:02.673 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-05 13:07:03.277 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-05 13:07:03.278 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-05 13:07:03.278 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-05 13:07:03.278 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-05 13:07:03.306 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 10.12.41.102:8086 register finished
+2025-12-05 13:07:03.384 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 3.766 seconds (process running for 4.605)
+2025-12-05 13:44:37.914 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-05 13:44:37.914 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-05 13:44:37.914 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-05 13:44:37.916 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-05 13:44:37.916 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-05 13:44:37.916 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-05 13:44:37.917 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-05 13:44:37.927 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-05 13:44:51.131 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-05 13:44:51.134 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-05 13:44:51.134 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-05 13:44:51.139 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-05 13:44:51.519 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-05 13:44:51.901 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-05 13:44:51.903 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-05 13:44:51.916 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-05 13:44:52.040 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7afb09a6-153c-3a96-a120-ab7351ec2871
+2025-12-05 13:44:52.061 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 13:44:52.061 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 13:44:52.062 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 13:44:52.525 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-12-05 13:44:52.525 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-05 13:44:52.528 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-05 13:44:52.535 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-05 13:44:52.535 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-05 13:44:52.602 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-05 13:44:52.603 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1069 ms
+2025-12-05 13:44:52.680 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-05 13:44:52.919 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-05 13:44:53.111 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 13:44:53.140 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 13:44:53.152 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 13:44:53.846 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2025-12-05 13:44:53.871 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-05 13:44:53.871 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-05 13:44:54.522 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-05 13:44:54.523 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-05 13:44:54.523 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-05 13:44:54.524 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-05 13:44:54.561 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 10.12.41.102:8086 register finished
+2025-12-05 13:44:54.666 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 3.921 seconds (process running for 4.965)
+2025-12-05 13:48:17.920 [http-nio-8086-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-05 13:48:17.920 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-05 13:48:17.921 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-05 13:48:17.929 [http-nio-8086-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-05 13:48:17.952 [http-nio-8086-exec-1] ERROR c.p.x.note.biz.exception.GlobalExceptionHandler - /note/publish request error, 
+org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:209)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:163)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.peikol.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:37)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-12-05 13:48:17.966 [http-nio-8086-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-05 13:48:33.018 [http-nio-8086-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-05 13:48:33.076 [http-nio-8086-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":0,"imgUris":["http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg"],"videoUri":null,"title":"图文笔记测试标题","content":"图文笔记测试内容","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-12-05 13:48:33.083 [http-nio-8086-exec-2] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-05 13:48:33.218 [http-nio-8086-exec-2] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-05 13:48:33.375 [http-nio-8086-exec-2] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==>  Preparing: select name from t_topic where id = ?
+2025-12-05 13:48:33.538 [http-nio-8086-exec-2] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==> Parameters: 1(Long)
+2025-12-05 13:48:33.555 [http-nio-8086-exec-2] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - <==      Total: 1
+2025-12-05 13:48:33.559 [http-nio-8086-exec-2] DEBUG c.p.x.note.biz.domain.mapper.NoteDOMapper.insert - ==>  Preparing: insert into t_note (id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-12-05 13:48:33.633 [http-nio-8086-exec-2] DEBUG c.p.x.note.biz.domain.mapper.NoteDOMapper.insert - ==> Parameters: 1996818957402636306(Long), 图文笔记测试标题(String), false(Boolean), 1(Long), 1(Long), 高分美剧推荐(String), false(Boolean), 0(Integer), http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg(String), null, 0(Integer), 2025-12-05T13:48:33.559328700(LocalDateTime), 2025-12-05T13:48:33.559328700(LocalDateTime), 1(Integer), 1ebb206f-9fb5-445d-b35f-053dc6d15a41(String)
+2025-12-05 13:48:33.657 [http-nio-8086-exec-2] DEBUG c.p.x.note.biz.domain.mapper.NoteDOMapper.insert - <==    Updates: 1
+2025-12-05 13:48:33.659 [http-nio-8086-exec-2] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记发布], 耗时: 584ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-05 13:48:33.663 [http-nio-8086-exec-2] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-05 13:49:45.799 [http-nio-8086-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-05 13:49:45.802 [http-nio-8086-exec-4] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记详情], 入参: {"id":1996818957402636306}, 请求类: NoteController, 请求方法: findNoteDetail =================================== 
+2025-12-05 13:49:46.046 [http-nio-8086-exec-4] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status =1
+2025-12-05 13:49:46.050 [http-nio-8086-exec-4] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1996818957402636306(Long)
+2025-12-05 13:49:46.055 [http-nio-8086-exec-4] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-12-05 13:49:46.058 [NoteExecutor-2] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-05 13:49:46.058 [NoteExecutor-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-05 13:49:46.206 [http-nio-8086-exec-4] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记详情], 耗时: 401ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":1996818957402636306,"type":0,"title":"图文笔记测试标题","content":"图文笔记测试内容","imgUris":["http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg"],"topicId":1,"topicName":"高分美剧推荐","creatorId":1,"creatorName":"peiko1","avatar":"http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png","videoUri":null,"updateTime":[2025,12,5,13,48,34],"visible":0}} =================================== 
+2025-12-05 13:49:46.207 [http-nio-8086-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-05 14:38:14.411 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-05 14:38:14.411 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-05 14:38:14.411 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-05 14:38:14.412 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-05 14:38:14.412 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-05 14:38:14.412 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-05 14:38:14.413 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-05 14:38:14.420 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-05 14:38:18.397 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-05 14:38:18.399 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-05 14:38:18.399 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-05 14:38:18.404 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-05 14:38:18.807 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-05 14:38:19.330 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-05 14:38:19.332 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-05 14:38:19.345 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-12-05 14:38:19.482 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7afb09a6-153c-3a96-a120-ab7351ec2871
+2025-12-05 14:38:19.505 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 14:38:19.507 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 14:38:19.508 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 14:38:19.833 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-12-05 14:38:19.834 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-05 14:38:19.840 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-05 14:38:19.851 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-05 14:38:19.853 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-05 14:38:19.944 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-05 14:38:19.944 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1123 ms
+2025-12-05 14:38:20.039 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-05 14:38:20.311 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-05 14:38:20.539 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 14:38:20.566 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 14:38:20.577 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 14:38:21.443 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2025-12-05 14:38:21.489 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-05 14:38:21.490 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-05 14:38:22.274 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-05 14:38:22.275 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-05 14:38:22.276 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-05 14:38:22.276 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-05 14:38:22.304 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 10.12.41.102:8086 register finished
+2025-12-05 14:38:22.384 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 4.436 seconds (process running for 4.817)
+2025-12-05 14:42:19.127 [http-nio-8086-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-05 14:42:19.127 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-05 14:42:19.128 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-05 14:42:19.144 [http-nio-8086-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-05 14:42:19.187 [http-nio-8086-exec-1] ERROR c.p.x.note.biz.exception.GlobalExceptionHandler - /note/update request error, 
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:183)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:163)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.peikol.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:37)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 5, column: 34] (through reference chain: com.peikol.xiaohashu.note.biz.model.vo.UpdateNoteReqVO["content"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:402)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:361)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.wrapAndThrow(BeanDeserializerBase.java:1937)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:395)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395)
+	... 58 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 5, column: 34]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2481)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:752)
+	at com.fasterxml.jackson.core.base.ParserBase._throwUnquotedSpace(ParserBase.java:1384)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishString2(UTF8StreamJsonParser.java:2635)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishAndReturnString(UTF8StreamJsonParser.java:2564)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.getText(UTF8StreamJsonParser.java:338)
+	at com.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:42)
+	at com.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:11)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:393)
+	... 63 common frames omitted
+2025-12-05 14:42:19.210 [http-nio-8086-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-05 14:43:00.346 [http-nio-8086-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-05 14:43:00.347 [http-nio-8086-exec-4] ERROR c.p.x.note.biz.exception.GlobalExceptionHandler - /note/update request error, 
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:183)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:163)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.peikol.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:37)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 7, column: 34] (through reference chain: com.peikol.xiaohashu.note.biz.model.vo.UpdateNoteReqVO["content"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:402)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:361)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.wrapAndThrow(BeanDeserializerBase.java:1937)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:395)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395)
+	... 58 common frames omitted
+Caused by: com.fasterxml.jackson.core.JsonParseException: Illegal unquoted character ((CTRL-CHAR, code 13)): has to be escaped using backslash to be included in string value
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 7, column: 34]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2481)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:752)
+	at com.fasterxml.jackson.core.base.ParserBase._throwUnquotedSpace(ParserBase.java:1384)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishString2(UTF8StreamJsonParser.java:2635)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishAndReturnString(UTF8StreamJsonParser.java:2564)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.getText(UTF8StreamJsonParser.java:338)
+	at com.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:42)
+	at com.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:11)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:393)
+	... 63 common frames omitted
+2025-12-05 14:43:00.348 [http-nio-8086-exec-4] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-05 14:44:33.162 [http-nio-8086-exec-5] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-05 14:44:33.205 [http-nio-8086-exec-5] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记修改], 入参: {"id":1996818957402636306,"type":1,"imgUris":null,"videoUri":"http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png","title":"测试标题","content":"我要更新","topicId":4}, 请求类: NoteController, 请求方法: updateNote =================================== 
+2025-12-05 14:44:33.232 [http-nio-8086-exec-5] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==>  Preparing: select name from t_topic where id = ?
+2025-12-05 14:44:33.391 [http-nio-8086-exec-5] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==> Parameters: 4(Long)
+2025-12-05 14:44:33.406 [http-nio-8086-exec-5] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - <==      Total: 0
+2025-12-05 14:44:33.411 [http-nio-8086-exec-5] WARN  c.p.x.note.biz.exception.GlobalExceptionHandler - /note/update request fail, errorCode: NOTE-20005, errorMessage: 话题不存在
+2025-12-05 14:44:33.412 [http-nio-8086-exec-5] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-05 14:44:56.540 [http-nio-8086-exec-3] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-05 14:44:56.541 [http-nio-8086-exec-3] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记修改], 入参: {"id":1996818957402636306,"type":1,"imgUris":null,"videoUri":"http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png","title":"测试标题","content":"我要更新","topicId":1}, 请求类: NoteController, 请求方法: updateNote =================================== 
+2025-12-05 14:44:56.542 [http-nio-8086-exec-3] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==>  Preparing: select name from t_topic where id = ?
+2025-12-05 14:44:56.543 [http-nio-8086-exec-3] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==> Parameters: 1(Long)
+2025-12-05 14:44:56.546 [http-nio-8086-exec-3] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - <==      Total: 1
+2025-12-05 14:44:56.547 [http-nio-8086-exec-3] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.updateByPrimaryKey - ==>  Preparing: update t_note set title = ?, is_content_empty = ?, topic_id = ?, topic_name = ?, `type` = ?, img_uris = ?, video_uri = ?, update_time = ? where id = ?
+2025-12-05 14:44:56.550 [http-nio-8086-exec-3] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.updateByPrimaryKey - ==> Parameters: 测试标题(String), false(Boolean), 1(Long), 高分美剧推荐(String), 1(Integer), null, http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png(String), 2025-12-05T14:44:56.547495600(LocalDateTime), 1996818957402636306(Long)
+2025-12-05 14:44:56.558 [http-nio-8086-exec-3] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.updateByPrimaryKey - <==    Updates: 1
+2025-12-05 14:44:56.873 [http-nio-8086-exec-3] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status =1
+2025-12-05 14:44:56.877 [http-nio-8086-exec-3] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1996818957402636306(Long)
+2025-12-05 14:44:56.882 [http-nio-8086-exec-3] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-12-05 14:44:56.890 [http-nio-8086-exec-3] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-05 14:44:57.055 [http-nio-8086-exec-3] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记修改], 耗时: 514ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-05 14:44:57.059 [http-nio-8086-exec-3] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-05 21:27:40.161 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-05 21:27:40.163 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-05 21:27:40.164 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-05 21:27:40.169 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-05 21:27:40.544 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-05 21:27:40.925 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-05 21:27:40.927 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-05 21:27:40.939 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-12-05 21:27:41.061 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7afb09a6-153c-3a96-a120-ab7351ec2871
+2025-12-05 21:27:41.083 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 21:27:41.083 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 21:27:41.085 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 21:27:41.560 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2025-12-05 21:27:41.561 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-05 21:27:41.564 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-05 21:27:41.572 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-05 21:27:41.572 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-05 21:27:41.643 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-05 21:27:41.643 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1087 ms
+2025-12-05 21:27:41.732 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-05 21:27:42.015 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-05 21:27:42.226 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 21:27:42.256 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 21:27:42.268 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 21:27:42.995 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2025-12-05 21:27:43.025 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-05 21:27:43.025 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-05 21:27:43.635 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-05 21:27:43.636 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-05 21:27:43.637 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-05 21:27:43.637 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-05 21:27:43.668 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 10.12.41.102:8087 register finished
+2025-12-05 21:27:43.750 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 3.968 seconds (process running for 13.774)
+2025-12-05 21:29:12.175 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-05 21:29:12.178 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-05 21:29:12.178 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-05 21:29:12.184 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-05 21:29:12.569 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-05 21:29:12.898 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-05 21:29:12.900 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-05 21:29:12.912 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-05 21:29:13.032 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7afb09a6-153c-3a96-a120-ab7351ec2871
+2025-12-05 21:29:13.053 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 21:29:13.054 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 21:29:13.055 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 21:29:13.327 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2025-12-05 21:29:13.328 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-05 21:29:13.331 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-05 21:29:13.337 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-05 21:29:13.337 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-05 21:29:13.397 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-05 21:29:13.397 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 817 ms
+2025-12-05 21:29:13.468 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-05 21:29:13.704 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-05 21:29:13.890 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 21:29:13.918 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 21:29:13.929 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 21:29:14.600 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2025-12-05 21:29:14.626 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-05 21:29:14.626 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-05 21:29:15.107 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-05 21:29:15.108 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-05 21:29:15.108 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-05 21:29:15.108 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-05 21:29:15.134 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 10.12.41.102:8088 register finished
+2025-12-05 21:29:15.216 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 3.492 seconds (process running for 3.873)
+2025-12-05 22:11:13.611 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-05 22:11:13.611 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-05 22:11:13.612 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-05 22:11:13.612 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-05 22:11:13.612 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-05 22:11:13.613 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-05 22:11:13.613 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-05 22:11:13.622 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-05 22:11:20.649 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-05 22:11:20.652 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-05 22:11:20.652 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-05 22:11:20.656 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-05 22:11:21.074 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-05 22:11:21.445 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-05 22:11:21.447 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-05 22:11:21.460 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-12-05 22:11:21.580 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-05 22:11:21.580 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-05 22:11:21.580 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-05 22:11:21.582 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-05 22:11:21.583 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-05 22:11:21.583 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-05 22:11:21.586 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-05 22:11:21.594 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-05 22:11:21.631 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2b01b461-f830-31dc-aaa3-53b2c2fb321b
+2025-12-05 22:11:21.661 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:21.661 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:21.662 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:21.792 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:21.847 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:21.849 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:21.851 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:21.852 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$727/0x000001fd4354ead8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:21.853 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:21.857 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:21.857 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:21.999 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-12-05 22:11:22.000 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-05 22:11:22.003 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-05 22:11:22.010 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-05 22:11:22.010 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-05 22:11:22.077 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-05 22:11:22.078 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 992 ms
+2025-12-05 22:11:22.525 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'deleteNoteLocalCacheConsumer' defined in file [D:\mycode\Java\xiaohashu\xiaohashu-note\xiaohashu-note-biz\target\classes\com\peikol\xiaohashu\note\biz\consumer\DeleteNoteLocalCacheConsumer.class]: Error creating bean with name 'org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1': org/apache/rocketmq/common/protocol/heartbeat/MessageModel
+2025-12-05 22:11:22.526 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-05 22:11:22.549 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-05 22:11:22.561 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'deleteNoteLocalCacheConsumer' defined in file [D:\mycode\Java\xiaohashu\xiaohashu-note\xiaohashu-note-biz\target\classes\com\peikol\xiaohashu\note\biz\consumer\DeleteNoteLocalCacheConsumer.class]: Error creating bean with name 'org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1': org/apache/rocketmq/common/protocol/heartbeat/MessageModel
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.peikol.xiaohashu.note.biz.XiaohashuNoteBizApplication.main(XiaohashuNoteBizApplication.java:14)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1': org/apache/rocketmq/common/protocol/heartbeat/MessageModel
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1138)
+	at org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration.registerContainer(ListenerContainerConfiguration.java:102)
+	at org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor.postProcessAfterInitialization(RocketMQMessageListenerBeanPostProcessor.java:55)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:435)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1765)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	... 15 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/apache/rocketmq/common/protocol/heartbeat/MessageModel
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer.initRocketMQPushConsumer(DefaultRocketMQListenerContainer.java:653)
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer.afterPropertiesSet(DefaultRocketMQListenerContainer.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.rocketmq.common.protocol.heartbeat.MessageModel
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 31 common frames omitted
+2025-12-05 22:11:22.563 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-05 22:11:22.563 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-05 22:11:24.235 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-05 22:11:24.237 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-05 22:11:24.238 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-05 22:11:24.244 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-05 22:11:24.656 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-05 22:11:25.020 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-05 22:11:25.020 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-05 22:11:25.033 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-05 22:11:25.172 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2b01b461-f830-31dc-aaa3-53b2c2fb321b
+2025-12-05 22:11:25.194 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:25.195 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:25.196 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:25.324 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:25.372 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:25.374 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:25.375 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:25.376 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$727/0x0000020eac54aa70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:25.378 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:25.382 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:25.382 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:11:25.517 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2025-12-05 22:11:25.518 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-05 22:11:25.520 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-05 22:11:25.527 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-05 22:11:25.527 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-05 22:11:25.594 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-05 22:11:25.594 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 926 ms
+2025-12-05 22:11:25.897 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'deleteNoteLocalCacheConsumer' defined in file [D:\mycode\Java\xiaohashu\xiaohashu-note\xiaohashu-note-biz\target\classes\com\peikol\xiaohashu\note\biz\consumer\DeleteNoteLocalCacheConsumer.class]: Error creating bean with name 'org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1': org/apache/rocketmq/common/protocol/heartbeat/MessageModel
+2025-12-05 22:11:25.897 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-05 22:11:25.920 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-05 22:11:25.930 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'deleteNoteLocalCacheConsumer' defined in file [D:\mycode\Java\xiaohashu\xiaohashu-note\xiaohashu-note-biz\target\classes\com\peikol\xiaohashu\note\biz\consumer\DeleteNoteLocalCacheConsumer.class]: Error creating bean with name 'org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1': org/apache/rocketmq/common/protocol/heartbeat/MessageModel
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.peikol.xiaohashu.note.biz.XiaohashuNoteBizApplication.main(XiaohashuNoteBizApplication.java:14)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1': org/apache/rocketmq/common/protocol/heartbeat/MessageModel
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1138)
+	at org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration.registerContainer(ListenerContainerConfiguration.java:102)
+	at org.apache.rocketmq.spring.annotation.RocketMQMessageListenerBeanPostProcessor.postProcessAfterInitialization(RocketMQMessageListenerBeanPostProcessor.java:55)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:435)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1765)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	... 15 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/apache/rocketmq/common/protocol/heartbeat/MessageModel
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer.initRocketMQPushConsumer(DefaultRocketMQListenerContainer.java:653)
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer.afterPropertiesSet(DefaultRocketMQListenerContainer.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.rocketmq.common.protocol.heartbeat.MessageModel
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 31 common frames omitted
+2025-12-05 22:11:25.933 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-05 22:11:25.933 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-05 22:14:32.869 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-05 22:14:32.871 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-05 22:14:32.871 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-05 22:14:32.876 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-05 22:14:33.254 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-05 22:14:33.630 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-05 22:14:33.631 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-05 22:14:33.645 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-12-05 22:14:33.782 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=eed57e4d-5fe0-3d70-8ec5-cef387db4f0a
+2025-12-05 22:14:33.804 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:33.805 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:33.806 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:33.952 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:33.954 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:34.001 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:34.003 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:34.004 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:34.005 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$727/0x00000213c254a838] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:34.006 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:34.009 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:34.012 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:34.150 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-12-05 22:14:34.151 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-05 22:14:34.155 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-05 22:14:34.162 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-05 22:14:34.162 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-05 22:14:34.234 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-05 22:14:34.234 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 968 ms
+2025-12-05 22:14:35.212 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='DeleteNoteLocalCacheTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=BROADCASTING', tlsEnable=false, instanceName=DEFAULT}
+2025-12-05 22:14:35.213 [main] INFO  o.a.r.s.s.RocketMQMessageListenerContainerRegistrar - Register the listener to container, listenerBeanName:deleteNoteLocalCacheConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-12-05 22:14:35.238 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-05 22:14:35.454 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-05 22:14:35.636 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 22:14:35.668 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 22:14:35.679 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 22:14:36.130 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-12-05 22:14:37.201 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2025-12-05 22:14:37.231 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-05 22:14:37.231 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-05 22:14:37.753 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-05 22:14:37.754 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-05 22:14:37.755 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-05 22:14:37.755 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-05 22:14:37.783 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 10.12.41.102:8086 register finished
+2025-12-05 22:14:37.865 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 5.413 seconds (process running for 5.802)
+2025-12-05 22:14:42.414 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-05 22:14:42.417 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-05 22:14:42.417 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-05 22:14:42.422 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-05 22:14:42.795 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-05 22:14:43.153 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-05 22:14:43.155 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-05 22:14:43.169 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-12-05 22:14:43.308 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=eed57e4d-5fe0-3d70-8ec5-cef387db4f0a
+2025-12-05 22:14:43.328 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:43.329 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:43.329 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:43.458 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:43.459 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:43.513 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-12-05 22:14:43.513 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-12-05 22:14:43.513 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-12-05 22:14:43.513 [Thread-28] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-12-05 22:14:43.515 [Thread-3] WARN  c.alibaba.nacos.common.executor.ThreadPoolManager - [ThreadPoolManager] Destruction of the end
+2025-12-05 22:14:43.515 [Thread-30] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-12-05 22:14:43.516 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-12-05 22:14:43.521 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:43.522 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:43.523 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-12-05 22:14:43.525 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:43.526 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$727/0x0000018d5a54aa70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:43.527 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:43.532 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:43.534 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:43.676 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2025-12-05 22:14:43.676 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-05 22:14:43.679 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-05 22:14:43.684 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-05 22:14:43.684 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-05 22:14:43.746 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-05 22:14:43.746 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 940 ms
+2025-12-05 22:14:44.867 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='DeleteNoteLocalCacheTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=BROADCASTING', tlsEnable=false, instanceName=DEFAULT}
+2025-12-05 22:14:44.867 [main] INFO  o.a.r.s.s.RocketMQMessageListenerContainerRegistrar - Register the listener to container, listenerBeanName:deleteNoteLocalCacheConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-12-05 22:14:44.906 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-05 22:14:45.169 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-05 22:14:45.406 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 22:14:45.452 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 22:14:45.471 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 22:14:45.690 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+2025-12-05 22:14:45.694 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+2025-12-05 22:14:45.694 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+2025-12-05 22:14:45.700 [main] INFO  com.alibaba.nacos.client.logging.NacosLogging - Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+2025-12-05 22:14:46.069 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-12-05 22:14:46.164 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-12-05 22:14:46.558 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-05 22:14:46.560 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-05 22:14:46.573 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-12-05 22:14:46.758 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=eed57e4d-5fe0-3d70-8ec5-cef387db4f0a
+2025-12-05 22:14:46.788 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:46.790 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.peikol.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:46.791 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'api.com.peikol.xiaohashu.count.biz.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:46.949 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:46.952 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:47.012 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:47.014 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:47.017 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:47.018 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$727/0x000002c61154aeb0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:47.019 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:47.024 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:47.026 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketMQMessageListenerContainerRegistrar' of type [org.apache.rocketmq.spring.support.RocketMQMessageListenerContainerRegistrar] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-12-05 22:14:47.173 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2025-12-05 22:14:47.173 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-12-05 22:14:47.176 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-12-05 22:14:47.182 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-05 22:14:47.182 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-12-05 22:14:47.251 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-05 22:14:47.251 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1075 ms
+2025-12-05 22:14:47.268 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2025-12-05 22:14:47.299 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-05 22:14:47.299 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-05 22:14:47.884 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-05 22:14:47.887 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-05 22:14:47.887 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-05 22:14:47.887 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-05 22:14:47.915 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 10.12.41.102:8087 register finished
+2025-12-05 22:14:48.016 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 6.035 seconds (process running for 6.408)
+2025-12-05 22:14:48.351 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='DeleteNoteLocalCacheTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=BROADCASTING', tlsEnable=false, instanceName=DEFAULT}
+2025-12-05 22:14:48.351 [main] INFO  o.a.r.s.s.RocketMQMessageListenerContainerRegistrar - Register the listener to container, listenerBeanName:deleteNoteLocalCacheConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-12-05 22:14:48.378 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-12-05 22:14:48.603 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-12-05 22:14:48.789 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 22:14:48.818 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 22:14:48.829 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-12-05 22:14:49.276 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-12-05 22:14:50.309 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2025-12-05 22:14:50.335 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-12-05 22:14:50.336 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-12-05 22:14:50.842 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to get current node abilities...
+2025-12-05 22:14:50.843 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+2025-12-05 22:14:50.843 [main] INFO  c.a.n.common.ability.AbstractAbilityControlManager - Initialize current abilities finish...
+2025-12-05 22:14:50.843 [main] INFO  c.a.n.c.ability.discover.NacosAbilityManagerHolder - [AbilityControlManager] Successfully initialize AbilityControlManager
+2025-12-05 22:14:50.871 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 10.12.41.102:8088 register finished
+2025-12-05 22:14:50.967 [main] INFO  c.p.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 5.776 seconds (process running for 6.199)
+2025-12-05 22:17:58.844 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-05 22:17:58.845 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-05 22:17:58.846 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-05 22:17:58.855 [http-nio-8087-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-05 22:17:58.978 [http-nio-8087-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记修改], 入参: {"id":1996818957402636306,"type":1,"imgUris":null,"videoUri":"http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png","title":"测试标题","content":"我要更新22：11","topicId":1}, 请求类: NoteController, 请求方法: updateNote =================================== 
+2025-12-05 22:17:59.015 [http-nio-8087-exec-1] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==>  Preparing: select name from t_topic where id = ?
+2025-12-05 22:17:59.154 [http-nio-8087-exec-1] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==> Parameters: 1(Long)
+2025-12-05 22:17:59.170 [http-nio-8087-exec-1] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - <==      Total: 1
+2025-12-05 22:17:59.174 [http-nio-8087-exec-1] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.updateByPrimaryKey - ==>  Preparing: update t_note set title = ?, is_content_empty = ?, topic_id = ?, topic_name = ?, `type` = ?, img_uris = ?, video_uri = ?, update_time = ? where id = ?
+2025-12-05 22:17:59.176 [http-nio-8087-exec-1] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.updateByPrimaryKey - ==> Parameters: 测试标题(String), false(Boolean), 1(Long), 高分美剧推荐(String), 1(Integer), null, http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png(String), 2025-12-05T22:17:59.173712500(LocalDateTime), 1996818957402636306(Long)
+2025-12-05 22:17:59.185 [http-nio-8087-exec-1] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.updateByPrimaryKey - <==    Updates: 1
+2025-12-05 22:17:59.503 [http-nio-8087-exec-1] INFO  c.p.x.note.biz.service.impl.NoteServiceImpl - ====>MQ: 删除笔记成功...
+2025-12-05 22:17:59.503 [http-nio-8087-exec-1] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status =1
+2025-12-05 22:17:59.505 [http-nio-8087-exec-1] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1996818957402636306(Long)
+2025-12-05 22:17:59.512 [http-nio-8087-exec-1] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-12-05 22:17:59.520 [http-nio-8087-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-05 22:17:59.702 [http-nio-8087-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记修改], 耗时: 726ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-05 22:17:59.710 [http-nio-8087-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
+2025-12-05 22:18:18.664 [http-nio-8086-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-05 22:18:18.664 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-05 22:18:18.665 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-05 22:18:18.672 [http-nio-8086-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 1
+2025-12-05 22:18:18.741 [http-nio-8086-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记修改], 入参: {"id":1996818957402636306,"type":1,"imgUris":null,"videoUri":"http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png","title":"测试标题","content":"我要更新22：11","topicId":1}, 请求类: NoteController, 请求方法: updateNote =================================== 
+2025-12-05 22:18:18.773 [http-nio-8086-exec-1] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==>  Preparing: select name from t_topic where id = ?
+2025-12-05 22:18:18.896 [http-nio-8086-exec-1] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==> Parameters: 1(Long)
+2025-12-05 22:18:18.918 [http-nio-8086-exec-1] DEBUG c.p.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - <==      Total: 1
+2025-12-05 22:18:18.921 [http-nio-8086-exec-1] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.updateByPrimaryKey - ==>  Preparing: update t_note set title = ?, is_content_empty = ?, topic_id = ?, topic_name = ?, `type` = ?, img_uris = ?, video_uri = ?, update_time = ? where id = ?
+2025-12-05 22:18:18.923 [http-nio-8086-exec-1] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.updateByPrimaryKey - ==> Parameters: 测试标题(String), false(Boolean), 1(Long), 高分美剧推荐(String), 1(Integer), null, http://127.0.0.1:9000/xiaohashu/1f4a34281e164b47b7cda6c031590300.png(String), 2025-12-05T22:18:18.921205100(LocalDateTime), 1996818957402636306(Long)
+2025-12-05 22:18:18.931 [http-nio-8086-exec-1] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.updateByPrimaryKey - <==    Updates: 1
+2025-12-05 22:18:19.161 [http-nio-8086-exec-1] INFO  c.p.x.note.biz.service.impl.NoteServiceImpl - ====>MQ: 删除笔记成功...
+2025-12-05 22:18:19.161 [http-nio-8086-exec-1] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status =1
+2025-12-05 22:18:19.164 [http-nio-8086-exec-1] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1996818957402636306(Long)
+2025-12-05 22:18:19.170 [http-nio-8086-exec-1] DEBUG c.p.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-12-05 22:18:19.179 [http-nio-8086-exec-1] INFO  c.p.f.b.c.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 1
+2025-12-05 22:18:19.182 [ConsumeMessageThread_xiaohashu_group_1] INFO  c.p.x.n.biz.consumer.DeleteNoteLocalCacheConsumer - ## 消费者消费成功, noteId: 1996818957402636306
+2025-12-05 22:18:19.292 [http-nio-8086-exec-1] INFO  c.p.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记修改], 耗时: 553ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-05 22:18:19.300 [http-nio-8086-exec-1] INFO  c.p.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 1
